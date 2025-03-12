@@ -1,0 +1,12 @@
+.venv
+.idea
+consulscriptum.pack
+.deps
+build
+mod
+rome2_scripts
+consul.log
+src/consul.log
+src/consul_scriptum_persistence
+NUL
+uiemendata.pack
