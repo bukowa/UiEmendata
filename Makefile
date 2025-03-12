@@ -77,8 +77,10 @@ INSTALL_USER_SCRIPT := C:/Users/$(USERNAME)/AppData/Roaming/The\ Creative\ Assem
 # Start Source Files
 # ============================================================
 UI_TARGETS := \
-	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
-	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template
+	$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign \
+	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
+#	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
+#	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \
 
 LUA_TARGETS :=
 
@@ -105,6 +107,16 @@ $(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template: \
 
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template: \
 	src/ui/common\ ui/encyclopedia_unit_info_template.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign: \
+	src/ui/frontend\ ui/sp_grand_campaign.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle: \
+	src/ui/campaign\ ui/pre_battle_post_battle.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -228,7 +240,10 @@ install-alone: $(MOD_PACKAGE)
 
 # Install with DEI
 install-dei: $(MOD_PACKAGE)
+	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "@a_DeI_AFP4_submod13.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part1.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part2.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	$(call install-to-dir,$(INSTALL_ALONE_DIR)/data)
