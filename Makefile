@@ -77,7 +77,8 @@ INSTALL_USER_SCRIPT := C:/Users/$(USERNAME)/AppData/Roaming/The\ Creative\ Assem
 # Start Source Files
 # ============================================================
 UI_TARGETS := \
-	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template
+	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
+	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template
 
 LUA_TARGETS :=
 
@@ -97,52 +98,8 @@ define create_dir
 	@mkdir -p $(dir $@)
 endef
 
-$(BUILD_DIR)/pl: src/pl $(wildcard $(BUILD_DIR)/pl/*.lua)
-	@mkdir -p "$@"
-	@cp -r src/pl/* $@
-
-$(BUILD_DIR)/ui/common\ ui/multiplayer_chat: \
-	src/ui/common\ ui/multiplayer_chat.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/common\ ui/options_mods: \
-	src/ui/common\ ui/options_mods.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template: \
 	src/ui/common\ ui/encyclopedia_building_info_template.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/common\ ui/menu_bar: \
-	src/ui/common\ ui/menu_bar.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/common\ ui/land_unit_card: \
-	src/ui/common\ ui/land_unit_card.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/campaign\ ui/layout: \
-	src/ui/campaign\ ui/layout.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/battle\ ui/layout: \
-	src/ui/battle\ ui/layout.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/campaign\ ui/units_panel: \
-	src/ui/campaign\ ui/units_panel.xml
-	$(create_dir)
-	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/ui/frontend\ ui/sp_frame: \
-	src/ui/frontend\ ui/sp_frame.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -150,88 +107,6 @@ $(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template: \
 	src/ui/common\ ui/encyclopedia_unit_info_template.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
-
-$(BUILD_DIR)/lua_scripts/all_scripted.lua: \
-	src/lua_scripts/all_scripted.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/lua_scripts/frontend_scripted.lua: \
-	src/lua_scripts/frontend_scripted.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/lua_scripts/battle_scripted.lua: \
-	src/lua_scripts/battle_scripted.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/consul_logging.lua: \
-	src/consul/consul_logging.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/consul_config.lua: \
-	src/consul/consul_config.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/consul_toggle.lua: \
-	src/consul/consul_toggle.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/consul.lua: \
-	src/consul/consul.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/serpent/serpent.lua: \
-	src/serpent/serpent.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/inspect/inspect.lua: \
-	src/inspect/inspect.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/compat.lua: \
-	src/penlight/compat.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/lexer.lua: \
-	src/penlight/lexer.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/pretty.lua: \
-	src/penlight/pretty.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/stringx.lua: \
-	src/penlight/stringx.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/types.lua: \
-	src/penlight/types.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-$(BUILD_DIR)/consul/penlight/utils.lua: \
-	src/penlight/utils.lua
-	$(create_dir)
-	@cp "$<" "$@"
-
-
-#$(BUILD_DIR)/ui/skins/default/consul_v_slider_end.png: \
-#	src/ui/skins/default/consul_v_slider_end.png
-	#$(create_dir)
-	@#cp "$<" "$@"
-
 
 # ============================================================
 # End Source Files
