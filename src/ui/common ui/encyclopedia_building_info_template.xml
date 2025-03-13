@@ -171,7 +171,7 @@
           <state>
             <u>475983168</u><!-- ID (40 ed 5e 1c) -->
             <s>NewState</s><!-- title - NewState -->
-            <i>1080</i><!-- x size -->
+            <i>1536</i><!-- x size -->
             <i>890</i><!-- y size -->
             <unicode></unicode><!-- state text -->
             <unicode></unicode><!-- tooltip -->
@@ -220,7 +220,7 @@
                 <u>475302560</u><!-- ID (a0 8a 54 1c) -->
                 <u>0</u><!-- x offset -->
                 <u>0</u><!-- y offset -->
-                <u>1080</u><!-- x size -->
+                <u>1536</u><!-- x size -->
                 <u>890</u><!-- y size -->
                 <!-- color -->
                 <color>
