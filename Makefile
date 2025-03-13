@@ -1,5 +1,5 @@
 # Mod package information
-MOD_PACKAGE = uiemendata.pack
+MOD_PACKAGE ?= uiemendata.pack
 
 # ============================================================
 # Instructions for Executing This Makefile on Windows
@@ -76,7 +76,7 @@ INSTALL_USER_SCRIPT := C:/Users/$(USERNAME)/AppData/Roaming/The\ Creative\ Assem
 # ============================================================
 # Start Source Files
 # ============================================================
-UI_TARGETS := \
+UI_TARGETS ?= \
 	$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign \
 	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle \
 	$(BUILD_DIR)/ui/campaign\ ui/units_panel \
@@ -89,6 +89,14 @@ LUA_TARGETS :=
 IMAGE_TARGETS :=
 
 CONTRIB_TARGETS :=
+
+# unit_category_icon_off
+ifneq ($(FLAG),)
+  ifeq ($(FLAG),unit_category_icon_off)
+    MOD_PACKAGE := unit_category_icon_off.pack
+    UI_TARGETS := $(BUILD_DIR)/ui/common\ ui/land_unit_card
+  endif
+endif
 
 # Rule for creating the mod package with rpfm_cli
 $(MOD_PACKAGE): $(UI_TARGETS) $(LUA_TARGETS) $(CONTRIB_TARGETS) $(IMAGE_TARGETS)
