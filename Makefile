@@ -94,7 +94,20 @@ CONTRIB_TARGETS :=
 ifneq ($(FLAG),)
   ifeq ($(FLAG),unit_category_icon_off)
     MOD_PACKAGE := unit_category_icon_off.pack
-    UI_TARGETS := $(BUILD_DIR)/ui/common\ ui/land_unit_card
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
+    	$(BUILD_DIR)/ui/common\ ui/3c/land_unit_card
+
+    LUA_TARGETS :=
+    IMAGE_TARGETS :=
+    CONTRIB_TARGETS :=
+  endif
+  ifeq ($(FLAG),menu_sp_grand_campaign_fix)
+    MOD_PACKAGE := menu_sp_grand_campaign_fix.pack
+    UI_TARGETS := $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign
+    LUA_TARGETS :=
+    IMAGE_TARGETS :=
+    CONTRIB_TARGETS :=
   endif
 endif
 
@@ -137,6 +150,11 @@ $(BUILD_DIR)/ui/campaign\ ui/units_panel: \
 
 $(BUILD_DIR)/ui/common\ ui/land_unit_card: \
 	src/ui/common\ ui/land_unit_card.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/common\ ui/3c/land_unit_card: \
+	src/ui/common\ ui/3c/land_unit_card.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
