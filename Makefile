@@ -76,10 +76,10 @@ INSTALL_USER_SCRIPT := C:/Users/$(USERNAME)/AppData/Roaming/The\ Creative\ Assem
 # ============================================================
 # Start Source Files
 # ============================================================
-UI_TARGETS ?= \
-	$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign \
-	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle \
-	$(BUILD_DIR)/ui/campaign\ ui/units_panel \
+UI_TARGETS ?=
+#	$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign \
+#	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle \
+#	$(BUILD_DIR)/ui/campaign\ ui/units_panel \
 	$(BUILD_DIR)/ui/common\ ui/land_unit_card
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \

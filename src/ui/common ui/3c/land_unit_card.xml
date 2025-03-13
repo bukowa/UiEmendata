@@ -11151,7 +11151,7 @@
                 <no /><!-- uientry flag 5 -->
                 <no /><!-- uientry flag 6 -->
                 <no /><!-- uientry flag 7 -->
-                <yes /><!-- uientry flag 8 -->
+                <no /><!-- uientry flag 8 -->
                 <no /><!-- uientry flag 9 -->
                 <no /><!-- uientry flag 10 -->
                 <no /><!-- uientry flag 11 -->
@@ -15064,7 +15064,7 @@
                           <byte>22</byte><!-- B -->
                           <byte>197</byte><!-- G -->
                           <byte>255</byte><!-- R -->
-                          <byte>255</byte><!-- A -->
+                          <byte>0</byte><!-- A -->
                         </color>
                         <no /><!-- tiled? -->
                         <no /><!-- flipped x? -->
@@ -15150,7 +15150,7 @@
                           <byte>22</byte><!-- B -->
                           <byte>197</byte><!-- G -->
                           <byte>255</byte><!-- R -->
-                          <byte>255</byte><!-- A -->
+                          <byte>0</byte><!-- A -->
                         </color>
                         <no /><!-- tiled? -->
                         <no /><!-- flipped x? -->
@@ -15236,7 +15236,7 @@
                           <byte>22</byte><!-- B -->
                           <byte>197</byte><!-- G -->
                           <byte>255</byte><!-- R -->
-                          <byte>255</byte><!-- A -->
+                          <byte>0</byte><!-- A -->
                         </color>
                         <no /><!-- tiled? -->
                         <no /><!-- flipped x? -->
