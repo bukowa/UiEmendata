@@ -78,7 +78,8 @@ INSTALL_USER_SCRIPT := C:/Users/$(USERNAME)/AppData/Roaming/The\ Creative\ Assem
 # ============================================================
 UI_TARGETS := \
 	$(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign \
-	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
+	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle \
+	$(BUILD_DIR)/ui/campaign\ ui/units_panel
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \
 
@@ -117,6 +118,16 @@ $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign: \
 
 $(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle: \
 	src/ui/campaign\ ui/pre_battle_post_battle.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/units_panel: \
+	src/ui/campaign\ ui/units_panel.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/events: \
+	src/ui/campaign\ ui/events.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -235,7 +246,9 @@ install-steam: $(MOD_PACKAGE)
 
 # Install the built .pack file only if different for standalone
 install-alone: $(MOD_PACKAGE)
+	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	$(call install-to-dir,$(INSTALL_ALONE_DIR)/data)
 
 # Install with DEI
