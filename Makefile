@@ -90,18 +90,17 @@ IMAGE_TARGETS :=
 
 CONTRIB_TARGETS :=
 
-# unit_category_icon_off
 ifneq ($(FLAG),)
   ifeq ($(FLAG),unit_category_icon_off)
     MOD_PACKAGE := unit_category_icon_off.pack
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
     	$(BUILD_DIR)/ui/common\ ui/3c/land_unit_card
-
     LUA_TARGETS :=
     IMAGE_TARGETS :=
     CONTRIB_TARGETS :=
   endif
+  # menu_sp_grand_campaign_fix
   ifeq ($(FLAG),menu_sp_grand_campaign_fix)
     MOD_PACKAGE := menu_sp_grand_campaign_fix.pack
     UI_TARGETS := $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign
