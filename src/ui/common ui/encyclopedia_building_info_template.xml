@@ -4029,7 +4029,7 @@
             <i>29</i><!-- x offset -->
             <i>40</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
-            <no /><!-- uientry flag 2 -->
+            <yes /><!-- uientry flag 2 -->
             <byte>0</byte><!-- uientry flag 3 -->
             <no /><!-- uientry flag 4 -->
             <no /><!-- uientry flag 5 -->
