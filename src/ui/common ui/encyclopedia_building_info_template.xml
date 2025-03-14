@@ -153,7 +153,7 @@
         <unicode></unicode><!-- tooltip id -->
         <i>5</i><!-- 05:00:00:00 --><!-- docking? -->
         <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-        <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
+        <i>36</i><!-- 00:00:00:00 --><!-- docking y? -->
         <no />
         <i>475983168</i><!-- default state id -->
         <images count="1">
@@ -201,7 +201,7 @@
             <i>0</i><!-- top ? -->
             <i>0</i><!-- bottom ? -->
             <i>0</i>
-            <no />
+            <yes />
             <no />
             <no />
             <no />
