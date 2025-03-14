@@ -40,12 +40,12 @@
       <state>
         <u>521469376</u><!-- ID (c0 fd 14 1f) -->
         <s>NewState</s><!-- title - NewState -->
-        <i>1280</i><!-- x size -->
+        <i>1596</i><!-- x size -->
         <i>1024</i><!-- y size -->
         <unicode></unicode><!-- state text -->
         <unicode></unicode><!-- tooltip -->
-        <i>2</i><!-- text xsize? -->
-        <i>0</i><!-- text ysize? -->
+        <i>4</i><!-- text xsize? -->
+        <i>4</i><!-- text ysize? -->
         <i>0</i><!-- text xalign? -->
         <i>1</i><!-- text yalign? -->
         <yes /><!-- text behavior? -->
@@ -89,7 +89,7 @@
             <u>521469184</u><!-- ID (00 fd 14 1f) -->
             <u>0</u><!-- x offset -->
             <u>0</u><!-- y offset -->
-            <u>1280</u><!-- x size -->
+            <u>1596</u><!-- x size -->
             <u>1024</u><!-- y size -->
             <!-- color -->
             <color>
@@ -134,11 +134,11 @@
         <u>475982400</u><!-- ID (40 ea 5e 1c) -->
         <s>encyclopedia_building_info_template</s><!-- title -->
         <s>EncyclopediaBuildingInfoCallback</s><!-- title2 -->
-        <i>100</i><!-- x offset -->
-        <i>77</i><!-- y offset -->
+        <i>0</i><!-- x offset -->
+        <i>0</i><!-- y offset -->
         <no /><!-- uientry flag 1 -->
-        <no /><!-- uientry flag 2 -->
-        <byte>0</byte><!-- uientry flag 3 -->
+        <yes /><!-- uientry flag 2 -->
+        <byte>1</byte><!-- uientry flag 3 -->
         <no /><!-- uientry flag 4 -->
         <no /><!-- uientry flag 5 -->
         <no /><!-- uientry flag 6 -->
@@ -146,7 +146,7 @@
         <yes /><!-- uientry flag 8 -->
         <no /><!-- uientry flag 9 -->
         <no /><!-- uientry flag 10 -->
-        <no /><!-- uientry flag 11 -->
+        <yes /><!-- uientry flag 11 -->
         <no /><!-- uientry flag 12 -->
         <yes />
         <unicode></unicode><!-- tooltip text -->
