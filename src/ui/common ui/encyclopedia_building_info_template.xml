@@ -882,7 +882,7 @@
                 <unicode></unicode><!-- tooltip id -->
                 <i>4</i><!-- 04:00:00:00 --><!-- docking? -->
                 <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                <i>39</i><!-- 27:00:00:00 --><!-- docking y? -->
+                <i>33</i><!-- 27:00:00:00 --><!-- docking y? -->
                 <no />
                 <i>469784032</i><!-- default state id -->
                 <images count="0">
@@ -1047,7 +1047,7 @@
                         <u>88978464</u><!-- ID (20 b4 4d 05) -->
                         <s>dy_text</s><!-- title -->
                         <s></s><!-- title2 -->
-                        <i>-99</i><!-- x offset -->
+                        <i>0</i><!-- x offset -->
                         <i>0</i><!-- y offset -->
                         <no /><!-- uientry flag 1 -->
                         <yes /><!-- uientry flag 2 -->
