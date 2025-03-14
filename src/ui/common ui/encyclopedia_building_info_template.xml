@@ -266,7 +266,7 @@
             <s>h_line</s><!-- title -->
             <s></s><!-- title2 -->
             <i>37</i><!-- x offset -->
-            <i>117</i><!-- y offset -->
+            <i>112</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
             <byte>1</byte><!-- uientry flag 3 -->
@@ -863,8 +863,8 @@
                 <u>469783232</u><!-- ID (c0 52 00 1c) -->
                 <s>list_types</s><!-- title -->
                 <s></s><!-- title2 -->
-                <i>0</i><!-- x offset -->
-                <i>54</i><!-- y offset -->
+                <i>24</i><!-- x offset -->
+                <i>34</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>1</byte><!-- uientry flag 3 -->
@@ -880,7 +880,7 @@
                 <yes />
                 <unicode></unicode><!-- tooltip text -->
                 <unicode></unicode><!-- tooltip id -->
-                <i>4</i><!-- 04:00:00:00 --><!-- docking? -->
+                <i>0</i><!-- 00:00:00:00 --><!-- docking? -->
                 <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
                 <i>33</i><!-- 27:00:00:00 --><!-- docking y? -->
                 <no />
@@ -958,8 +958,8 @@
                     <i>0</i><!-- x offset -->
                     <i>0</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
-                    <no /><!-- uientry flag 2 -->
-                    <byte>0</byte><!-- uientry flag 3 -->
+                    <yes /><!-- uientry flag 2 -->
+                    <byte>1</byte><!-- uientry flag 3 -->
                     <no /><!-- uientry flag 4 -->
                     <no /><!-- uientry flag 5 -->
                     <no /><!-- uientry flag 6 -->
@@ -1047,7 +1047,7 @@
                         <u>88978464</u><!-- ID (20 b4 4d 05) -->
                         <s>dy_text</s><!-- title -->
                         <s></s><!-- title2 -->
-                        <i>0</i><!-- x offset -->
+                        <i>84</i><!-- x offset -->
                         <i>0</i><!-- y offset -->
                         <no /><!-- uientry flag 1 -->
                         <yes /><!-- uientry flag 2 -->
@@ -1056,7 +1056,7 @@
                         <no /><!-- uientry flag 5 -->
                         <no /><!-- uientry flag 6 -->
                         <no /><!-- uientry flag 7 -->
-                        <yes /><!-- uientry flag 8 -->
+                        <no /><!-- uientry flag 8 -->
                         <no /><!-- uientry flag 9 -->
                         <no /><!-- uientry flag 10 -->
                         <no /><!-- uientry flag 11 -->
@@ -1064,8 +1064,8 @@
                         <yes />
                         <unicode></unicode><!-- tooltip text -->
                         <unicode></unicode><!-- tooltip id -->
-                        <i>2</i><!-- 02:00:00:00 --><!-- docking? -->
-                        <i>96</i><!-- f2:ff:ff:ff --><!-- docking x? -->
+                        <i>0</i><!-- 00:00:00:00 --><!-- docking? -->
+                        <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
                         <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
                         <no />
                         <i>573858176</i><!-- default state id -->
@@ -1077,14 +1077,14 @@
                           <state>
                             <u>573858176</u><!-- ID (80 61 34 22) -->
                             <s>NewState</s><!-- title - NewState -->
-                            <i>250</i><!-- x size -->
-                            <i>25</i><!-- y size -->
+                            <i>150</i><!-- x size -->
+                            <i>30</i><!-- y size -->
                             <unicode>dy_text</unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>4</i><!-- text xsize? -->
                             <i>0</i><!-- text ysize? -->
                             <i>0</i><!-- text xalign? -->
-                            <i>1</i><!-- text yalign? -->
+                <i>2</i><!-- text yalign? -->
                             <yes /><!-- text behavior? -->
                             <unicode></unicode><!-- text label? -->
                             <no /><!-- state stuff 3? -->
@@ -1104,7 +1104,7 @@
                             <s>fe_text</s><!-- font category / twui -->
                             <i>0</i><!-- left ? -->
                             <i>0</i><!-- right ? -->
-                            <i>5</i><!-- top ? -->
+                <i>5</i><!-- top ? -->
                             <i>0</i><!-- bottom ? -->
                             <i>0</i>
                             <no />
@@ -1129,7 +1129,19 @@
                             </mouse_states>
                           </state>
                         </states>
-                        <properties count="0">
+            <properties count="3">
+              <property>
+                <s>min_text_width</s><!-- key -->
+                <s>400</s><!-- value -->
+              </property>
+              <property>
+                <s>min_text_height</s><!-- key -->
+                <s>30</s><!-- value -->
+              </property>
+              <property>
+                <s>disable_Text_shrink</s><!-- key -->
+                <s></s><!-- value -->
+              </property>
                         </properties>
                         <i>10</i><!-- priority? -->
                         <funcs count="0">
@@ -1148,7 +1160,7 @@
                         <u>89064624</u><!-- ID (b0 04 4f 05) -->
                         <s>list</s><!-- title -->
                         <s></s><!-- title2 -->
-                        <i>15</i><!-- x offset -->
+                        <i>0</i><!-- x offset -->
                         <i>20</i><!-- y offset -->
                         <no /><!-- uientry flag 1 -->
                         <yes /><!-- uientry flag 2 -->
@@ -1165,9 +1177,9 @@
                         <yes />
                         <unicode></unicode><!-- tooltip text -->
                         <unicode></unicode><!-- tooltip id -->
-                        <i>2</i><!-- 02:00:00:00 --><!-- docking? -->
-                        <i>111</i><!-- 00:00:00:00 --><!-- docking x? -->
-                        <i>20</i><!-- 14:00:00:00 --><!-- docking y? -->
+                        <i>0</i><!-- 00:00:00:00 --><!-- docking? -->
+                        <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
+                        <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
                         <no />
                         <i>89065408</i><!-- default state id -->
                         <images count="0">
@@ -1243,8 +1255,8 @@
                             <i>0</i><!-- x offset -->
                             <i>0</i><!-- y offset -->
                             <no /><!-- uientry flag 1 -->
-                            <no /><!-- uientry flag 2 -->
-                            <byte>0</byte><!-- uientry flag 3 -->
+                            <yes /><!-- uientry flag 2 -->
+                            <byte>1</byte><!-- uientry flag 3 -->
                             <no /><!-- uientry flag 4 -->
                             <no /><!-- uientry flag 5 -->
                             <no /><!-- uientry flag 6 -->
@@ -1521,14 +1533,14 @@
                             <no /><!-- end of uientry flag 6B? -->
                           </uientry>
                         </children>
-                        <additional_data type="HorizontalList">
+                        <additional_data type="List">
                           <i>1</i><!-- count data points -->
-                          <flt>50.0</flt><!-- data point -->
+                          <flt>24.0</flt><!-- data point -->
                           <i>0</i><!-- mystery1 -->
                           <i>0</i><!-- mystery2 -->
                           <no /><!-- mystery3 -->
-                          <i>4</i><!-- mystery4 -->
-                          <yes /><!-- mystery5 -->
+                          <i>7</i><!-- mystery4 -->
+                          <no /><!-- mystery5 -->
                         </additional_data>
                         <s></s><!-- end of uientry 1? -->
                         <s></s><!-- end of uientry 2? -->
@@ -1547,12 +1559,11 @@
                     <no /><!-- end of uientry flag 6B? -->
                   </uientry>
                 </children>
-                <additional_data type="HorizontalList">
-                  <i>2</i><!-- count data points -->
-                  <flt>250.0</flt><!-- data point -->
-                  <flt>50.0</flt><!-- data point -->
-                  <i>10</i><!-- mystery1 -->
-                  <i>0</i><!-- mystery2 -->
+                <additional_data type="List">
+                  <i>1</i><!-- count data points -->
+                  <flt>10.0</flt><!-- data point -->
+                  <i>0</i><!-- mystery1 -->
+                  <i>-19</i><!-- mystery2 -->
                   <no /><!-- mystery3 -->
                   <i>1</i><!-- mystery4 -->
                   <no /><!-- mystery5 -->
@@ -3977,7 +3988,7 @@
                           <i>0</i><!-- mystery1 -->
                           <i>0</i><!-- mystery2 -->
                           <no /><!-- mystery3 -->
-                          <i>16</i><!-- mystery4 -->
+                          <i>8</i><!-- mystery4 -->
                           <no /><!-- mystery5 -->
                         </additional_data>
                         <s></s><!-- end of uientry 1? -->
@@ -4000,8 +4011,8 @@
                 <additional_data type="List">
                   <i>1</i><!-- count data points -->
                   <flt>250.0</flt><!-- data point -->
-                  <i>0</i><!-- mystery1 -->
-                  <i>10</i><!-- mystery2 -->
+                  <i>250</i><!-- mystery1 -->
+                  <i>250</i><!-- mystery2 -->
                   <no /><!-- mystery3 -->
                   <i>1</i><!-- mystery4 -->
                   <no /><!-- mystery5 -->
