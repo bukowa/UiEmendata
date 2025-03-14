@@ -4450,7 +4450,7 @@
             <i>222</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
-            <byte>0</byte><!-- uientry flag 3 -->
+            <byte>1</byte><!-- uientry flag 3 -->
             <no /><!-- uientry flag 4 -->
             <no /><!-- uientry flag 5 -->
             <no /><!-- uientry flag 6 -->
@@ -4572,10 +4572,10 @@
                     <i>263</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
-                <i>4</i><!-- text xsize? -->
+                    <i>2</i><!-- text xsize? -->
                     <i>0</i><!-- text ysize? -->
                     <i>0</i><!-- text xalign? -->
-                <i>2</i><!-- text yalign? -->
+                    <i>1</i><!-- text yalign? -->
                     <yes /><!-- text behavior? -->
                     <unicode></unicode><!-- text label? -->
                     <no /><!-- state stuff 3? -->
@@ -4595,7 +4595,7 @@
                     <s>Default Font Category</s><!-- font category / twui -->
                     <i>0</i><!-- left ? -->
                     <i>0</i><!-- right ? -->
-                <i>5</i><!-- top ? -->
+                    <i>0</i><!-- top ? -->
                     <i>0</i><!-- bottom ? -->
                     <i>0</i>
                     <no />
@@ -4712,18 +4712,10 @@
                         </mouse_states>
                       </state>
                     </states>
-                    <properties count="3">
+                    <properties count="1">
                       <property>
                         <s>min_text_width</s><!-- key -->
-                <s>400</s><!-- value -->
-              </property>
-              <property>
-                <s>min_text_height</s><!-- key -->
-                <s>30</s><!-- value -->
-                      </property>
-                        <property>
-                        <s>disable_text_shrink</s><!-- key -->
-                        <s></s><!-- value -->
+                        <s>250</s><!-- value -->
                       </property>
                     </properties>
                     <i>10</i><!-- priority? -->
