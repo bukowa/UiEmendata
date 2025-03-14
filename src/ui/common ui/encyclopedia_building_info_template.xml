@@ -1527,8 +1527,8 @@
                           <i>0</i><!-- mystery1 -->
                           <i>0</i><!-- mystery2 -->
                           <no /><!-- mystery3 -->
-                          <i>2</i><!-- mystery4 -->
-                          <no /><!-- mystery5 -->
+                          <i>4</i><!-- mystery4 -->
+                          <yes /><!-- mystery5 -->
                         </additional_data>
                         <s></s><!-- end of uientry 1? -->
                         <s></s><!-- end of uientry 2? -->
