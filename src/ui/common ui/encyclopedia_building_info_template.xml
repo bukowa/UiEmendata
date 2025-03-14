@@ -750,10 +750,10 @@
                 <u>456717184</u><!-- ID (80 f3 38 1b) -->
                 <s>txt_requires</s><!-- title -->
                 <s></s><!-- title2 -->
-                <i>-4</i><!-- x offset -->
+                <i>106</i><!-- x offset -->
                 <i>21</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
-                <no /><!-- uientry flag 2 -->
+            <yes /><!-- uientry flag 2 -->
                 <byte>0</byte><!-- uientry flag 3 -->
                 <no /><!-- uientry flag 4 -->
                 <no /><!-- uientry flag 5 -->
@@ -785,9 +785,9 @@
                     <unicode>Requires</unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
                     <i>4</i><!-- text xsize? -->
-                    <i>4</i><!-- text ysize? -->
+                <i>0</i><!-- text ysize? -->
                     <i>0</i><!-- text xalign? -->
-                    <i>1</i><!-- text yalign? -->
+                <i>2</i><!-- text yalign? -->
                     <yes /><!-- text behavior? -->
                     <unicode></unicode><!-- text label? -->
                     <no /><!-- state stuff 3? -->
@@ -807,7 +807,7 @@
                     <s>fe_section_heading_yellow</s><!-- font category / twui -->
                     <i>0</i><!-- left ? -->
                     <i>0</i><!-- right ? -->
-                    <i>0</i><!-- top ? -->
+                <i>5</i><!-- top ? -->
                     <i>0</i><!-- bottom ? -->
                     <i>0</i>
                     <no />
@@ -832,7 +832,19 @@
                     </mouse_states>
                   </state>
                 </states>
-                <properties count="0">
+            <properties count="3">
+              <property>
+                <s>min_text_width</s><!-- key -->
+                <s>400</s><!-- value -->
+              </property>
+              <property>
+                <s>min_text_height</s><!-- key -->
+                <s>30</s><!-- value -->
+              </property>
+              <property>
+                <s>disable_Text_shrink</s><!-- key -->
+                <s></s><!-- value -->
+              </property>
                 </properties>
                 <i>10</i><!-- priority? -->
                 <funcs count="0">
