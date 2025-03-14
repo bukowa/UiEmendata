@@ -108,6 +108,20 @@ ifneq ($(FLAG),)
     IMAGE_TARGETS :=
     CONTRIB_TARGETS :=
   endif
+  # dei_encyclopedia_fix
+  ifeq ($(FLAG),dei_encyclopedia_fix)
+    MOD_PACKAGE := dei_encyclopedia_fix.pack
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
+    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template
+#    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \
+#    	$(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry \
+#    	$(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects \
+#    	$(BUILD_DIR)/ui/campaign\ ui/layout
+    LUA_TARGETS :=
+    IMAGE_TARGETS :=
+    CONTRIB_TARGETS :=
+  endif
 endif
 
 # Rule for creating the mod package with rpfm_cli
@@ -127,8 +141,23 @@ $(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template: \
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
+$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template: \
+	src/ui/common\ ui/3c/encyclopedia_building_info_template.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template: \
 	src/ui/common\ ui/encyclopedia_unit_info_template.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry: \
+	src/ui/campaign\ ui/building_info_generic_entry.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects: \
+	src/ui/campaign\ ui/building_info_recruitment_effects.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -139,6 +168,11 @@ $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign: \
 
 $(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle: \
 	src/ui/campaign\ ui/pre_battle_post_battle.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/layout: \
+	src/ui/campaign\ ui/layout.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -278,8 +312,9 @@ install-steam: $(MOD_PACKAGE)
 # Install the built .pack file only if different for standalone
 install-alone: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'mod "_helper_encyclopedia_building_info_template.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	$(call install-to-dir,$(INSTALL_ALONE_DIR)/data)
 
 # Install with DEI
@@ -287,9 +322,11 @@ install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "@a_DeI_AFP4_submod13.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "@@@@deilegionsMARCSUM.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part1.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part2.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@#echo 'mod "Campaign_Performance_Patch.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	$(call install-to-dir,$(INSTALL_ALONE_DIR)/data)
 
 # Function to install the mod package to a specified directory
