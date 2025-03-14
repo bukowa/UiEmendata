@@ -518,7 +518,7 @@
             <u>456713152</u><!-- ID (c0 e3 38 1b) -->
             <s>requirements</s><!-- title -->
             <s>EncyclopediaBuildingRequirementsCallback</s><!-- title2 -->
-            <i>58</i><!-- x offset -->
+            <i>47</i><!-- x offset -->
             <i>520</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
@@ -610,7 +610,7 @@
                 <u>587986368</u><!-- ID (c0 f5 0b 23) -->
                 <s>h_line</s><!-- title -->
                 <s></s><!-- title2 -->
-                <i>0</i><!-- x offset -->
+                <i>-9</i><!-- x offset -->
                 <i>24</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
@@ -636,8 +636,8 @@
                   <image>
                     <u>587987200</u><!-- ID (00 f9 0b 23) -->
                     <s>ui/skins/default/h_line.png</s><!-- path -->
-                    <i>208</i><!-- x size -->
-                    <i>36</i><!-- y size -->
+                    <i>374</i><!-- x size -->
+                    <i>17</i><!-- y size -->
                     <no />
                   </image>
                 </images>
@@ -647,8 +647,8 @@
                   <state>
                     <u>587987392</u><!-- ID (c0 f9 0b 23) -->
                     <s>NewState</s><!-- title - NewState -->
-                    <i>145</i><!-- x size -->
-                    <i>27</i><!-- y size -->
+                    <i>375</i><!-- x size -->
+                    <i>33</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
                     <i>4</i><!-- text xsize? -->
@@ -696,8 +696,8 @@
                         <u>587987200</u><!-- ID (00 f9 0b 23) -->
                         <u>0</u><!-- x offset -->
                         <u>0</u><!-- y offset -->
-                        <u>145</u><!-- x size -->
-                        <u>27</u><!-- y size -->
+                        <u>374</u><!-- x size -->
+                        <u>24</u><!-- y size -->
                         <!-- color -->
                         <color>
                           <byte>255</byte><!-- B -->
