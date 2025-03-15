@@ -1,0 +1,5520 @@
+{
+    "GraphCallback": [
+        {
+            "num_intervals": "5"
+        },
+        {
+            "num_intervals": "5"
+        }
+    ],
+    "null": [
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "min_text_width": "220"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "button_gap": "12"
+        },
+        {
+            "toggle_panel": "radar_holder",
+            "starts_showing": "1"
+        },
+        {
+            "toggle_panel": "info_panel_holder",
+            "starts_showing": "1"
+        },
+        {
+            "toggle_panel": "battle_orders",
+            "starts_showing": "1"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "button_gap": "12"
+        },
+        {
+            "toggle_panel": "radar_holder",
+            "starts_showing": "1"
+        },
+        {
+            "toggle_panel": "info_panel_holder",
+            "starts_showing": "1"
+        },
+        {
+            "toggle_panel": "battle_orders",
+            "starts_showing": "1"
+        },
+        {
+            "main_img": null,
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "min_text_width": "280"
+        },
+        {
+            "min_text_width": "160"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "line_end_offset": "10"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_suicide"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "MinValue": "0"
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "min_text_height": "24"
+        },
+        {
+            "OnMouseOn": "MouseOn"
+        },
+        {
+            "main_img": "2",
+            "main_mask": "8",
+            "secondary_img": "9",
+            "secondary_mask": "10"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "toggle_panel": "info_panel_holder",
+            "starts_showing": "1"
+        },
+        {
+            "Column": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "Column": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "main_img": null,
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "line_end_offset": "10"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_blue"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_yellow"
+        },
+        {
+            "template_id": "button_action_tmpl_small_suicide"
+        },
+        {
+            "template_id": "button_action_tmpl_small_brown"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "template_id": "button_action_tmpl_small_green"
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "MinValue": "0"
+        },
+        {
+            "Region": null,
+            "Notify": null
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "main_img": "2",
+            "main_mask": "8",
+            "secondary_img": "9",
+            "secondary_mask": "10"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "toggle_panel": "info_panel_holder",
+            "starts_showing": "1"
+        },
+        {
+            "Column": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "padding": "6"
+        },
+        {
+            "Column": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "230"
+        },
+        {
+            "min_text_width": "230"
+        },
+        {
+            "min_text_width": "230"
+        },
+        {
+            "min_text_width": "215"
+        },
+        {
+            "min_text_width": "400",
+            "min_text_height": "30",
+            "disable_Text_shrink": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "min_text_width": "250"
+        },
+        {
+            "min_text_width": "360",
+            "min_text_height": "22"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250"
+        },
+        {
+            "min_text_width": "185"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30",
+            "disable_text_shrink": null
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "min_text_width": "250"
+        },
+        {
+            "min_text_width": "300",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "1",
+            "secondary_img": "2",
+            "secondary_mask": "3"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "min_text_width": "200"
+        },
+        {
+            "min_text_width": "250",
+            "min_text_height": "30"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "235.0"
+        },
+        {
+            "stepSize": "235.0"
+        },
+        {
+            "stepSize": "235.0"
+        },
+        {
+            "stepSize": "235.0"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "3",
+            "secondary_img": "8",
+            "secondary_mask": "9"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "map_path": "campaign_maps/main_rome_map/main_rome_map.png"
+        },
+        {
+            "Gap": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "padding": "5"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "padding": "5"
+        },
+        {
+            "stepSize": "30.00"
+        },
+        {
+            "stepSize": "0.2f"
+        },
+        {
+            "stepSize": "0"
+        },
+        {
+            "stepSize": "0"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Margin": "29",
+            "padding": "15"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "118.000023"
+        },
+        {
+            "stepSize": "118.000023"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "Margin": "29",
+            "padding": "15"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "stepSize": "118.000023"
+        },
+        {
+            "stepSize": "118.000023"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "main_img": null,
+            "main_mask": "3",
+            "secondary_img": "4",
+            "secondary_mask": "5"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "3",
+            "secondary_img": "4",
+            "secondary_mask": "5"
+        },
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "main_img": null,
+            "main_mask": "3",
+            "secondary_img": "4",
+            "secondary_mask": "5"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "3",
+            "secondary_img": "4",
+            "secondary_mask": "5"
+        },
+        {
+            "disable_text_shrink": null
+        }
+    ],
+    "TextButton": [
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "11"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "26"
+        },
+        {
+            "TabOrder": "26"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "11"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "26"
+        },
+        {
+            "TabOrder": "26"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "TabOrder": "9"
+        }
+    ],
+    "CallbackRedirector": [
+        {
+            "parent_id": "BattleUnitGroupFrame"
+        },
+        {
+            "parent_id": "BattleUnitGroupFrame"
+        },
+        {
+            "parent_id": "BattleUnitGroupFrame"
+        },
+        {
+            "parent_id": "BattleUnitGroupFrame"
+        },
+        {
+            "parent_id": "BattleUnitGroupFrame"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "UnitCard"
+        },
+        {
+            "parent_id": "HisBattleIcon"
+        }
+    ],
+    "ResizeDragHandle": [
+        {
+            "min_scale": "0.8",
+            "max_scale": "1.5",
+            "uniform_scale": "1"
+        },
+        {
+            "min_scale": "0.8",
+            "max_scale": "1.5",
+            "uniform_scale": "1"
+        },
+        {
+            "min_scale": "0.5",
+            "max_scale": "1.5",
+            "uniform_scale": "0"
+        },
+        {
+            "min_scale": "1.0",
+            "max_scale": "3.0",
+            "uniform_scale": "0"
+        },
+        {
+            "min_scale": "0.5",
+            "max_scale": "1.5",
+            "uniform_scale": "0"
+        },
+        {
+            "min_scale": "1.0",
+            "max_scale": "3.0",
+            "uniform_scale": "0"
+        }
+    ],
+    "TogglePanelButton": [
+        {
+            "starts_showing": "1",
+            "toggle_panel": "radar_group"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_background",
+            "auto_adjust_anim": "1"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "card_panel_docker"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "hud"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "radar_group"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_background",
+            "auto_adjust_anim": "1"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "card_panel_docker"
+        },
+        {
+            "starts_showing": "0",
+            "toggle_panel": "campaign_tactical_map"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_characters"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "hud_center_docker"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "radar_things"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_background",
+            "auto_adjust_anim": "1"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_holder"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_settlements"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_settlements"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_armies"
+        },
+        {
+            "starts_showing": "0",
+            "toggle_panel": "campaign_tactical_map"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_characters"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "hud_center_docker"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "radar_things"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_background",
+            "auto_adjust_anim": "1"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "info_panel_holder"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_settlements"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_settlements"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "review_armies"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "options_panel"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "advice_text_panel"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "room_list"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "friends_list"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "objectives_list",
+            "auto_adjust_anim": "1"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "options_panel"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "advice_text_panel"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "room_list"
+        },
+        {
+            "starts_showing": "1",
+            "toggle_panel": "friends_list"
+        }
+    ],
+    "HSlider": [
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "NotifyFunction": null
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "NotifyFunction": null
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "scroll_sensitivity": "0.3",
+            "slide_speed": "30"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1",
+            "scroll_sensitivity": "0.03"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "step_size": "1",
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "scroll_sensitivity": "0.3",
+            "slide_speed": "30"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null,
+            "TabOrder": "1",
+            "scroll_sensitivity": "0.03"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "step_size": "1",
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "230",
+            "maxValue": "3500",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "25",
+            "maxValue": "200",
+            "Notify": null,
+            "step_size": "25"
+        },
+        {
+            "Value": "0",
+            "minValue": "1",
+            "maxValue": "10",
+            "Notify": null,
+            "step_size": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "10",
+            "maxValue": "50",
+            "Notify": null,
+            "step_size": "5"
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "step_size": "5"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "10",
+            "Notify": null,
+            "step_size": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "50",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "230",
+            "maxValue": "3500",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "25",
+            "maxValue": "200",
+            "Notify": null,
+            "step_size": "25"
+        },
+        {
+            "Value": "0",
+            "minValue": "1",
+            "maxValue": "10",
+            "Notify": null,
+            "step_size": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "10",
+            "maxValue": "50",
+            "Notify": null,
+            "step_size": "5"
+        },
+        {
+            "Value": "0",
+            "minValue": "5",
+            "maxValue": "20",
+            "Notify": null,
+            "step_size": "5"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "10",
+            "Notify": null,
+            "step_size": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.1",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "step_size": "1",
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "step_size": "1",
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "step_size": "1",
+            "SnapToValues": "true"
+        },
+        {
+            "Value": "0.000000",
+            "minValue": "0",
+            "maxValue": "4",
+            "Notify": null,
+            "NotifyFunction": null,
+            "step_size": "1",
+            "SnapToValues": "true"
+        }
+    ],
+    "BattleCardPanel": [
+        {
+            "max_panel_width": "1500",
+            "double_row_shift": "127",
+            "min_height": "136",
+            "min_width": "48"
+        },
+        {
+            "max_panel_width": "1500",
+            "double_row_shift": "127",
+            "min_height": "136",
+            "min_width": "48"
+        }
+    ],
+    "BattleSpecialAbilityButtonStack": [
+        {
+            "padding": "3",
+            "button_spacing": "3"
+        },
+        {
+            "padding": "3",
+            "button_spacing": "3"
+        }
+    ],
+    "GroupButtonStack": [
+        {
+            "padding": "3",
+            "button_spacing": "3",
+            "starts_showing": "1"
+        },
+        {
+            "padding": "3",
+            "button_spacing": "3",
+            "starts_showing": "1"
+        }
+    ],
+    "BattleGroupFormationsStack": [
+        {
+            "padding": "3",
+            "button_spacing": "3"
+        },
+        {
+            "padding": "3",
+            "button_spacing": "3"
+        }
+    ],
+    "BattleLandUnitTooltip": [
+        {
+            "expand_delay_ms": "2500"
+        }
+    ],
+    "HorizontalList": [
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        }
+    ],
+    "ButtonGroup": [
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": "0",
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": "0",
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "0",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "0",
+            "Allow None Selected": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": "False",
+            "Single Selection": "False"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Single Selection": "1",
+            "Allow None Selected": "0"
+        }
+    ],
+    "TextInput": [
+        {
+            "MinValue": "0",
+            "MaxValue": "1000000",
+            "Increment": "1000"
+        },
+        {
+            "MinValue": "1000000",
+            "MaxValue": "1000",
+            "Increment": null
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "1000000",
+            "Increment": "1000"
+        },
+        {
+            "MinValue": "1000000",
+            "MaxValue": "1000",
+            "Increment": null
+        },
+        {
+            "TabOrder": "0"
+        },
+        {
+            "HideInput": null,
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "0"
+        },
+        {
+            "TabOrder": "0"
+        },
+        {
+            "HideInput": null,
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "0"
+        },
+        {
+            "HideInput": "1"
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "HideInput": null,
+            "TabOrder": "2"
+        }
+    ],
+    "SliderDecrementButton": [
+        {
+            "update_frequency_ms": "800"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "520.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "112"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "update_frequency_ms": "100"
+        },
+        {
+            "update_frequency_ms": "800"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "520.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.00"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "112"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "172.0"
+        },
+        {
+            "stepSize": "206.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "25"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "172.0"
+        },
+        {
+            "stepSize": "206.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "25"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "164.00"
+        },
+        {
+            "stepSize": "164.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "22.00"
+        },
+        {
+            "stepSize": "44.00"
+        }
+    ],
+    "SliderIncrementButton": [
+        {
+            "update_frequency_ms": "800"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "0.2f"
+        },
+        {
+            "stepSize": "0.2f"
+        },
+        {
+            "stepSize": "520.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "112"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110",
+            "update_frequency_ms": "100"
+        },
+        {
+            "update_frequency_ms": "800"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "80"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "65.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "86.00"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "0.2f"
+        },
+        {
+            "stepSize": "0.2f"
+        },
+        {
+            "stepSize": "520.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "32.00"
+        },
+        {
+            "stepSize": "377.000031"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "32.0"
+        },
+        {
+            "stepSize": "80.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "112"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "116.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "110"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "172.0"
+        },
+        {
+            "stepSize": "206.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "25"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "172.0"
+        },
+        {
+            "stepSize": "206.0"
+        },
+        {
+            "stepSize": "141.0"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "25"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "5"
+        },
+        {
+            "stepSize": "1"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "164.00"
+        },
+        {
+            "stepSize": "164.00"
+        },
+        {
+            "stepSize": "10"
+        },
+        {
+            "stepSize": "22.00"
+        },
+        {
+            "stepSize": "44.00"
+        }
+    ],
+    "VSlider": [
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "20",
+            "scroll_sensitivity": "0.3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.3",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "20",
+            "scroll_sensitivity": "3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "20",
+            "scroll_sensitivity": "0.3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.3",
+            "slide_speed": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "0",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "20",
+            "scroll_sensitivity": "3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "scroll_sensitivity": "0.5"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "200",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "2"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "4"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "scroll_sensitivity": "0.5"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "200",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "2"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "3"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "Inverted": "1",
+            "TabOrder": "4"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "80",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "scroll_sensitivity": "0.2"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "scroll_sensitivity": "0.1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "scroll_sensitivity": "0.1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null,
+            "slide_speed": "1",
+            "scroll_sensitivity": "0.1"
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        },
+        {
+            "Value": "0",
+            "minValue": "0",
+            "maxValue": "100",
+            "Notify": null
+        }
+    ],
+    "CampaignEffectsListPanel": [
+        {
+            "padding": "20"
+        },
+        {
+            "padding": "20"
+        }
+    ],
+    "CampaignMapTooltip": [
+        {
+            "min_height": "36",
+            "min_width": "280"
+        }
+    ],
+    "CampaignPoliticalActionTooltip": [
+        {
+            "min_text_width": "390",
+            "min_text_height": "24"
+        }
+    ],
+    "MapImageCallback": [
+        {
+            "zoom_increment": "0.5",
+            "zoom_min": "1",
+            "zoom_max": "2.5",
+            "border_width": "200",
+            "border_height": "200"
+        },
+        {
+            "Theatre": "main_rome_map"
+        },
+        {
+            "zoom_increment": "0.5",
+            "zoom_min": "1",
+            "zoom_max": "2",
+            "follow_camera": "1"
+        },
+        {
+            "zoom_increment": "0.5",
+            "zoom_min": "1",
+            "zoom_max": "2.5",
+            "border_width": "200",
+            "border_height": "200"
+        },
+        {
+            "Theatre": "main_rome_map"
+        },
+        {
+            "zoom_increment": "0.5",
+            "zoom_min": "1",
+            "zoom_max": "2",
+            "follow_camera": "1"
+        }
+    ],
+    "FactionMapIcon": [
+        {
+            "large_size": "48"
+        },
+        {
+            "large_size": "48"
+        }
+    ],
+    "List": [
+        {
+            "TabOrder": null
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "entry_margin": "5"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "MultiSelect": "1"
+        },
+        {
+            "MultiSelect": "1"
+        }
+    ],
+    "Button": [
+        {
+            "TabOrder": null
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "Column": null
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "2"
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "action_icon_index": "3"
+        },
+        {
+            "Column": null
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "2"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "3"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "15"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "15"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "27"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "11"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "15"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "3"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "15"
+        },
+        {
+            "TabOrder": "14"
+        },
+        {
+            "TabOrder": "15"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "starts_showing": null,
+            "toggle_panel": null
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "27"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "11"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "2"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "2"
+        },
+        {
+            "Column": "3"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "2"
+        },
+        {
+            "Column": "3"
+        },
+        {
+            "Column": "1"
+        },
+        {
+            "Column": "3"
+        }
+    ],
+    "TabGroup": [
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "6"
+        },
+        {
+            "Tab Spacing": "0",
+            "TabOrder": "1"
+        },
+        {
+            "Tab Spacing": "0",
+            "TabOrder": "1"
+        },
+        {
+            "Tab Spacing": "0",
+            "TabOrder": "0"
+        },
+        {
+            "Tab Spacing": "0",
+            "TabOrder": "0"
+        }
+    ],
+    "RadarListHeader": [
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "value",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "value",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "attitude",
+            "Mode": "Attitude"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_naval",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_land",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_status",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_title",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "attitude",
+            "Mode": "Attitude"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_naval",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_land",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_status",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "income",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "region_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "food_icon",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "region_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "mon",
+            "Mode": "Tooltip"
+        },
+        {
+            "Column": "1",
+            "SortChild": "income",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_resource",
+            "Mode": "Tooltip"
+        },
+        {
+            "Column": "1",
+            "SortChild": null,
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "loyalty_level",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "soldiers",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "ap",
+            "Mode": "Height"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_army_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "forces_icon",
+            "Mode": "Attitude"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "value",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "value",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "attitude",
+            "Mode": "Attitude"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_naval",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_land",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_status",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_title",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "attitude",
+            "Mode": "Attitude"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_naval",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_trade_land",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "pip_status",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "income",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "region_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "food_icon",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "icon_public_order",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "region_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "mon",
+            "Mode": "Tooltip"
+        },
+        {
+            "Column": "1",
+            "SortChild": "income",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_resource",
+            "Mode": "Tooltip"
+        },
+        {
+            "Column": "1",
+            "SortChild": null,
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "loyalty_level",
+            "Mode": "State"
+        },
+        {
+            "Column": "1",
+            "SortChild": "soldiers",
+            "Mode": "Numerical"
+        },
+        {
+            "Column": "1",
+            "SortChild": "ap",
+            "Mode": "Height"
+        },
+        {
+            "Column": "1",
+            "SortChild": "dy_army_name",
+            "Mode": "Text"
+        },
+        {
+            "Column": "1",
+            "SortChild": "forces_icon",
+            "Mode": "Attitude"
+        }
+    ],
+    "FamilyTreeCallback": [
+        {
+            "padding_x": "0",
+            "padding_y": "10",
+            "inner_padding_x": "40",
+            "inner_padding_y": "145",
+            "min_zoom_level": "0.6",
+            "max_zoom_level": "1",
+            "zoom_step": "0.1"
+        },
+        {
+            "padding_x": "0",
+            "padding_y": "10",
+            "inner_padding_x": "40",
+            "inner_padding_y": "145",
+            "min_zoom_level": "0.6",
+            "max_zoom_level": "1",
+            "zoom_step": "0.1"
+        }
+    ],
+    "TreeCallback": [
+        {
+            "padding_x": "10",
+            "padding_y": "48"
+        },
+        {
+            "padding_x": "10",
+            "padding_y": "48"
+        }
+    ],
+    "FamilyTreeEntryCallback": [
+        {
+            "husband_offset": "-0.5",
+            "wife_offset": "0.5"
+        },
+        {
+            "husband_offset": "-0.5",
+            "wife_offset": "0.5"
+        }
+    ],
+    "FTZoomOutButton": [
+        {
+            "update_frequency_ms": "100"
+        },
+        {
+            "update_frequency_ms": "100"
+        }
+    ],
+    "FTZoomInButton": [
+        {
+            "update_frequency_ms": "100"
+        },
+        {
+            "update_frequency_ms": "100"
+        }
+    ],
+    "SlideDecrementButton": [
+        {
+            "stepSize": "110.0"
+        },
+        {
+            "stepSize": "110.0"
+        }
+    ],
+    "NumericalInput": [
+        {
+            "MinValue": "0"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "20",
+            "Increment": "5"
+        },
+        {
+            "MinValue": "0"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "20",
+            "Increment": "5"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "100",
+            "Increment": "1"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "100",
+            "Increment": "1"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "100",
+            "Increment": "1"
+        },
+        {
+            "MinValue": "0",
+            "MaxValue": "100",
+            "Increment": "1"
+        },
+        {
+            "min": "0",
+            "max": "999"
+        },
+        {
+            "min": "0",
+            "max": "999"
+        },
+        {
+            "min": "0",
+            "max": "100000"
+        },
+        {
+            "min": "0",
+            "max": "5",
+            "Increment": "1"
+        },
+        {
+            "min": "0",
+            "max": "5",
+            "Increment": "1"
+        },
+        {
+            "min": "0",
+            "max": "5",
+            "Increment": "1"
+        }
+    ],
+    "Textview": [
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": null
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "32"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "Margin": "29"
+        },
+        {
+            "padding": "15"
+        },
+        {
+            "Margin": "29",
+            "padding": "15"
+        },
+        {
+            "padding": "15"
+        },
+        {
+            "padding": "15"
+        },
+        {
+            "Margin": "29"
+        }
+    ],
+    "StanceButtonStack": [
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        },
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        },
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        },
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        }
+    ],
+    "IncentivesButtonStack": [
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        },
+        {
+            "padding": "3",
+            "extra_vertical_padding": "3",
+            "extra_horizontal_padding": "3"
+        }
+    ],
+    "PanelButtonsTab": [
+        {
+            "Tab Spacing": "0"
+        },
+        {
+            "Tab Spacing": "0"
+        }
+    ],
+    "SliderButtonTop": [
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        }
+    ],
+    "SliderButtonBottom": [
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        },
+        {
+            "stepSize": "300.0"
+        }
+    ],
+    "DropdownMenu": [
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "2"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "13"
+        },
+        {
+            "TabOrder": "12"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "13"
+        },
+        {
+            "TabOrder": "12"
+        },
+        {
+            "TabOrder": "1"
+        },
+        {
+            "TabOrder": "1"
+        }
+    ],
+    "UnitCard": [
+        {
+            "min_width": "50",
+            "min_height": "100",
+            "main_img": null,
+            "main_mask": "3",
+            "secondary_img": "9",
+            "secondary_mask": "10"
+        },
+        {
+            "min_width": "50",
+            "min_height": "100",
+            "main_img": null,
+            "main_mask": "3",
+            "secondary_img": "9",
+            "secondary_mask": "10"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "3",
+            "secondary_img": "8",
+            "secondary_mask": "9"
+        },
+        {
+            "main_img": "0",
+            "main_mask": "3",
+            "secondary_img": "8",
+            "secondary_mask": "9"
+        }
+    ],
+    "RegionInfoPip": [
+        {
+            "tooltip": null,
+            "value": null
+        }
+    ],
+    "CampaignUnitsHUDCallback": [
+        {
+            "card_width": "64"
+        },
+        {
+            "card_width": "64"
+        }
+    ],
+    "ExchangeGroup": [
+        {
+            "CardOrder": "RightToLeft"
+        },
+        {
+            "CardOrder": "LeftToRight"
+        },
+        {
+            "CardOrder": "RightToLeft"
+        },
+        {
+            "CardOrder": "LeftToRight"
+        }
+    ],
+    "AdviceInterfaceComponentCallback": [
+        {
+            "max_height": "800"
+        },
+        {
+            "max_height": "800"
+        }
+    ],
+    "AdviceText": [
+        {
+            "Margin": "29",
+            "padding": "15"
+        },
+        {
+            "Margin": "29",
+            "padding": "15"
+        }
+    ],
+    "ConsoleCommandTextInput": [
+        {
+            "HideInput": "0",
+            "OnMouseLClickUp": "OnSelect",
+            "OnInputFocusGain": "FocusGain",
+            "OnInputFocusLose": "FocusLose"
+        }
+    ],
+    "EncyclopediaItemFrameCallback": [
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        },
+        {
+            "TabOrder": null
+        }
+    ],
+    "MPChatCallback": [
+        {
+            "appear_on_mouseover": "true",
+            "time_til_fade": "5000",
+            "duration_of_fade": "5000"
+        },
+        {
+            "appear_on_mouseover": "true",
+            "time_til_fade": "5000",
+            "duration_of_fade": "5000"
+        }
+    ],
+    "ChatInput": [
+        {
+            "HideInput": "0"
+        },
+        {
+            "HideInput": "0"
+        }
+    ],
+    "Checkbox": [
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "8"
+        },
+        {
+            "TabOrder": "9"
+        },
+        {
+            "TabOrder": "10"
+        },
+        {
+            "TabOrder": "3"
+        },
+        {
+            "TabOrder": "4"
+        },
+        {
+            "TabOrder": "5"
+        },
+        {
+            "TabOrder": "6"
+        },
+        {
+            "TabOrder": "7"
+        },
+        {
+            "TabOrder": "7"
+        }
+    ],
+    "OptionsAudioVoiceChatKey": [
+        {
+            "TabOrder": "8"
+        },
+        {
+            "TabOrder": "8"
+        }
+    ],
+    "ScriptedObjectivesPanel": [
+        {
+            "padding": "5"
+        }
+    ],
+    "MPRoomList": [
+        {
+            "disable_text_shrink": null
+        }
+    ],
+    "MPFriendsList": [
+        {
+            "disable_text_shrink": null
+        }
+    ],
+    "BattleGeneratorMap": [
+        {
+            "zoom_max": "5",
+            "zoom_increment": "0.5"
+        }
+    ],
+    "BattleGeneratorMapIcon": [
+        {
+            "min_size": "16"
+        }
+    ],
+    "MPArmyManagementForceBox": [
+        {
+            "CardGap": "1",
+            "MaxCols": "10",
+            "ResizeX": "45",
+            "ResizeY": "100"
+        }
+    ],
+    "ButtonGroupButton": [
+        {
+            "ability_group": "Warmonger"
+        },
+        {
+            "ability_group": null
+        },
+        {
+            "ability_group": null
+        },
+        {
+            "ability_group": null
+        }
+    ],
+    "MPArmyManagementUnitBox": [
+        {
+            "ResizeX": "45",
+            "ResizeY": "100",
+            "Gap": "1"
+        }
+    ],
+    "MPArmyAssaultEquipmentManager": [
+        {
+            "cap_percent": "0.5"
+        }
+    ],
+    "MPArmyMountableArtilleryManager": [
+        {
+            "cap_percent": "0.5"
+        }
+    ],
+    "MPArmyDeployablesManager": [
+        {
+            "cap_percent": "0.5"
+        }
+    ],
+    "TextviewText": [
+        {
+            "disable_text_shrink": null
+        },
+        {
+            "padding": "15",
+            "disable_text_shrink": null
+        },
+        {
+            "disable_text_shrink": null
+        }
+    ],
+    "CampaignFactionButtons": [
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        },
+        {
+            "Allow None Selected": null,
+            "Single Selection": "1"
+        }
+    ],
+    "FESubMenuButton": [
+        {
+            "dlc_mask": "64"
+        },
+        {
+            "dlc_mask": "64"
+        },
+        {
+            "dlc_mask": "512"
+        },
+        {
+            "dlc_mask": "512"
+        },
+        {
+            "campaign_key": "main_rome"
+        },
+        {
+            "campaign_key": "main_rome"
+        }
+    ]
+}
