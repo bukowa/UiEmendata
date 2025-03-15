@@ -7311,7 +7311,7 @@
               </property>
               <property>
                 <s>min_text_height</s><!-- key -->
-                <s>22</s><!-- value -->
+                <s>84</s><!-- value -->
               </property>
             </properties>
             <i>10</i><!-- priority? -->
