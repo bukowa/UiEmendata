@@ -7222,7 +7222,7 @@
             <u>492224320</u><!-- ID (40 bf 56 1d) -->
             <s>dy_building_short_description</s><!-- title -->
             <s></s><!-- title2 -->
-            <i>45</i><!-- x offset -->
+            <i>25</i><!-- x offset -->
             <i>130</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
