@@ -1,5996 +1,2336 @@
 {
-    "fps_graph": [
-        {
-            "num_intervals": "5"
-        },
-        {
-            "num_intervals": "5"
-        }
-    ],
-    "txt_name": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "txt_description": [
-        {
-            "min_text_width": "220"
-        }
-    ],
-    "players_ready_tx": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_resume": [
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        }
-    ],
-    "button_options": [
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "4"
-        }
-    ],
-    "button_quit": [
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "5"
-        },
-        {
-            "TabOrder": "5"
-        }
-    ],
-    "button_windows": [
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "6"
-        },
-        {
-            "TabOrder": "6"
-        }
-    ],
-    "right_upper_side_box": [
-        {
-            "parent_id": "BattleUnitGroupFrame"
-        }
-    ],
-    "right_lower_side_box": [
-        {
-            "parent_id": "BattleUnitGroupFrame"
-        }
-    ],
-    "left_upper_side_box": [
-        {
-            "parent_id": "BattleUnitGroupFrame"
-        }
-    ],
-    "left_lower_side_box": [
-        {
-            "parent_id": "BattleUnitGroupFrame"
-        }
-    ],
-    "tab": [
-        {
-            "parent_id": "BattleUnitGroupFrame"
-        }
-    ],
-    "button_parent": [
-        {
-            "button_gap": "12"
-        },
-        {
-            "button_gap": "12"
-        }
-    ],
-    "radar_holder": [
-        {
-            "toggle_panel": "radar_holder",
-            "starts_showing": "1"
-        },
-        {
-            "toggle_panel": "radar_holder",
-            "starts_showing": "1"
-        }
-    ],
-    "button_enlarge": [
-        {
-            "min_scale": "0.8",
-            "max_scale": "1.5",
-            "uniform_scale": "1"
-        },
-        {
-            "min_scale": "0.8",
-            "max_scale": "1.5",
-            "uniform_scale": "1"
-        }
-    ],
-    "button_toggle_radar": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "radar_group"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "radar_group"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "radar_things"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "radar_things"
-        }
-    ],
-    "hslider": [
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "NotifyFunction": null
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "NotifyFunction": null
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "scroll_sensitivity": "0.3",
-            "slide_speed": "30"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1",
-            "scroll_sensitivity": "0.03"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "scroll_sensitivity": "0.3",
-            "slide_speed": "30"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null,
-            "TabOrder": "1",
-            "scroll_sensitivity": "0.03"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "230",
-            "maxValue": "3500",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "10",
-            "Notify": null,
-            "step_size": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "50",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "230",
-            "maxValue": "3500",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "10",
-            "Notify": null,
-            "step_size": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.1",
-            "slide_speed": "1"
-        }
-    ],
-    "info_panel_holder": [
-        {
-            "toggle_panel": "info_panel_holder",
-            "starts_showing": "1"
-        },
-        {
-            "toggle_panel": "info_panel_holder",
-            "starts_showing": "1"
-        },
-        {
-            "toggle_panel": "info_panel_holder",
-            "starts_showing": "1"
-        },
-        {
-            "toggle_panel": "info_panel_holder",
-            "starts_showing": "1"
-        }
-    ],
-    "button_toggle_info_panel": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_background",
-            "auto_adjust_anim": "1"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_background",
-            "auto_adjust_anim": "1"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_background",
-            "auto_adjust_anim": "1"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_background",
-            "auto_adjust_anim": "1"
-        }
-    ],
-    "battle_orders": [
-        {
-            "toggle_panel": "battle_orders",
-            "starts_showing": "1"
-        },
-        {
-            "toggle_panel": "battle_orders",
-            "starts_showing": "1"
-        }
-    ],
-    "review_DY": [
-        {
-            "max_panel_width": "1500",
-            "double_row_shift": "127",
-            "min_height": "136",
-            "min_width": "48"
-        },
-        {
-            "max_panel_width": "1500",
-            "double_row_shift": "127",
-            "min_height": "136",
-            "min_width": "48"
-        }
-    ],
-    "button_toggle_cards": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "card_panel_docker"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "card_panel_docker"
-        }
-    ],
-    "stack_ability1": [
-        {
-            "padding": "3",
-            "button_spacing": "3"
-        },
-        {
-            "padding": "3",
-            "button_spacing": "3"
-        }
-    ],
-    "stack_group": [
-        {
-            "padding": "3",
-            "button_spacing": "3",
-            "starts_showing": "1"
-        },
-        {
-            "padding": "3",
-            "button_spacing": "3",
-            "starts_showing": "1"
-        }
-    ],
-    "stack_formations": [
-        {
-            "padding": "3",
-            "button_spacing": "3"
-        },
-        {
-            "padding": "3",
-            "button_spacing": "3"
-        }
-    ],
-    "special_unit_tooltip": [
-        {
-            "expand_delay_ms": "2500"
-        }
-    ],
-    "text": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_toggle_tactical": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "hud"
-        },
-        {
-            "starts_showing": "0",
-            "toggle_panel": "campaign_tactical_map"
-        },
-        {
-            "starts_showing": "0",
-            "toggle_panel": "campaign_tactical_map"
-        }
-    ],
-    "list_box": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "entry_margin": "5"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "MultiSelect": "1"
-        },
-        {
-            "MultiSelect": "1"
-        }
-    ],
-    "health_bar": [
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        }
-    ],
-    "button_group": [
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": "0",
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": "0",
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "legacy_name_old": [
-        {
-            "MinValue": "0",
-            "MaxValue": "1000000",
-            "Increment": "1000"
-        },
-        {
-            "MinValue": "0",
-            "MaxValue": "1000000",
-            "Increment": "1000"
-        }
-    ],
-    "top": [
-        {
-            "update_frequency_ms": "800"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "520.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "112"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "update_frequency_ms": "100"
-        },
-        {
-            "update_frequency_ms": "800"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "520.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "32.00"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "112"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": null
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "172.0"
-        },
-        {
-            "stepSize": "206.0"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "25"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "172.0"
-        },
-        {
-            "stepSize": "206.0"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "25"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "235.0"
-        },
-        {
-            "stepSize": "235.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "164.00"
-        },
-        {
-            "stepSize": "164.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "22.00"
-        },
-        {
-            "stepSize": "44.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "30.00"
-        },
-        {
-            "stepSize": "0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "118.000023"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "118.000023"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        }
-    ],
-    "bottom": [
-        {
-            "update_frequency_ms": "800"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "0.2f"
-        },
-        {
-            "stepSize": "0.2f"
-        },
-        {
-            "stepSize": "520.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "112"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110",
-            "update_frequency_ms": "100"
-        },
-        {
-            "update_frequency_ms": "800"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "80"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "65.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "86.00"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "110.0"
-        },
-        {
-            "stepSize": "0.2f"
-        },
-        {
-            "stepSize": "0.2f"
-        },
-        {
-            "stepSize": "520.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "32.00"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "32.0"
-        },
-        {
-            "stepSize": "377.000031"
-        },
-        {
-            "stepSize": "80.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "112"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "116.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "110"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "172.0"
-        },
-        {
-            "stepSize": "206.0"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "25"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "172.0"
-        },
-        {
-            "stepSize": "206.0"
-        },
-        {
-            "stepSize": "141.0"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "25"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "5"
-        },
-        {
-            "stepSize": "1"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "235.0"
-        },
-        {
-            "stepSize": "235.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "164.00"
-        },
-        {
-            "stepSize": "164.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "22.00"
-        },
-        {
-            "stepSize": "44.00"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "10"
-        },
-        {
-            "stepSize": "0.2f"
-        },
-        {
-            "stepSize": "0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "118.000023"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "118.000023"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "300.0"
-        },
-        {
-            "stepSize": "10"
-        }
-    ],
-    "vslider": [
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "20",
-            "scroll_sensitivity": "0.3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.3",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "20",
-            "scroll_sensitivity": "3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "20",
-            "scroll_sensitivity": "0.3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.3",
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "0",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "20",
-            "scroll_sensitivity": "3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "scroll_sensitivity": "0.5"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "200",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "scroll_sensitivity": "0.5"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "200",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "scroll_sensitivity": "0.2"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "scroll_sensitivity": "0.1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "scroll_sensitivity": "0.1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "scroll_sensitivity": "0.1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        }
-    ],
-    "legacy_name": [
-        {
-            "MinValue": "1000000",
-            "MaxValue": "1000",
-            "Increment": null
-        },
-        {
-            "MinValue": "1000000",
-            "MaxValue": "1000",
-            "Increment": null
-        }
-    ],
-    "unit_icon": [
-        {
-            "main_img": null,
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": null,
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        }
-    ],
-    "building_information": [
-        {
-            "padding": "20"
-        },
-        {
-            "padding": "20"
-        }
-    ],
-    "description_dy": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "campaign_map_tooltip": [
-        {
-            "min_height": "36",
-            "min_width": "280"
-        }
-    ],
-    "campaign_political_action_tooltip": [
-        {
-            "min_text_width": "390",
-            "min_text_height": "24"
-        }
-    ],
-    "dy_plague_title": [
-        {
-            "min_text_width": "280"
-        }
-    ],
-    "map": [
-        {
-            "zoom_increment": "0.5",
-            "zoom_min": "1",
-            "zoom_max": "2.5",
-            "border_width": "200",
-            "border_height": "200"
-        },
-        {
-            "Theatre": "main_rome_map"
-        },
-        {
-            "zoom_increment": "0.5",
-            "zoom_min": "1",
-            "zoom_max": "2",
-            "follow_camera": "1"
-        },
-        {
-            "zoom_increment": "0.5",
-            "zoom_min": "1",
-            "zoom_max": "2.5",
-            "border_width": "200",
-            "border_height": "200"
-        },
-        {
-            "Theatre": "main_rome_map"
-        },
-        {
-            "zoom_increment": "0.5",
-            "zoom_min": "1",
-            "zoom_max": "2",
-            "follow_camera": "1"
-        }
-    ],
-    "radar_mode_toggles": [
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Single Selection": "1"
-        }
-    ],
-    "faction_icon_template": [
-        {
-            "large_size": "48"
-        },
-        {
-            "large_size": "48"
-        }
-    ],
-    "name": [
-        {
-            "min_text_width": "160"
-        },
-        {
-            "Column": null
-        },
-        {
-            "Column": null
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        }
-    ],
-    "button_group_agents": [
-        {
-            "Single Selection": "1"
-        },
-        {
-            "Single Selection": "1"
-        }
-    ],
-    "button_toggle_panel": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_characters"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_settlements"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_settlements"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_armies"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_characters"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_settlements"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_settlements"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "review_armies"
-        }
-    ],
-    "tx_faction_leader": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_ok": [
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "10"
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "14"
-        },
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "10"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "TabGroup": [
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "0"
-        },
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "0"
-        },
-        {
-            "Tab Spacing": "0",
-            "TabOrder": "1"
-        },
-        {
-            "Tab Spacing": "0",
-            "TabOrder": "1"
-        }
-    ],
-    "sort_name": [
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "region_name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "region_name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "dy_army_name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "region_name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "region_name",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "dy_army_name",
-            "Mode": "Text"
-        }
-    ],
-    "sort_value": [
-        {
-            "Column": "1",
-            "SortChild": "value",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "value",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "value",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "value",
-            "Mode": "Numerical"
-        }
-    ],
-    "family_tree": [
-        {
-            "padding_x": "0",
-            "padding_y": "10",
-            "inner_padding_x": "40",
-            "inner_padding_y": "145",
-            "min_zoom_level": "0.6",
-            "max_zoom_level": "1",
-            "zoom_step": "0.1"
-        },
-        {
-            "padding_x": "0",
-            "padding_y": "10",
-            "inner_padding_x": "40",
-            "inner_padding_y": "145",
-            "min_zoom_level": "0.6",
-            "max_zoom_level": "1",
-            "zoom_step": "0.1"
-        }
-    ],
-    "tree_parent": [
-        {
-            "padding_x": "10",
-            "padding_y": "48"
-        },
-        {
-            "padding_x": "10",
-            "padding_y": "48"
-        }
-    ],
-    "template_branch_end": [
-        {
-            "line_end_offset": "10"
-        },
-        {
-            "line_end_offset": "10"
-        }
-    ],
-    "template_slot_entry": [
-        {
-            "husband_offset": "-0.5",
-            "wife_offset": "0.5"
-        },
-        {
-            "husband_offset": "-0.5",
-            "wife_offset": "0.5"
-        }
-    ],
-    "btn_zoom_out": [
-        {
-            "update_frequency_ms": "100"
-        },
-        {
-            "update_frequency_ms": "100"
-        }
-    ],
-    "btn_zoom_in": [
-        {
-            "update_frequency_ms": "100"
-        },
-        {
-            "update_frequency_ms": "100"
-        }
-    ],
-    "political_action_get_into_position": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_organize_games": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_send_diplomat": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_send_emissary": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_secure_loyalty": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_leisure_time": [
-        {
-            "template_id": "button_action_tmpl_small_green"
-        },
-        {
-            "template_id": "button_action_tmpl_small_green"
-        }
-    ],
-    "political_action_gather_support": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_embezzle_funds": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_entice": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_spread_rumours": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_political_marriage": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_assassinate": [
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        },
-        {
-            "template_id": "button_action_tmpl_small_blue"
-        }
-    ],
-    "political_action_seek_spouse": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_divorce": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_adopt": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_make_heir": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_usurp_legacy": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_send_off_for_tutoring": [
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        },
-        {
-            "template_id": "button_action_tmpl_small_brown"
-        }
-    ],
-    "political_action_send_gift": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "political_action_do_a_favour": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "political_action_praise": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "political_action_flirt": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "political_action_insult": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "political_action_provoke": [
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        },
-        {
-            "template_id": "button_action_tmpl_small_yellow"
-        }
-    ],
-    "button_action_tmpl_small_green": [
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        }
-    ],
-    "button_action_tmpl_small_blue": [
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        }
-    ],
-    "button_action_tmpl_small_brown": [
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        }
-    ],
-    "button_action_tmpl_small_yellow": [
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        }
-    ],
-    "button_action_tmpl_small_suicide": [
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        },
-        {
-            "action_icon_index": "3"
-        }
-    ],
-    "political_action_suicide": [
-        {
-            "template_id": "button_action_tmpl_small_suicide"
-        },
-        {
-            "template_id": "button_action_tmpl_small_suicide"
-        }
-    ],
-    "region_list_item": [
-        {
-            "Region": null,
-            "Notify": null
-        },
-        {
-            "Region": null,
-            "Notify": null
-        }
-    ],
-    "call_help_tx": [
-        {
-            "Region": null,
-            "Notify": null
-        },
-        {
-            "Region": null,
-            "Notify": null
-        }
-    ],
-    "offerButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "demandButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "amount": [
-        {
-            "MinValue": "0"
-        },
-        {
-            "MinValue": "0"
-        }
-    ],
-    "amount_treasury": [
-        {
-            "MinValue": "0"
-        },
-        {
-            "MinValue": "0"
-        }
-    ],
-    "turns": [
-        {
-            "MinValue": "0",
-            "MaxValue": "20",
-            "Increment": "5"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "MinValue": "0",
-            "MaxValue": "20",
-            "Increment": "5"
-        },
-        {
-            "Column": "1"
-        }
-    ],
-    "ButtonGroup_offer_demand": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "faction_list_item": [
-        {
-            "Region": null,
-            "Notify": null
-        },
-        {
-            "Region": null,
-            "Notify": null
-        }
-    ],
-    "sort_attitude": [
-        {
-            "Column": "1",
-            "SortChild": "attitude",
-            "Mode": "Attitude"
-        },
-        {
-            "Column": "1",
-            "SortChild": "attitude",
-            "Mode": "Attitude"
-        },
-        {
-            "Column": "1",
-            "SortChild": "attitude",
-            "Mode": "Attitude"
-        },
-        {
-            "Column": "1",
-            "SortChild": "attitude",
-            "Mode": "Attitude"
-        }
-    ],
-    "sort_trade_naval": [
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_naval",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_naval",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_naval",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_naval",
-            "Mode": "State"
-        }
-    ],
-    "sort_trade_land": [
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_land",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_land",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_land",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_trade_land",
-            "Mode": "State"
-        }
-    ],
-    "sort_diplo_status": [
-        {
-            "Column": "1",
-            "SortChild": "pip_status",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_status",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_status",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "pip_status",
-            "Mode": "State"
-        }
-    ],
-    "dy_text": [
-        {
-            "min_text_height": "24"
-        }
-    ],
-    "entries_window": [
-        {
-            "OnMouseOn": "MouseOn"
-        }
-    ],
-    "button_load": [
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "3"
-        }
-    ],
-    "button_save": [
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        }
-    ],
-    "dy_icon": [
-        {
-            "main_img": "2",
-            "main_mask": "8",
-            "secondary_img": "9",
-            "secondary_mask": "10"
-        },
-        {
-            "main_img": "2",
-            "main_mask": "8",
-            "secondary_img": "9",
-            "secondary_mask": "10"
-        }
-    ],
-    "pic_frame": [
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        }
-    ],
-    "mission_details": [
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        }
-    ],
-    "details": [
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        }
-    ],
-    "trait_effects_list_box": [
-        {
-            "entry_margin": "5"
-        },
-        {
-            "entry_margin": "5"
-        }
-    ],
-    "flavour_text": [
-        {
-            "Margin": null
-        },
-        {
-            "Margin": null
-        }
-    ],
-    "dy_unit": [
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "1",
-            "secondary_img": "2",
-            "secondary_mask": "3"
-        }
-    ],
-    "sort_mission": [
-        {
-            "Column": "1",
-            "SortChild": "dy_title",
-            "Mode": "Text"
-        },
-        {
-            "Column": "1",
-            "SortChild": "dy_title",
-            "Mode": "Text"
-        }
-    ],
-    "slider": [
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "SnapToValues": "true"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "SnapToValues": "true"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "2"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "4"
-        },
-        {
-            "Value": "0",
-            "minValue": "25",
-            "maxValue": "200",
-            "Notify": null,
-            "step_size": "25"
-        },
-        {
-            "Value": "0",
-            "minValue": "1",
-            "maxValue": "10",
-            "Notify": null,
-            "step_size": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "10",
-            "maxValue": "50",
-            "Notify": null,
-            "step_size": "5"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "step_size": "5"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "slide_speed": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "2"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "3"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "Inverted": "1",
-            "TabOrder": "4"
-        },
-        {
-            "Value": "0",
-            "minValue": "25",
-            "maxValue": "200",
-            "Notify": null,
-            "step_size": "25"
-        },
-        {
-            "Value": "0",
-            "minValue": "1",
-            "maxValue": "10",
-            "Notify": null,
-            "step_size": "1"
-        },
-        {
-            "Value": "0",
-            "minValue": "10",
-            "maxValue": "50",
-            "Notify": null,
-            "step_size": "5"
-        },
-        {
-            "Value": "0",
-            "minValue": "5",
-            "maxValue": "20",
-            "Notify": null,
-            "step_size": "5"
-        }
-    ],
-    "zoom_to_advice_button": [
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        }
-    ],
-    "tx_item_name": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "land_stance_button_stack": [
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        },
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        }
-    ],
-    "naval_stance_button_stack": [
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        },
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        }
-    ],
-    "stack_incentives": [
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        },
-        {
-            "padding": "3",
-            "extra_vertical_padding": "3",
-            "extra_horizontal_padding": "3"
-        }
-    ],
-    "button_group_management": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        }
-    ],
-    "button_group_settlement": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        }
-    ],
-    "button_group_army": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "1"
-        }
-    ],
-    "button_toggle_hud_center": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "hud_center_docker"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "hud_center_docker"
-        }
-    ],
-    "button_toggle_full_info_panel": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_holder"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "info_panel_holder"
-        }
-    ],
-    "headers": [
-        {
-            "Column": null
-        },
-        {
-            "Column": null
-        },
-        {
-            "Column": null
-        },
-        {
-            "Column": null
-        },
-        {
-            "Gap": "1"
-        }
-    ],
-    "date": [
-        {
-            "Column": "2"
-        },
-        {
-            "Column": "2"
-        }
-    ],
-    "save_type_ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "TabGroup_sp": [
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "6"
-        }
-    ],
-    "description_box": [
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        }
-    ],
-    "TabGroup_mp": [
-        {
-            "Tab Spacing": "6"
-        },
-        {
-            "Tab Spacing": "6"
-        }
-    ],
-    "dy_target_name": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "battle_advice": [
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        }
-    ],
-    "dropdown_campaign": [
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        }
-    ],
-    "battle_diff_slider": [
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "step_size": "1",
-            "SnapToValues": "true"
-        },
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null,
-            "slide_speed": "1",
-            "step_size": "1",
-            "SnapToValues": "true"
-        }
-    ],
-    "time_limit_ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "construction_options": [
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        }
-    ],
-    "construction_queue": [
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        },
-        {
-            "padding": "6"
-        }
-    ],
-    "prebattle_template_card": [
-        {
-            "min_width": "50",
-            "min_height": "100",
-            "main_img": null,
-            "main_mask": "3",
-            "secondary_img": "9",
-            "secondary_mask": "10"
-        },
-        {
-            "min_width": "50",
-            "min_height": "100",
-            "main_img": null,
-            "main_mask": "3",
-            "secondary_img": "9",
-            "secondary_mask": "10"
-        }
-    ],
-    "unit_category_icon": [
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        }
-    ],
-    "sort_happiness": [
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        }
-    ],
-    "sort_koku": [
-        {
-            "Column": "1",
-            "SortChild": "income",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "income",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "income",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "income",
-            "Mode": "Numerical"
-        }
-    ],
-    "sort_resource": [
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "dy_resource",
-            "Mode": "Tooltip"
-        },
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "dy_resource",
-            "Mode": "Tooltip"
-        }
-    ],
-    "sort_food": [
-        {
-            "Column": "1",
-            "SortChild": "food_icon",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "food_icon",
-            "Mode": "State"
-        }
-    ],
-    "sort_dev_pts": [
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "icon_public_order",
-            "Mode": "State"
-        }
-    ],
-    "sort_clan": [
-        {
-            "Column": "1",
-            "SortChild": "mon",
-            "Mode": "Tooltip"
-        },
-        {
-            "Column": "1",
-            "SortChild": "mon",
-            "Mode": "Tooltip"
-        }
-    ],
-    "region_info_pip": [
-        {
-            "tooltip": null,
-            "value": null
-        }
-    ],
-    "button_zoom": [
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        }
-    ],
-    "button_group_tech_categories": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "sort_skill": [
-        {
-            "Column": "1",
-            "SortChild": null,
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": null,
-            "Mode": "State"
-        }
-    ],
-    "sort_loyalty": [
-        {
-            "Column": "1",
-            "SortChild": "loyalty_level",
-            "Mode": "State"
-        },
-        {
-            "Column": "1",
-            "SortChild": "loyalty_level",
-            "Mode": "State"
-        }
-    ],
-    "sort_size": [
-        {
-            "Column": "1",
-            "SortChild": "soldiers",
-            "Mode": "Numerical"
-        },
-        {
-            "Column": "1",
-            "SortChild": "soldiers",
-            "Mode": "Numerical"
-        }
-    ],
-    "sort_action_points": [
-        {
-            "Column": "1",
-            "SortChild": "ap",
-            "Mode": "Height"
-        },
-        {
-            "Column": "1",
-            "SortChild": "ap",
-            "Mode": "Height"
-        }
-    ],
-    "sort_type": [
-        {
-            "Column": "1",
-            "SortChild": "forces_icon",
-            "Mode": "Attitude"
-        },
-        {
-            "Column": "1",
-            "SortChild": "forces_icon",
-            "Mode": "Attitude"
-        }
-    ],
-    "units_panel": [
-        {
-            "card_width": "64"
-        },
-        {
-            "card_width": "64"
-        }
-    ],
-    "units": [
-        {
-            "CardOrder": "RightToLeft"
-        },
-        {
-            "CardOrder": "LeftToRight"
-        },
-        {
-            "CardOrder": "RightToLeft"
-        },
-        {
-            "CardOrder": "LeftToRight"
-        }
-    ],
-    "advice_interface": [
-        {
-            "max_height": "800"
-        },
-        {
-            "max_height": "800"
-        }
-    ],
-    "button_toggle_options": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "options_panel"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "options_panel"
-        }
-    ],
-    "advice_text_panel": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "advice_text_panel"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "advice_text_panel"
-        }
-    ],
-    "TextView": [
-        {
-            "Margin": "29",
-            "padding": "15"
-        },
-        {
-            "Margin": "29",
-            "padding": "15"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "Margin": "29"
-        },
-        {
-            "padding": "15"
-        },
-        {
-            "padding": "15"
-        },
-        {
-            "padding": "15"
-        }
-    ],
-    "button_enlarge_br": [
-        {
-            "min_scale": "0.5",
-            "max_scale": "1.5",
-            "uniform_scale": "0"
-        },
-        {
-            "min_scale": "1.0",
-            "max_scale": "3.0",
-            "uniform_scale": "0"
-        },
-        {
-            "min_scale": "0.5",
-            "max_scale": "1.5",
-            "uniform_scale": "0"
-        },
-        {
-            "min_scale": "1.0",
-            "max_scale": "3.0",
-            "uniform_scale": "0"
-        }
-    ],
-    "textview": [
-        {
-            "Margin": "32"
-        }
-    ],
-    "textinput": [
-        {
-            "HideInput": "0",
-            "OnMouseLClickUp": "OnSelect",
-            "OnInputFocusGain": "FocusGain",
-            "OnInputFocusLose": "FocusLose"
-        }
-    ],
-    "dy_unit_name": [
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        }
-    ],
-    "dy_unit_short_description": [
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        }
-    ],
-    "tx_descr": [
-        {
-            "min_text_width": "230"
-        },
-        {
-            "min_text_width": "230"
-        },
-        {
-            "min_text_width": "230"
-        }
-    ],
-    "action_template": [
-        {
-            "min_text_width": "215"
-        }
-    ],
-    "dy_building_name": [
-        {
-            "min_text_width": "400",
-            "min_text_height": "30",
-            "disable_Text_shrink": null
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30",
-            "disable_text_shrink": null
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        }
-    ],
-    "item": [
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        },
-        {
-            "TabOrder": null
-        }
-    ],
-    "row_template": [
-        {
-            "min_text_width": "250"
-        },
-        {
-            "min_text_width": "250"
-        },
-        {
-            "min_text_width": "250"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        }
-    ],
-    "dy_building_short_description": [
-        {
-            "min_text_width": "360",
-            "min_text_height": "22"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "300",
-            "min_text_height": "30"
-        },
-        {
-            "min_text_width": "250",
-            "min_text_height": "30"
-        }
-    ],
-    "dy_name": [
-        {
-            "min_text_width": "185"
-        },
-        {
-            "min_text_width": "200"
-        }
-    ],
-    "stat_name": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "save_date": [
-        {
-            "Column": "3"
-        },
-        {
-            "Column": "3"
-        },
-        {
-            "Column": "2"
-        },
-        {
-            "Column": "3"
-        },
-        {
-            "Column": "3"
-        },
-        {
-            "Column": "3"
-        }
-    ],
-    "land_unit_card": [
-        {
-            "main_img": "0",
-            "main_mask": "3",
-            "secondary_img": "8",
-            "secondary_mask": "9"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "3",
-            "secondary_img": "8",
-            "secondary_mask": "9"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "3",
-            "secondary_img": "8",
-            "secondary_mask": "9"
-        }
-    ],
-    "Ammunition": [
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        }
-    ],
-    "icon_transport": [
-        {
-            "parent_id": "UnitCard"
-        },
-        {
-            "parent_id": "UnitCard"
-        }
-    ],
-    "frame": [
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "100",
-            "Notify": null
-        }
-    ],
-    "multiplayer_chat": [
-        {
-            "appear_on_mouseover": "true",
-            "time_til_fade": "5000",
-            "duration_of_fade": "5000"
-        },
-        {
-            "appear_on_mouseover": "true",
-            "time_til_fade": "5000",
-            "duration_of_fade": "5000"
-        }
-    ],
-    "chat_input_box": [
-        {
-            "HideInput": "0"
-        },
-        {
-            "HideInput": "0"
-        }
-    ],
-    "room_name": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "num_players": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_minimise": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "room_list"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "friends_list"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "room_list"
-        },
-        {
-            "starts_showing": "1",
-            "toggle_panel": "friends_list"
-        }
+  "fps_graph": {
+    "num_intervals": [
+      "5"
+    ]
+  },
+  "txt_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "txt_description": {
+    "min_text_width": [
+      "220"
+    ]
+  },
+  "players_ready_tx": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_resume": {
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "button_options": {
+    "TabOrder": [
+      "2",
+      "4"
+    ]
+  },
+  "button_quit": {
+    "TabOrder": [
+      "3",
+      "5"
+    ]
+  },
+  "button_windows": {
+    "TabOrder": [
+      "4",
+      "6"
+    ]
+  },
+  "right_upper_side_box": {
+    "parent_id": [
+      "BattleUnitGroupFrame"
+    ]
+  },
+  "right_lower_side_box": {
+    "parent_id": [
+      "BattleUnitGroupFrame"
+    ]
+  },
+  "left_upper_side_box": {
+    "parent_id": [
+      "BattleUnitGroupFrame"
+    ]
+  },
+  "left_lower_side_box": {
+    "parent_id": [
+      "BattleUnitGroupFrame"
+    ]
+  },
+  "tab": {
+    "parent_id": [
+      "BattleUnitGroupFrame"
+    ]
+  },
+  "button_parent": {
+    "button_gap": [
+      "12"
+    ]
+  },
+  "radar_holder": {
+    "toggle_panel": [
+      "radar_holder"
+    ],
+    "starts_showing": [
+      "1"
+    ]
+  },
+  "button_enlarge": {
+    "min_scale": [
+      "0.8"
+    ],
+    "max_scale": [
+      "1.5"
+    ],
+    "uniform_scale": [
+      "1"
+    ]
+  },
+  "button_toggle_radar": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "radar_group",
+      "radar_things"
+    ]
+  },
+  "hslider": {
+    "Value": [
+      "0.000000",
+      "0"
+    ],
+    "minValue": [
+      "0",
+      "230"
+    ],
+    "maxValue": [
+      "100",
+      "50",
+      "3500",
+      "10"
+    ],
+    "Notify": [
+      null
+    ],
+    "NotifyFunction": [
+      null
+    ],
+    "TabOrder": [
+      "1"
+    ],
+    "scroll_sensitivity": [
+      "0.3",
+      "0.03",
+      "0.1"
+    ],
+    "slide_speed": [
+      "30",
+      "1"
+    ],
+    "step_size": [
+      "1"
+    ]
+  },
+  "info_panel_holder": {
+    "toggle_panel": [
+      "info_panel_holder"
+    ],
+    "starts_showing": [
+      "1"
+    ]
+  },
+  "button_toggle_info_panel": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "info_panel_background"
+    ],
+    "auto_adjust_anim": [
+      "1"
+    ]
+  },
+  "battle_orders": {
+    "toggle_panel": [
+      "battle_orders"
+    ],
+    "starts_showing": [
+      "1"
+    ]
+  },
+  "review_DY": {
+    "max_panel_width": [
+      "1500"
+    ],
+    "double_row_shift": [
+      "127"
+    ],
+    "min_height": [
+      "136"
+    ],
+    "min_width": [
+      "48"
+    ]
+  },
+  "button_toggle_cards": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "card_panel_docker"
+    ]
+  },
+  "stack_ability1": {
+    "padding": [
+      "3"
+    ],
+    "button_spacing": [
+      "3"
+    ]
+  },
+  "stack_group": {
+    "padding": [
+      "3"
+    ],
+    "button_spacing": [
+      "3"
+    ],
+    "starts_showing": [
+      "1"
+    ]
+  },
+  "stack_formations": {
+    "padding": [
+      "3"
+    ],
+    "button_spacing": [
+      "3"
+    ]
+  },
+  "special_unit_tooltip": {
+    "expand_delay_ms": [
+      "2500"
+    ]
+  },
+  "text": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_toggle_tactical": {
+    "starts_showing": [
+      "1",
+      "0"
+    ],
+    "toggle_panel": [
+      "hud",
+      "campaign_tactical_map"
+    ]
+  },
+  "list_box": {
+    "TabOrder": [
+      "7",
+      null,
+      "2"
+    ],
+    "entry_margin": [
+      "5"
+    ],
+    "MultiSelect": [
+      "1"
+    ]
+  },
+  "health_bar": {
+    "parent_id": [
+      "UnitCard"
+    ]
+  },
+  "button_group": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0",
+      null
+    ]
+  },
+  "legacy_name_old": {
+    "MinValue": [
+      "0"
+    ],
+    "MaxValue": [
+      "1000000"
+    ],
+    "Increment": [
+      "1000"
+    ]
+  },
+  "top": {
+    "update_frequency_ms": [
+      "800",
+      "100"
+    ],
+    "stepSize": [
+      "110.0",
+      "80",
+      "10",
+      "65.00",
+      "86.00",
+      "80.00",
+      "520.0",
+      "32.0",
+      "377.000031",
+      "112",
+      "300.0",
+      "116.0",
+      "1",
+      "32.00",
+      null,
+      "141.0",
+      "172.0",
+      "206.0",
+      "25",
+      "5",
+      "235.0",
+      "164.00",
+      "22.00",
+      "44.00",
+      "30.00",
+      "0",
+      "118.000023"
+    ]
+  },
+  "bottom": {
+    "update_frequency_ms": [
+      "800",
+      "100"
+    ],
+    "stepSize": [
+      "110.0",
+      "80",
+      "10",
+      "65.00",
+      "86.00",
+      "0.2f",
+      "520.0",
+      "32.0",
+      "377.000031",
+      "80.00",
+      "112",
+      "300.0",
+      "116.0",
+      "1",
+      "110",
+      "32.00",
+      "141.0",
+      "172.0",
+      "206.0",
+      "25",
+      "5",
+      "235.0",
+      "164.00",
+      "22.00",
+      "44.00",
+      "0",
+      "118.000023"
+    ]
+  },
+  "vslider": {
+    "Value": [
+      "0"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "100",
+      "0",
+      "200"
+    ],
+    "Notify": [
+      null
+    ],
+    "slide_speed": [
+      "20",
+      "1"
+    ],
+    "scroll_sensitivity": [
+      "0.3",
+      "3",
+      "0.5",
+      "0.2",
+      "0.1"
+    ]
+  },
+  "legacy_name": {
+    "MinValue": [
+      "1000000"
+    ],
+    "MaxValue": [
+      "1000"
+    ],
+    "Increment": [
+      null
+    ]
+  },
+  "unit_icon": {
+    "main_img": [
+      null,
+      "0"
+    ],
+    "main_mask": [
+      "1"
+    ],
+    "secondary_img": [
+      "2"
+    ],
+    "secondary_mask": [
+      "3"
+    ]
+  },
+  "building_information": {
+    "padding": [
+      "20"
+    ]
+  },
+  "description_dy": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "campaign_map_tooltip": {
+    "min_height": [
+      "36"
+    ],
+    "min_width": [
+      "280"
+    ]
+  },
+  "campaign_political_action_tooltip": {
+    "min_text_width": [
+      "390"
+    ],
+    "min_text_height": [
+      "24"
+    ]
+  },
+  "dy_plague_title": {
+    "min_text_width": [
+      "280"
+    ]
+  },
+  "map": {
+    "zoom_increment": [
+      "0.5"
+    ],
+    "zoom_min": [
+      "1"
+    ],
+    "zoom_max": [
+      "2.5",
+      "2"
+    ],
+    "border_width": [
+      "200"
+    ],
+    "border_height": [
+      "200"
+    ],
+    "Theatre": [
+      "main_rome_map"
+    ],
+    "follow_camera": [
+      "1"
+    ]
+  },
+  "radar_mode_toggles": {
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "faction_icon_template": {
+    "large_size": [
+      "48"
+    ]
+  },
+  "name": {
+    "min_text_width": [
+      "160"
+    ],
+    "Column": [
+      null,
+      "1"
+    ],
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_group_agents": {
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "button_toggle_panel": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "review_characters",
+      "review_settlements",
+      "review_armies"
+    ]
+  },
+  "tx_faction_leader": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_ok": {
+    "TabOrder": [
+      null,
+      "14",
+      "7",
+      "3",
+      "10"
+    ]
+  },
+  "TabGroup": {
+    "Tab Spacing": [
+      "6",
+      "0"
+    ],
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "sort_name": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "name",
+      "region_name",
+      "dy_army_name"
+    ],
+    "Mode": [
+      "Text"
+    ]
+  },
+  "sort_value": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "value"
+    ],
+    "Mode": [
+      "Numerical"
+    ]
+  },
+  "family_tree": {
+    "padding_x": [
+      "0"
+    ],
+    "padding_y": [
+      "10"
+    ],
+    "inner_padding_x": [
+      "40"
+    ],
+    "inner_padding_y": [
+      "145"
+    ],
+    "min_zoom_level": [
+      "0.6"
+    ],
+    "max_zoom_level": [
+      "1"
+    ],
+    "zoom_step": [
+      "0.1"
+    ]
+  },
+  "tree_parent": {
+    "padding_x": [
+      "10"
+    ],
+    "padding_y": [
+      "48"
+    ]
+  },
+  "template_branch_end": {
+    "line_end_offset": [
+      "10"
+    ]
+  },
+  "template_slot_entry": {
+    "husband_offset": [
+      "-0.5"
+    ],
+    "wife_offset": [
+      "0.5"
+    ]
+  },
+  "btn_zoom_out": {
+    "update_frequency_ms": [
+      "100"
+    ]
+  },
+  "btn_zoom_in": {
+    "update_frequency_ms": [
+      "100"
+    ]
+  },
+  "political_action_get_into_position": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_organize_games": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_send_diplomat": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_send_emissary": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_secure_loyalty": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_leisure_time": {
+    "template_id": [
+      "button_action_tmpl_small_green"
+    ]
+  },
+  "political_action_gather_support": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_embezzle_funds": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_entice": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_spread_rumours": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_political_marriage": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_assassinate": {
+    "template_id": [
+      "button_action_tmpl_small_blue"
+    ]
+  },
+  "political_action_seek_spouse": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_divorce": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_adopt": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_make_heir": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_usurp_legacy": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_send_off_for_tutoring": {
+    "template_id": [
+      "button_action_tmpl_small_brown"
+    ]
+  },
+  "political_action_send_gift": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "political_action_do_a_favour": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "political_action_praise": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "political_action_flirt": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "political_action_insult": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "political_action_provoke": {
+    "template_id": [
+      "button_action_tmpl_small_yellow"
+    ]
+  },
+  "button_action_tmpl_small_green": {
+    "action_icon_index": [
+      "3"
+    ]
+  },
+  "button_action_tmpl_small_blue": {
+    "action_icon_index": [
+      "3"
+    ]
+  },
+  "button_action_tmpl_small_brown": {
+    "action_icon_index": [
+      "3"
+    ]
+  },
+  "button_action_tmpl_small_yellow": {
+    "action_icon_index": [
+      "3"
+    ]
+  },
+  "button_action_tmpl_small_suicide": {
+    "action_icon_index": [
+      "3"
+    ]
+  },
+  "political_action_suicide": {
+    "template_id": [
+      "button_action_tmpl_small_suicide"
+    ]
+  },
+  "region_list_item": {
+    "Region": [
+      null
+    ],
+    "Notify": [
+      null
+    ]
+  },
+  "call_help_tx": {
+    "Region": [
+      null
+    ],
+    "Notify": [
+      null
+    ]
+  },
+  "offerButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "demandButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "amount": {
+    "MinValue": [
+      "0"
+    ]
+  },
+  "amount_treasury": {
+    "MinValue": [
+      "0"
+    ]
+  },
+  "turns": {
+    "MinValue": [
+      "0"
+    ],
+    "MaxValue": [
+      "20"
+    ],
+    "Increment": [
+      "5"
+    ],
+    "Column": [
+      "1"
+    ]
+  },
+  "ButtonGroup_offer_demand": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "faction_list_item": {
+    "Region": [
+      null
+    ],
+    "Notify": [
+      null
+    ]
+  },
+  "sort_attitude": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "attitude"
+    ],
+    "Mode": [
+      "Attitude"
+    ]
+  },
+  "sort_trade_naval": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "pip_trade_naval"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_trade_land": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "pip_trade_land"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_diplo_status": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "pip_status"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "dy_text": {
+    "min_text_height": [
+      "24"
+    ]
+  },
+  "entries_window": {
+    "OnMouseOn": [
+      "MouseOn"
+    ]
+  },
+  "button_load": {
+    "TabOrder": [
+      "3"
+    ]
+  },
+  "button_save": {
+    "TabOrder": [
+      "2"
+    ]
+  },
+  "dy_icon": {
+    "main_img": [
+      "2"
+    ],
+    "main_mask": [
+      "8"
+    ],
+    "secondary_img": [
+      "9"
+    ],
+    "secondary_mask": [
+      "10"
+    ]
+  },
+  "pic_frame": {
+    "Margin": [
+      null
+    ]
+  },
+  "mission_details": {
+    "Margin": [
+      null
+    ]
+  },
+  "details": {
+    "Margin": [
+      null
+    ]
+  },
+  "trait_effects_list_box": {
+    "entry_margin": [
+      "5"
+    ]
+  },
+  "flavour_text": {
+    "Margin": [
+      null
+    ]
+  },
+  "dy_unit": {
+    "main_img": [
+      "0"
+    ],
+    "main_mask": [
+      "1"
+    ],
+    "secondary_img": [
+      "2"
+    ],
+    "secondary_mask": [
+      "3"
+    ]
+  },
+  "sort_mission": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "dy_title"
+    ],
+    "Mode": [
+      "Text"
+    ]
+  },
+  "slider": {
+    "Value": [
+      "0.000000",
+      "0"
+    ],
+    "minValue": [
+      "0",
+      "5",
+      "25",
+      "1",
+      "10"
+    ],
+    "maxValue": [
+      "4",
+      "20",
+      "100",
+      "200",
+      "10",
+      "50"
+    ],
+    "Notify": [
+      null
+    ],
+    "NotifyFunction": [
+      null
+    ],
+    "SnapToValues": [
+      "true"
+    ],
+    "slide_speed": [
+      "1"
+    ],
+    "Inverted": [
+      "1"
+    ],
+    "TabOrder": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "step_size": [
+      "25",
+      "1",
+      "5"
+    ]
+  },
+  "zoom_to_advice_button": {
+    "starts_showing": [
+      null
+    ],
+    "toggle_panel": [
+      null
+    ]
+  },
+  "tx_item_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "land_stance_button_stack": {
+    "padding": [
+      "3"
+    ],
+    "extra_vertical_padding": [
+      "3"
+    ],
+    "extra_horizontal_padding": [
+      "3"
+    ]
+  },
+  "naval_stance_button_stack": {
+    "padding": [
+      "3"
+    ],
+    "extra_vertical_padding": [
+      "3"
+    ],
+    "extra_horizontal_padding": [
+      "3"
+    ]
+  },
+  "stack_incentives": {
+    "padding": [
+      "3"
+    ],
+    "extra_vertical_padding": [
+      "3"
+    ],
+    "extra_horizontal_padding": [
+      "3"
+    ]
+  },
+  "button_group_management": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "1"
+    ]
+  },
+  "button_group_settlement": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "1"
+    ]
+  },
+  "button_group_army": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "1"
+    ]
+  },
+  "button_toggle_hud_center": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "hud_center_docker"
+    ]
+  },
+  "button_toggle_full_info_panel": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "info_panel_holder"
+    ]
+  },
+  "headers": {
+    "Column": [
+      null
+    ],
+    "Gap": [
+      "1"
+    ]
+  },
+  "date": {
+    "Column": [
+      "2"
+    ]
+  },
+  "save_type_ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "TabGroup_sp": {
+    "Tab Spacing": [
+      "6"
+    ]
+  },
+  "description_box": {
+    "Margin": [
+      "29"
+    ]
+  },
+  "TabGroup_mp": {
+    "Tab Spacing": [
+      "6"
+    ]
+  },
+  "dy_target_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "battle_advice": {
+    "TabOrder": [
+      "2"
+    ]
+  },
+  "dropdown_campaign": {
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "battle_diff_slider": {
+    "Value": [
+      "0"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "100"
+    ],
+    "Notify": [
+      null
+    ],
+    "slide_speed": [
+      "1"
+    ],
+    "step_size": [
+      "1"
+    ],
+    "SnapToValues": [
+      "true"
+    ]
+  },
+  "time_limit_ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "construction_options": {
+    "padding": [
+      "6"
+    ]
+  },
+  "construction_queue": {
+    "padding": [
+      "6"
+    ]
+  },
+  "prebattle_template_card": {
+    "min_width": [
+      "50"
+    ],
+    "min_height": [
+      "100"
+    ],
+    "main_img": [
+      null
+    ],
+    "main_mask": [
+      "3"
+    ],
+    "secondary_img": [
+      "9"
+    ],
+    "secondary_mask": [
+      "10"
+    ]
+  },
+  "unit_category_icon": {
+    "parent_id": [
+      "UnitCard"
+    ]
+  },
+  "sort_happiness": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "icon_public_order"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_koku": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "income"
+    ],
+    "Mode": [
+      "Numerical"
+    ]
+  },
+  "sort_resource": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "icon_public_order",
+      "dy_resource"
+    ],
+    "Mode": [
+      "State",
+      "Tooltip"
+    ]
+  },
+  "sort_food": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "food_icon"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_dev_pts": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "icon_public_order"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_clan": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "mon"
+    ],
+    "Mode": [
+      "Tooltip"
+    ]
+  },
+  "region_info_pip": {
+    "tooltip": [
+      null
     ],
     "value": [
-        {
-            "MinValue": "0",
-            "MaxValue": "100",
-            "Increment": "1"
-        },
-        {
-            "MinValue": "0",
-            "MaxValue": "100",
-            "Increment": "1"
-        },
-        {
-            "MinValue": "0",
-            "MaxValue": "100",
-            "Increment": "1"
-        },
-        {
-            "MinValue": "0",
-            "MaxValue": "100",
-            "Increment": "1"
-        }
-    ],
-    "checkbox_boost": [
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "3"
-        }
-    ],
-    "button_test": [
-        {
-            "TabOrder": "5"
-        },
-        {
-            "TabOrder": "5"
-        }
-    ],
-    "button_adv_ok": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "button_adv_cancel": [
-        {
-            "TabOrder": "9"
-        },
-        {
-            "TabOrder": "9"
-        }
-    ],
-    "checkbox_push": [
-        {
-            "TabOrder": "6"
-        },
-        {
-            "TabOrder": "6"
-        }
-    ],
-    "text_field_key": [
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "8"
-        }
-    ],
-    "button_cancel": [
-        {
-            "TabOrder": "15"
-        },
-        {
-            "TabOrder": "15"
-        },
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "11"
-        },
-        {
-            "TabOrder": "15"
-        },
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "15"
-        },
-        {
-            "TabOrder": "15"
-        },
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "11"
-        },
-        {
-            "TabOrder": "8"
-        }
-    ],
-    "checkbox_speech_mute": [
-        {
-            "TabOrder": "5"
-        },
-        {
-            "TabOrder": "5"
-        }
-    ],
-    "checkbox_effects_mute": [
-        {
-            "TabOrder": "6"
-        },
-        {
-            "TabOrder": "6"
-        }
-    ],
-    "checkbox_music_mute": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "checkbox_master_mute": [
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "8"
-        }
-    ],
-    "checkbox_voice": [
-        {
-            "TabOrder": "9"
-        },
-        {
-            "TabOrder": "9"
-        }
-    ],
-    "button_settings": [
-        {
-            "TabOrder": "11"
-        },
-        {
-            "TabOrder": "11"
-        }
-    ],
-    "checkbox_subtitles": [
-        {
-            "TabOrder": "10"
-        },
-        {
-            "TabOrder": "10"
-        }
-    ],
-    "dropdown_system": [
-        {
-            "TabOrder": "13"
-        },
-        {
-            "TabOrder": "13"
-        }
-    ],
-    "dropdown_audio_quality": [
-        {
-            "TabOrder": "12"
-        },
-        {
-            "TabOrder": "12"
-        }
-    ],
-    "button_info": [
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        },
-        {
-            "starts_showing": null,
-            "toggle_panel": null
-        }
-    ],
-    "text_input_user_name": [
-        {
-            "TabOrder": "0"
-        },
-        {
-            "TabOrder": "0"
-        }
-    ],
-    "text_input_password": [
-        {
-            "HideInput": null,
-            "TabOrder": "1"
-        },
-        {
-            "HideInput": null,
-            "TabOrder": "1"
-        }
-    ],
-    "text_input_stream_title": [
-        {
-            "TabOrder": "0"
-        },
-        {
-            "TabOrder": "0"
-        }
-    ],
-    "button_save_keys": [
-        {
-            "TabOrder": "10"
-        },
-        {
-            "TabOrder": "10"
-        }
-    ],
-    "camera_ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "button_close": [
-        {
-            "TabOrder": "27"
-        },
-        {
-            "TabOrder": "27"
-        }
-    ],
-    "button_benchmarks": [
-        {
-            "TabOrder": "26"
-        },
-        {
-            "TabOrder": "26"
-        }
-    ],
-    "button_accept": [
-        {
-            "TabOrder": "10"
-        },
-        {
-            "TabOrder": "10"
-        }
-    ],
-    "button_apply_ui_scale": [
-        {
-            "TabOrder": "26"
-        },
-        {
-            "TabOrder": "26"
-        }
-    ],
-    "ButtonGroup_presets": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "button_advanced_options": [
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        }
-    ],
-    "button_graphics": [
-        {
-            "TabOrder": "2"
-        },
-        {
-            "TabOrder": "2"
-        }
-    ],
-    "button_audio": [
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "3"
-        }
-    ],
-    "button_controls": [
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "4"
-        }
-    ],
-    "button_ui": [
-        {
-            "TabOrder": "5"
-        },
-        {
-            "TabOrder": "5"
-        }
-    ],
-    "button_gamma": [
-        {
-            "TabOrder": "6"
-        },
-        {
-            "TabOrder": "6"
-        }
-    ],
-    "button_game": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "button_broadcasting": [
-        {
-            "TabOrder": "8"
-        },
-        {
-            "TabOrder": "8"
-        }
-    ],
-    "button_back": [
-        {
-            "TabOrder": "9"
-        },
-        {
-            "TabOrder": "9"
-        }
-    ],
-    "checkbox_movie_and_release": [
-        {
-            "TabOrder": "10"
-        }
-    ],
-    "checkbox_user_scripts": [
-        {
-            "TabOrder": "9"
-        }
-    ],
-    "checkbox_selection": [
-        {
-            "TabOrder": "3"
-        },
-        {
-            "TabOrder": "3"
-        }
-    ],
-    "checkbox_paths": [
-        {
-            "TabOrder": "4"
-        },
-        {
-            "TabOrder": "4"
-        }
-    ],
-    "checkbox_target_zones": [
-        {
-            "TabOrder": "5"
-        },
-        {
-            "TabOrder": "5"
-        }
-    ],
-    "checkbox_projectile_trails": [
-        {
-            "TabOrder": "6"
-        },
-        {
-            "TabOrder": "6"
-        }
-    ],
-    "checkbox_help_markers": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "checkbox_unit_numbers": [
-        {
-            "TabOrder": "7"
-        },
-        {
-            "TabOrder": "7"
-        }
-    ],
-    "dropdown_land": [
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        }
-    ],
-    "dropdown_tooltip_mode": [
-        {
-            "TabOrder": "1"
-        },
-        {
-            "TabOrder": "1"
-        }
-    ],
-    "scripted_objectives_panel": [
-        {
-            "padding": "5"
-        }
-    ],
-    "button_toggle_objectives": [
-        {
-            "starts_showing": "1",
-            "toggle_panel": "objectives_list",
-            "auto_adjust_anim": "1"
-        }
-    ],
-    "custom_name_display": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "room_list": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "friends_list": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "steam_name": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "battle_generator_map": [
-        {
-            "zoom_max": "5",
-            "zoom_increment": "0.5"
-        }
-    ],
-    "battle_icon": [
-        {
-            "min_size": "16"
-        }
-    ],
-    "zoom_slider": [
-        {
-            "Value": "0",
-            "minValue": "0",
-            "maxValue": "80",
-            "Notify": null
-        }
-    ],
-    "text_input_x": [
-        {
-            "min": "0",
-            "max": "999"
-        }
-    ],
-    "text_input_y": [
-        {
-            "min": "0",
-            "max": "999"
-        }
-    ],
-    "settings_info_tab_group": [
-        {
-            "Tab Spacing": "0",
-            "TabOrder": "0"
-        }
-    ],
-    "army_box": [
-        {
-            "CardGap": "1",
-            "MaxCols": "10",
-            "ResizeX": "45",
-            "ResizeY": "100"
-        }
-    ],
-    "ability_buttongroup": [
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "button_template": [
-        {
-            "ability_group": "Warmonger"
-        }
-    ],
-    "funds_input": [
-        {
-            "min": "0",
-            "max": "100000"
-        }
-    ],
-    "units_tab_group": [
-        {
-            "Tab Spacing": "0",
-            "TabOrder": "0"
-        }
-    ],
-    "units_box": [
-        {
-            "ResizeX": "45",
-            "ResizeY": "100",
-            "Gap": "1"
-        }
-    ],
-    "assault_equipment": [
-        {
-            "cap_percent": "0.5"
-        }
-    ],
-    "num_input": [
-        {
-            "min": "0",
-            "max": "5",
-            "Increment": "1"
-        },
-        {
-            "min": "0",
-            "max": "5",
-            "Increment": "1"
-        },
-        {
-            "min": "0",
-            "max": "5",
-            "Increment": "1"
-        }
-    ],
-    "mountable_artillery": [
-        {
-            "cap_percent": "0.5"
-        }
-    ],
-    "deployables": [
-        {
-            "cap_percent": "0.5"
-        }
-    ],
-    "string_template": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "map_panel": [
-        {
-            "map_path": "campaign_maps/main_rome_map/main_rome_map.png"
-        }
-    ],
-    "label": [
-        {
-            "parent_id": "HisBattleIcon"
-        }
-    ],
-    "btl_diff_slider": [
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "step_size": "1",
-            "SnapToValues": "true"
-        }
-    ],
-    "filter_ButtonGroup": [
-        {
-            "Single Selection": "0",
-            "Allow None Selected": "1"
-        },
-        {
-            "Single Selection": "0",
-            "Allow None Selected": "1"
-        }
-    ],
-    "campaign_map": [
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        }
-    ],
-    "status": [
-        {
-            "Column": "1"
-        }
-    ],
-    "game_name": [
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "1"
-        },
-        {
-            "TabOrder": null
-        }
-    ],
-    "battle_type": [
-        {
-            "Column": "1"
-        }
-    ],
-    "location": [
-        {
-            "Column": "1"
-        }
-    ],
-    "connection": [
-        {
-            "Column": "1"
-        }
-    ],
-    "funds": [
-        {
-            "Column": "1"
-        }
-    ],
-    "players": [
-        {
-            "Column": "1"
-        }
-    ],
-    "friends": [
-        {
-            "Column": "1"
-        }
-    ],
-    "game_status": [
-        {
-            "Column": "1"
-        }
-    ],
-    "campaign_type": [
-        {
-            "Column": "1"
-        }
-    ],
-    "turn": [
-        {
-            "Column": "1"
-        },
-        {
-            "Column": "2"
-        },
-        {
-            "Column": "2"
-        }
-    ],
-    "turn_time": [
-        {
-            "Column": "1"
-        }
-    ],
-    "host": [
-        {
-            "Column": "1"
-        }
-    ],
-    "battle_resolve_mode": [
-        {
-            "Column": "1"
-        }
-    ],
-    "sub_menu_ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "battle_mode_ButtonGroup": [
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        },
-        {
-            "Single Selection": "1",
-            "Allow None Selected": "0"
-        }
-    ],
-    "dy_player_name": [
-        {
-            "padding": "5"
-        },
-        {
-            "padding": "5"
-        }
-    ],
-    "cmp_diff_slider": [
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "step_size": "1",
-            "SnapToValues": "true"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "step_size": "1",
-            "SnapToValues": "true"
-        },
-        {
-            "Value": "0.000000",
-            "minValue": "0",
-            "maxValue": "4",
-            "Notify": null,
-            "NotifyFunction": null,
-            "step_size": "1",
-            "SnapToValues": "true"
-        }
-    ],
-    "rank": [
-        {
-            "Column": "1"
-        }
-    ],
-    "elo_rating": [
-        {
-            "Column": "1"
-        }
-    ],
-    "wins": [
-        {
-            "Column": "1"
-        }
-    ],
-    "input_pw": [
-        {
-            "HideInput": "1"
-        }
-    ],
-    "password": [
-        {
-            "HideInput": null,
-            "TabOrder": "2"
-        }
-    ],
-    "battle_type_buttons": [
-        {
-            "Allow None Selected": "False",
-            "Single Selection": "False"
-        }
-    ],
-    "button_land": [
-        {
-            "ability_group": null
-        }
-    ],
-    "button_naval": [
-        {
-            "ability_group": null
-        }
-    ],
-    "button_siege": [
-        {
-            "ability_group": null
-        }
-    ],
-    "faction_button_group_parent": [
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "party_description": [
-        {
-            "Margin": "29",
-            "padding": "15"
-        },
-        {
-            "Margin": "29",
-            "padding": "15"
-        }
-    ],
-    "Text": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "padding": "15",
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "faction_group_button_group": [
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "faction_button_group": [
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        },
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "subtitle": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_dlc_campaign_1": [
-        {
-            "dlc_mask": "64"
-        }
-    ],
-    "button_dlc_campaign_1_unowned": [
-        {
-            "dlc_mask": "64"
-        }
-    ],
-    "button_dlc_campaign_2": [
-        {
-            "dlc_mask": "512"
-        }
-    ],
-    "button_dlc_campaign_2_unowned": [
-        {
-            "dlc_mask": "512"
-        }
-    ],
-    "title": [
-        {
-            "disable_text_shrink": null
-        }
-    ],
-    "button_new_campaign": [
-        {
-            "campaign_key": "main_rome"
-        }
-    ],
-    "button_augustus_campaign": [
-        {
-            "campaign_key": "main_rome"
-        }
-    ],
-    "parent": [
-        {
-            "Allow None Selected": null,
-            "Single Selection": "1"
-        }
-    ],
-    "faction_description": [
-        {
-            "Margin": "29",
-            "padding": "15"
-        }
-    ],
-    "description": [
-        {
-            "Margin": "29"
-        }
-    ],
-    "unit_card": [
-        {
-            "main_img": null,
-            "main_mask": "3",
-            "secondary_img": "4",
-            "secondary_mask": "5"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "3",
-            "secondary_img": "4",
-            "secondary_mask": "5"
-        },
-        {
-            "main_img": null,
-            "main_mask": "3",
-            "secondary_img": "4",
-            "secondary_mask": "5"
-        },
-        {
-            "main_img": "0",
-            "main_mask": "3",
-            "secondary_img": "4",
-            "secondary_mask": "5"
-        }
-    ],
-    "label_txt": [
-        {
-            "disable_text_shrink": null
-        },
-        {
-            "disable_text_shrink": null
-        }
+      null
     ]
+  },
+  "button_zoom": {
+    "starts_showing": [
+      null
+    ],
+    "toggle_panel": [
+      null
+    ]
+  },
+  "button_group_tech_categories": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "sort_skill": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      null
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_loyalty": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "loyalty_level"
+    ],
+    "Mode": [
+      "State"
+    ]
+  },
+  "sort_size": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "soldiers"
+    ],
+    "Mode": [
+      "Numerical"
+    ]
+  },
+  "sort_action_points": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "ap"
+    ],
+    "Mode": [
+      "Height"
+    ]
+  },
+  "sort_type": {
+    "Column": [
+      "1"
+    ],
+    "SortChild": [
+      "forces_icon"
+    ],
+    "Mode": [
+      "Attitude"
+    ]
+  },
+  "units_panel": {
+    "card_width": [
+      "64"
+    ]
+  },
+  "units": {
+    "CardOrder": [
+      "RightToLeft",
+      "LeftToRight"
+    ]
+  },
+  "advice_interface": {
+    "max_height": [
+      "800"
+    ]
+  },
+  "button_toggle_options": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "options_panel"
+    ]
+  },
+  "advice_text_panel": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "advice_text_panel"
+    ]
+  },
+  "TextView": {
+    "Margin": [
+      "29"
+    ],
+    "padding": [
+      "15"
+    ]
+  },
+  "button_enlarge_br": {
+    "min_scale": [
+      "0.5",
+      "1.0"
+    ],
+    "max_scale": [
+      "1.5",
+      "3.0"
+    ],
+    "uniform_scale": [
+      "0"
+    ]
+  },
+  "textview": {
+    "Margin": [
+      "32"
+    ]
+  },
+  "textinput": {
+    "HideInput": [
+      "0"
+    ],
+    "OnMouseLClickUp": [
+      "OnSelect"
+    ],
+    "OnInputFocusGain": [
+      "FocusGain"
+    ],
+    "OnInputFocusLose": [
+      "FocusLose"
+    ]
+  },
+  "dy_unit_name": {
+    "min_text_width": [
+      "250"
+    ],
+    "min_text_height": [
+      "30"
+    ]
+  },
+  "dy_unit_short_description": {
+    "min_text_width": [
+      "250"
+    ],
+    "min_text_height": [
+      "30"
+    ]
+  },
+  "tx_descr": {
+    "min_text_width": [
+      "230"
+    ]
+  },
+  "action_template": {
+    "min_text_width": [
+      "215"
+    ]
+  },
+  "dy_building_name": {
+    "min_text_width": [
+      "400",
+      "250"
+    ],
+    "min_text_height": [
+      "30"
+    ],
+    "disable_Text_shrink": [
+      null
+    ],
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "item": {
+    "TabOrder": [
+      null
+    ]
+  },
+  "row_template": {
+    "min_text_width": [
+      "250"
+    ],
+    "min_text_height": [
+      "30"
+    ]
+  },
+  "dy_building_short_description": {
+    "min_text_width": [
+      "360",
+      "250",
+      "300"
+    ],
+    "min_text_height": [
+      "22",
+      "30"
+    ]
+  },
+  "dy_name": {
+    "min_text_width": [
+      "185",
+      "200"
+    ]
+  },
+  "stat_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "save_date": {
+    "Column": [
+      "3",
+      "2"
+    ]
+  },
+  "land_unit_card": {
+    "main_img": [
+      "0"
+    ],
+    "main_mask": [
+      "3"
+    ],
+    "secondary_img": [
+      "8"
+    ],
+    "secondary_mask": [
+      "9"
+    ]
+  },
+  "Ammunition": {
+    "parent_id": [
+      "UnitCard"
+    ]
+  },
+  "icon_transport": {
+    "parent_id": [
+      "UnitCard"
+    ]
+  },
+  "frame": {
+    "Value": [
+      "0"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "100"
+    ],
+    "Notify": [
+      null
+    ]
+  },
+  "multiplayer_chat": {
+    "appear_on_mouseover": [
+      "true"
+    ],
+    "time_til_fade": [
+      "5000"
+    ],
+    "duration_of_fade": [
+      "5000"
+    ]
+  },
+  "chat_input_box": {
+    "HideInput": [
+      "0"
+    ]
+  },
+  "room_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "num_players": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_minimise": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "room_list",
+      "friends_list"
+    ]
+  },
+  "value": {
+    "MinValue": [
+      "0"
+    ],
+    "MaxValue": [
+      "100"
+    ],
+    "Increment": [
+      "1"
+    ]
+  },
+  "checkbox_boost": {
+    "TabOrder": [
+      "3"
+    ]
+  },
+  "button_test": {
+    "TabOrder": [
+      "5"
+    ]
+  },
+  "button_adv_ok": {
+    "TabOrder": [
+      "7"
+    ]
+  },
+  "button_adv_cancel": {
+    "TabOrder": [
+      "9"
+    ]
+  },
+  "checkbox_push": {
+    "TabOrder": [
+      "6"
+    ]
+  },
+  "text_field_key": {
+    "TabOrder": [
+      "8"
+    ]
+  },
+  "button_cancel": {
+    "TabOrder": [
+      "15",
+      "8",
+      "4",
+      "11"
+    ]
+  },
+  "checkbox_speech_mute": {
+    "TabOrder": [
+      "5"
+    ]
+  },
+  "checkbox_effects_mute": {
+    "TabOrder": [
+      "6"
+    ]
+  },
+  "checkbox_music_mute": {
+    "TabOrder": [
+      "7"
+    ]
+  },
+  "checkbox_master_mute": {
+    "TabOrder": [
+      "8"
+    ]
+  },
+  "checkbox_voice": {
+    "TabOrder": [
+      "9"
+    ]
+  },
+  "button_settings": {
+    "TabOrder": [
+      "11"
+    ]
+  },
+  "checkbox_subtitles": {
+    "TabOrder": [
+      "10"
+    ]
+  },
+  "dropdown_system": {
+    "TabOrder": [
+      "13"
+    ]
+  },
+  "dropdown_audio_quality": {
+    "TabOrder": [
+      "12"
+    ]
+  },
+  "button_info": {
+    "starts_showing": [
+      null
+    ],
+    "toggle_panel": [
+      null
+    ]
+  },
+  "text_input_user_name": {
+    "TabOrder": [
+      "0"
+    ]
+  },
+  "text_input_password": {
+    "HideInput": [
+      null
+    ],
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "text_input_stream_title": {
+    "TabOrder": [
+      "0"
+    ]
+  },
+  "button_save_keys": {
+    "TabOrder": [
+      "10"
+    ]
+  },
+  "camera_ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "button_close": {
+    "TabOrder": [
+      "27"
+    ]
+  },
+  "button_benchmarks": {
+    "TabOrder": [
+      "26"
+    ]
+  },
+  "button_accept": {
+    "TabOrder": [
+      "10"
+    ]
+  },
+  "button_apply_ui_scale": {
+    "TabOrder": [
+      "26"
+    ]
+  },
+  "ButtonGroup_presets": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "button_advanced_options": {
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "button_graphics": {
+    "TabOrder": [
+      "2"
+    ]
+  },
+  "button_audio": {
+    "TabOrder": [
+      "3"
+    ]
+  },
+  "button_controls": {
+    "TabOrder": [
+      "4"
+    ]
+  },
+  "button_ui": {
+    "TabOrder": [
+      "5"
+    ]
+  },
+  "button_gamma": {
+    "TabOrder": [
+      "6"
+    ]
+  },
+  "button_game": {
+    "TabOrder": [
+      "7"
+    ]
+  },
+  "button_broadcasting": {
+    "TabOrder": [
+      "8"
+    ]
+  },
+  "button_back": {
+    "TabOrder": [
+      "9"
+    ]
+  },
+  "checkbox_movie_and_release": {
+    "TabOrder": [
+      "10"
+    ]
+  },
+  "checkbox_user_scripts": {
+    "TabOrder": [
+      "9"
+    ]
+  },
+  "checkbox_selection": {
+    "TabOrder": [
+      "3"
+    ]
+  },
+  "checkbox_paths": {
+    "TabOrder": [
+      "4"
+    ]
+  },
+  "checkbox_target_zones": {
+    "TabOrder": [
+      "5"
+    ]
+  },
+  "checkbox_projectile_trails": {
+    "TabOrder": [
+      "6"
+    ]
+  },
+  "checkbox_help_markers": {
+    "TabOrder": [
+      "7"
+    ]
+  },
+  "checkbox_unit_numbers": {
+    "TabOrder": [
+      "7"
+    ]
+  },
+  "dropdown_land": {
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "dropdown_tooltip_mode": {
+    "TabOrder": [
+      "1"
+    ]
+  },
+  "scripted_objectives_panel": {
+    "padding": [
+      "5"
+    ]
+  },
+  "button_toggle_objectives": {
+    "starts_showing": [
+      "1"
+    ],
+    "toggle_panel": [
+      "objectives_list"
+    ],
+    "auto_adjust_anim": [
+      "1"
+    ]
+  },
+  "custom_name_display": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "room_list": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "friends_list": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "steam_name": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "battle_generator_map": {
+    "zoom_max": [
+      "5"
+    ],
+    "zoom_increment": [
+      "0.5"
+    ]
+  },
+  "battle_icon": {
+    "min_size": [
+      "16"
+    ]
+  },
+  "zoom_slider": {
+    "Value": [
+      "0"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "80"
+    ],
+    "Notify": [
+      null
+    ]
+  },
+  "text_input_x": {
+    "min": [
+      "0"
+    ],
+    "max": [
+      "999"
+    ]
+  },
+  "text_input_y": {
+    "min": [
+      "0"
+    ],
+    "max": [
+      "999"
+    ]
+  },
+  "settings_info_tab_group": {
+    "Tab Spacing": [
+      "0"
+    ],
+    "TabOrder": [
+      "0"
+    ]
+  },
+  "army_box": {
+    "CardGap": [
+      "1"
+    ],
+    "MaxCols": [
+      "10"
+    ],
+    "ResizeX": [
+      "45"
+    ],
+    "ResizeY": [
+      "100"
+    ]
+  },
+  "ability_buttongroup": {
+    "Allow None Selected": [
+      null
+    ],
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "button_template": {
+    "ability_group": [
+      "Warmonger"
+    ]
+  },
+  "funds_input": {
+    "min": [
+      "0"
+    ],
+    "max": [
+      "100000"
+    ]
+  },
+  "units_tab_group": {
+    "Tab Spacing": [
+      "0"
+    ],
+    "TabOrder": [
+      "0"
+    ]
+  },
+  "units_box": {
+    "ResizeX": [
+      "45"
+    ],
+    "ResizeY": [
+      "100"
+    ],
+    "Gap": [
+      "1"
+    ]
+  },
+  "assault_equipment": {
+    "cap_percent": [
+      "0.5"
+    ]
+  },
+  "num_input": {
+    "min": [
+      "0"
+    ],
+    "max": [
+      "5"
+    ],
+    "Increment": [
+      "1"
+    ]
+  },
+  "mountable_artillery": {
+    "cap_percent": [
+      "0.5"
+    ]
+  },
+  "deployables": {
+    "cap_percent": [
+      "0.5"
+    ]
+  },
+  "string_template": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "map_panel": {
+    "map_path": [
+      "campaign_maps/main_rome_map/main_rome_map.png"
+    ]
+  },
+  "label": {
+    "parent_id": [
+      "HisBattleIcon"
+    ]
+  },
+  "btl_diff_slider": {
+    "Value": [
+      "0.000000"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "4"
+    ],
+    "Notify": [
+      null
+    ],
+    "NotifyFunction": [
+      null
+    ],
+    "step_size": [
+      "1"
+    ],
+    "SnapToValues": [
+      "true"
+    ]
+  },
+  "filter_ButtonGroup": {
+    "Single Selection": [
+      "0"
+    ],
+    "Allow None Selected": [
+      "1"
+    ]
+  },
+  "campaign_map": {
+    "Column": [
+      "1"
+    ]
+  },
+  "status": {
+    "Column": [
+      "1"
+    ]
+  },
+  "game_name": {
+    "Column": [
+      "1"
+    ],
+    "TabOrder": [
+      null
+    ]
+  },
+  "battle_type": {
+    "Column": [
+      "1"
+    ]
+  },
+  "location": {
+    "Column": [
+      "1"
+    ]
+  },
+  "connection": {
+    "Column": [
+      "1"
+    ]
+  },
+  "funds": {
+    "Column": [
+      "1"
+    ]
+  },
+  "players": {
+    "Column": [
+      "1"
+    ]
+  },
+  "friends": {
+    "Column": [
+      "1"
+    ]
+  },
+  "game_status": {
+    "Column": [
+      "1"
+    ]
+  },
+  "campaign_type": {
+    "Column": [
+      "1"
+    ]
+  },
+  "turn": {
+    "Column": [
+      "1",
+      "2"
+    ]
+  },
+  "turn_time": {
+    "Column": [
+      "1"
+    ]
+  },
+  "host": {
+    "Column": [
+      "1"
+    ]
+  },
+  "battle_resolve_mode": {
+    "Column": [
+      "1"
+    ]
+  },
+  "sub_menu_ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "battle_mode_ButtonGroup": {
+    "Single Selection": [
+      "1"
+    ],
+    "Allow None Selected": [
+      "0"
+    ]
+  },
+  "dy_player_name": {
+    "padding": [
+      "5"
+    ]
+  },
+  "cmp_diff_slider": {
+    "Value": [
+      "0.000000"
+    ],
+    "minValue": [
+      "0"
+    ],
+    "maxValue": [
+      "4"
+    ],
+    "Notify": [
+      null
+    ],
+    "NotifyFunction": [
+      null
+    ],
+    "step_size": [
+      "1"
+    ],
+    "SnapToValues": [
+      "true"
+    ]
+  },
+  "rank": {
+    "Column": [
+      "1"
+    ]
+  },
+  "elo_rating": {
+    "Column": [
+      "1"
+    ]
+  },
+  "wins": {
+    "Column": [
+      "1"
+    ]
+  },
+  "input_pw": {
+    "HideInput": [
+      "1"
+    ]
+  },
+  "password": {
+    "HideInput": [
+      null
+    ],
+    "TabOrder": [
+      "2"
+    ]
+  },
+  "battle_type_buttons": {
+    "Allow None Selected": [
+      "False"
+    ],
+    "Single Selection": [
+      "False"
+    ]
+  },
+  "button_land": {
+    "ability_group": [
+      null
+    ]
+  },
+  "button_naval": {
+    "ability_group": [
+      null
+    ]
+  },
+  "button_siege": {
+    "ability_group": [
+      null
+    ]
+  },
+  "faction_button_group_parent": {
+    "Allow None Selected": [
+      null
+    ],
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "party_description": {
+    "Margin": [
+      "29"
+    ],
+    "padding": [
+      "15"
+    ]
+  },
+  "Text": {
+    "disable_text_shrink": [
+      null
+    ],
+    "padding": [
+      "15"
+    ]
+  },
+  "faction_group_button_group": {
+    "Allow None Selected": [
+      null
+    ],
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "faction_button_group": {
+    "Allow None Selected": [
+      null
+    ],
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "subtitle": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_dlc_campaign_1": {
+    "dlc_mask": [
+      "64"
+    ]
+  },
+  "button_dlc_campaign_1_unowned": {
+    "dlc_mask": [
+      "64"
+    ]
+  },
+  "button_dlc_campaign_2": {
+    "dlc_mask": [
+      "512"
+    ]
+  },
+  "button_dlc_campaign_2_unowned": {
+    "dlc_mask": [
+      "512"
+    ]
+  },
+  "title": {
+    "disable_text_shrink": [
+      null
+    ]
+  },
+  "button_new_campaign": {
+    "campaign_key": [
+      "main_rome"
+    ]
+  },
+  "button_augustus_campaign": {
+    "campaign_key": [
+      "main_rome"
+    ]
+  },
+  "parent": {
+    "Allow None Selected": [
+      null
+    ],
+    "Single Selection": [
+      "1"
+    ]
+  },
+  "faction_description": {
+    "Margin": [
+      "29"
+    ],
+    "padding": [
+      "15"
+    ]
+  },
+  "description": {
+    "Margin": [
+      "29"
+    ]
+  },
+  "unit_card": {
+    "main_img": [
+      null,
+      "0"
+    ],
+    "main_mask": [
+      "3"
+    ],
+    "secondary_img": [
+      "4"
+    ],
+    "secondary_mask": [
+      "5"
+    ]
+  },
+  "label_txt": {
+    "disable_text_shrink": [
+      null
+    ]
+  }
 }

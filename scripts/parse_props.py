@@ -55,8 +55,30 @@ if __name__ == '__main__':
     # dump all properties to json file
     import json
 
+    for title in title1_props.copy():
+        unique = {}
+        for prop in title1_props[title]:
+            for key, value in prop.items():
+                if key not in unique:
+                    unique[key] = [value]
+                else:
+                    if value not in unique[key]:
+                        unique[key].append(value)
+        title1_props[title] = unique
+
+    for title in title2_props.copy():
+        unique = {}
+        for prop in title2_props[title]:
+            for key, value in prop.items():
+                if key not in unique:
+                    unique[key] = [value]
+                else:
+                    if value not in unique[key]:
+                        unique[key].append(value)
+        title2_props[title] = unique
+
     with open('title1_props.json', 'w') as f:
-        json.dump(title1_props, f, indent=4)
+        json.dump(title1_props, f, indent=2)
 
     with open('title2_props.json', 'w') as f:
-        json.dump(title2_props, f, indent=4)
+        json.dump(title2_props, f, indent=2)
