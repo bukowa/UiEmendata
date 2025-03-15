@@ -6452,18 +6452,10 @@
                         </mouse_states>
                       </state>
                     </states>
-                    <properties count="11">
-                      <property>
-                        <s>step_size</s><!-- key -->
-                        <s>1</s><!-- value -->
-                      </property>
-                      <property>
-                        <s>stepsize</s><!-- key -->
-                        <s>1</s><!-- value -->
-                      </property>
+                    <properties count="3">
                       <property>
                         <s>Value</s><!-- key -->
-                        <s>0.0</s><!-- value -->
+                        <s>14.0</s><!-- value -->
                       </property>
                       <property>
                         <s>minValue</s><!-- key -->
@@ -6472,30 +6464,6 @@
                       <property>
                         <s>maxValue</s><!-- key -->
                         <s>500.0</s><!-- value -->
-                      </property>
-                      <property>
-                        <s>Notify</s><!-- key -->
-                        <s></s><!-- value -->
-                      </property>
-                      <property>
-                        <s>NotifyFunction</s><!-- key -->
-                        <s></s><!-- value -->
-                      </property>
-                      <property>
-                        <s>Increment</s><!-- key -->
-                        <s>100.0</s><!-- value -->
-                      </property>
-                      <property>
-                        <s>slide_speed</s><!-- key -->
-                        <s>100.0</s><!-- value -->
-                      </property>
-                      <property>
-                        <s>scroll_sensitivity</s><!-- key -->
-                        <s>100.0</s><!-- value -->
-                      </property>
-                      <property>
-                        <s>SnapToValues</s><!-- key -->
-                        <s>false</s><!-- value -->
                       </property>
                     </properties>
                     <i>0</i><!-- priority? -->
@@ -6627,13 +6595,9 @@
                             </mouse_states>
                           </state>
                         </states>
-                        <properties count="2">
+                        <properties count="1">
                           <property>
                             <s>stepSize</s><!-- key -->
-                            <s>100.0</s><!-- value -->
-                          </property>
-                          <property>
-                            <s>step_size</s><!-- key -->
                             <s>100.0</s><!-- value -->
                           </property>
                         </properties>
@@ -6775,13 +6739,9 @@
                             </mouse_states>
                           </state>
                         </states>
-                        <properties count="2">
+                        <properties count="1">
                           <property>
                             <s>stepSize</s><!-- key -->
-                            <s>100.0</s><!-- value -->
-                          </property>
-                          <property>
-                            <s>step_size</s><!-- key -->
                             <s>100.0</s><!-- value -->
                           </property>
                         </properties>
