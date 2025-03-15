@@ -4345,7 +4345,7 @@
                       <state>
                         <u>509448256</u><!-- ID (40 90 5d 1e) -->
                         <s>NewState</s><!-- title - NewState -->
-                        <i>667</i><!-- x size -->
+                        <i>350</i><!-- x size -->
                         <i>350</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
@@ -4394,14 +4394,14 @@
                             <u>509448064</u><!-- ID (80 8f 5d 1e) -->
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
-                            <u>667</u><!-- x size -->
+                            <u>350</u><!-- x size -->
                             <u>350</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
                               <byte>255</byte><!-- G -->
                               <byte>255</byte><!-- R -->
-                              <byte>128</byte><!-- A -->
+                              <byte>0</byte><!-- A -->
                             </color>
                             <no /><!-- tiled? -->
                             <no /><!-- flipped x? -->
@@ -4561,7 +4561,7 @@
                               <state>
                                 <u>509451232</u><!-- ID (e0 9b 5d 1e) -->
                                 <s>NewState</s><!-- title - NewState -->
-                                <i>667</i><!-- x size -->
+                                <i>330</i><!-- x size -->
                                 <i>350</i><!-- y size -->
                                 <unicode></unicode><!-- state text -->
                                 <unicode></unicode><!-- tooltip -->
@@ -4800,7 +4800,7 @@
                     <properties count="3">
                       <property>
                         <s>min_text_width</s><!-- key -->
-                        <s>400</s><!-- value -->
+                        <s>350</s><!-- value -->
                       </property>
                       <property>
                         <s>min_text_height</s><!-- key -->
