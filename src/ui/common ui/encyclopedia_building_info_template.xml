@@ -5852,7 +5852,7 @@
                         <s>list_box</s><!-- title -->
                         <s>List</s><!-- title2 -->
                         <i>0</i><!-- x offset -->
-                        <i>0</i><!-- y offset -->
+                        <i>14</i><!-- y offset -->
                         <no /><!-- uientry flag 1 -->
                         <yes /><!-- uientry flag 2 -->
                         <byte>1</byte><!-- uientry flag 3 -->
