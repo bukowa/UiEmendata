@@ -2835,7 +2835,7 @@
                       <state>
                         <u>509454368</u><!-- ID (20 a8 5d 1e) -->
                         <s>NewState</s><!-- title - NewState -->
-                        <i>15</i><!-- x size -->
+                        <i>10</i><!-- x size -->
                         <i>509</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
@@ -2884,7 +2884,7 @@
                             <u>509454176</u><!-- ID (60 a7 5d 1e) -->
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
-                            <u>15</u><!-- x size -->
+                            <u>10</u><!-- x size -->
                             <u>509</u><!-- y size -->
                             <!-- color -->
                             <color>
@@ -2916,14 +2916,14 @@
                             <u>509453984</u><!-- ID (a0 a6 5d 1e) -->
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
-                            <u>15</u><!-- x size -->
+                            <u>10</u><!-- x size -->
                             <u>509</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
                               <byte>255</byte><!-- G -->
                               <byte>255</byte><!-- R -->
-                              <byte>128</byte><!-- A -->
+                              <byte>64</byte><!-- A -->
                             </color>
                             <no /><!-- tiled? -->
                             <no /><!-- flipped x? -->
@@ -3066,7 +3066,7 @@
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
-                                  <byte>128</byte><!-- A -->
+                                  <byte>0</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
@@ -3210,7 +3210,7 @@
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
-                                  <byte>128</byte><!-- A -->
+                                  <byte>0</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
@@ -3298,8 +3298,8 @@
                           <state>
                             <u>509459968</u><!-- ID (00 be 5d 1e) -->
                             <s>NewState</s><!-- title - NewState -->
-                            <i>21</i><!-- x size -->
-                            <i>21</i><!-- y size -->
+                            <i>15</i><!-- x size -->
+                            <i>15</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -3347,14 +3347,14 @@
                                 <u>509459776</u><!-- ID (40 bd 5d 1e) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>21</u><!-- x size -->
-                                <u>21</u><!-- y size -->
+                                <u>15</u><!-- x size -->
+                                <u>15</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>168</byte><!-- B -->
                                   <byte>168</byte><!-- G -->
                                   <byte>168</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
+                                  <byte>128</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
@@ -6885,7 +6885,7 @@
                               <state>
                                 <u>509454368</u><!-- ID (20 a8 5d 1e) -->
                                 <s>NewState</s><!-- title - NewState -->
-                                <i>15</i><!-- x size -->
+                                <i>10</i><!-- x size -->
                                 <i>330</i><!-- y size -->
                                 <unicode></unicode><!-- state text -->
                                 <unicode></unicode><!-- tooltip -->
@@ -6934,7 +6934,7 @@
                                     <u>509454176</u><!-- ID (60 a7 5d 1e) -->
                                     <u>0</u><!-- x offset -->
                                     <u>0</u><!-- y offset -->
-                                    <u>15</u><!-- x size -->
+                                    <u>10</u><!-- x size -->
                                     <u>330</u><!-- y size -->
                                     <!-- color -->
                                     <color>
@@ -6966,14 +6966,14 @@
                                     <u>509453984</u><!-- ID (a0 a6 5d 1e) -->
                                     <u>0</u><!-- x offset -->
                                     <u>0</u><!-- y offset -->
-                                    <u>15</u><!-- x size -->
+                                    <u>10</u><!-- x size -->
                                     <u>330</u><!-- y size -->
                                     <!-- color -->
                                     <color>
                                       <byte>255</byte><!-- B -->
                                       <byte>255</byte><!-- G -->
                                       <byte>255</byte><!-- R -->
-                                      <byte>128</byte><!-- A -->
+                                      <byte>64</byte><!-- A -->
                                     </color>
                                     <no /><!-- tiled? -->
                                     <no /><!-- flipped x? -->
@@ -7148,7 +7148,7 @@
                                           <byte>255</byte><!-- B -->
                                           <byte>255</byte><!-- G -->
                                           <byte>255</byte><!-- R -->
-                                          <byte>128</byte><!-- A -->
+                                          <byte>0</byte><!-- A -->
                                         </color>
                                         <no /><!-- tiled? -->
                                         <no /><!-- flipped x? -->
@@ -7296,7 +7296,7 @@
                                           <byte>255</byte><!-- B -->
                                           <byte>255</byte><!-- G -->
                                           <byte>255</byte><!-- R -->
-                                          <byte>128</byte><!-- A -->
+                                          <byte>0</byte><!-- A -->
                                         </color>
                                         <no /><!-- tiled? -->
                                         <no /><!-- flipped x? -->
@@ -7388,8 +7388,8 @@
                                   <state>
                                     <u>509459968</u><!-- ID (00 be 5d 1e) -->
                                     <s>NewState</s><!-- title - NewState -->
-                                    <i>21</i><!-- x size -->
-                                    <i>21</i><!-- y size -->
+                                    <i>15</i><!-- x size -->
+                                    <i>15</i><!-- y size -->
                                     <unicode></unicode><!-- state text -->
                                     <unicode></unicode><!-- tooltip -->
                                     <i>2</i><!-- text xsize? -->
@@ -7437,14 +7437,14 @@
                                         <u>509459776</u><!-- ID (40 bd 5d 1e) -->
                                         <u>0</u><!-- x offset -->
                                         <u>0</u><!-- y offset -->
-                                        <u>21</u><!-- x size -->
-                                        <u>21</u><!-- y size -->
+                                        <u>15</u><!-- x size -->
+                                        <u>15</u><!-- y size -->
                                         <!-- color -->
                                         <color>
                                           <byte>168</byte><!-- B -->
                                           <byte>168</byte><!-- G -->
                                           <byte>168</byte><!-- R -->
-                                          <byte>255</byte><!-- A -->
+                                          <byte>128</byte><!-- A -->
                                         </color>
                                         <no /><!-- tiled? -->
                                         <no /><!-- flipped x? -->
