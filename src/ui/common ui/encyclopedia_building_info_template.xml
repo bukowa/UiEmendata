@@ -1669,7 +1669,7 @@
             <u>492224320</u><!-- ID (40 bf 56 1d) -->
             <s>dy_building_short_description</s><!-- title -->
             <s></s><!-- title2 -->
-            <i>25</i><!-- x offset -->
+            <i>106</i><!-- x offset -->
             <i>132</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <no /><!-- uientry flag 2 -->
@@ -1699,7 +1699,7 @@
               <state>
                 <u>492225088</u><!-- ID (40 c2 56 1d) -->
                 <s>NewState</s><!-- title - NewState -->
-                <i>400</i><!-- x size -->
+                <i>250</i><!-- x size -->
                 <i>137</i><!-- y size -->
                 <unicode>dy_building_short_description</unicode><!-- state text -->
                 <unicode></unicode><!-- tooltip -->
@@ -4499,7 +4499,7 @@
             <s>building_chain_tree</s><!-- title -->
             <s>EncyclopediaBuildingTreeCallback</s><!-- title2 -->
             <i>560</i><!-- x offset -->
-            <i>15</i><!-- y offset -->
+            <i>44</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
             <byte>0</byte><!-- uientry flag 3 -->
