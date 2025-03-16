@@ -112,15 +112,36 @@ ifneq ($(FLAG),)
   ifeq ($(FLAG),dei_encyclopedia_fix)
     MOD_PACKAGE := dei_encyclopedia_fix.pack
     UI_TARGETS := \
-    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
-    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template
-#    	$(BUILD_DIR)/ui/campaign\ ui/clan
+    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template
 #    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template \
 #    	$(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry \
 #    	$(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects \
 #    	$(BUILD_DIR)/ui/campaign\ ui/layout
     LUA_TARGETS :=
     IMAGE_TARGETS :=
+    CONTRIB_TARGETS :=
+  endif
+  # unit_card_backgrounds_transparent
+  ifeq ($(FLAG),unit_card_backgrounds_transparent)
+    MOD_PACKAGE := unit_card_backgrounds_transparent.pack
+    UI_TARGETS :=
+    LUA_TARGETS :=
+    IMAGE_TARGETS :=
+    IMAGE_TARGETS := \
+		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame_selected.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
+		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background_selected.png \
+		$(BUILD_DIR)/ui/skins/3c/unit_card_frame.png \
+		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_3c.png \
+		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background_selected.png
     CONTRIB_TARGETS :=
   endif
 endif
@@ -136,6 +157,14 @@ $(MOD_PACKAGE): $(UI_TARGETS) $(LUA_TARGETS) $(CONTRIB_TARGETS) $(IMAGE_TARGETS)
 define create_dir
 	@mkdir -p $(dir $@)
 endef
+
+$(BUILD_DIR)/ui/skins/default/%.png: src/ui/skins/default/%.png
+	$(create_dir)
+	cp "$<" "$@"
+
+$(BUILD_DIR)/ui/skins/3c/%.png: src/ui/skins/3c/%.png
+	$(create_dir)
+	cp "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template: \
 	src/ui/common\ ui/encyclopedia_building_info_template.xml
@@ -329,7 +358,6 @@ install-alone: $(MOD_PACKAGE)
 install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'game_startup_mode campaign_load "Quick Save.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
