@@ -2153,7 +2153,7 @@
                     <u>509448256</u><!-- ID (40 90 5d 1e) -->
                     <s>NewState</s><!-- title - NewState -->
                     <i>350</i><!-- x size -->
-                    <i>534</i><!-- y size -->
+                    <i>437</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
                     <i>2</i><!-- text xsize? -->
@@ -2277,7 +2277,7 @@
                         <u>509449856</u><!-- ID (80 96 5d 1e) -->
                         <s>NewState</s><!-- title - NewState -->
                         <i>667</i><!-- x size -->
-                        <i>534</i><!-- y size -->
+                        <i>437</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -2369,7 +2369,7 @@
                             <u>509451232</u><!-- ID (e0 9b 5d 1e) -->
                             <s>NewState</s><!-- title - NewState -->
                             <i>330</i><!-- x size -->
-                            <i>534</i><!-- y size -->
+                            <i>437</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -2810,7 +2810,7 @@
                     <unicode></unicode><!-- tooltip id -->
                     <i>6</i><!-- 06:00:00:00 --><!-- docking? -->
                     <i>14</i><!-- 0e:00:00:00 --><!-- docking x? -->
-                    <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
+                    <i>16</i><!-- 00:00:00:00 --><!-- docking y? -->
                     <no />
                     <i>0</i><!-- default state id -->
                     <images count="2">
@@ -2836,7 +2836,7 @@
                         <u>509454368</u><!-- ID (20 a8 5d 1e) -->
                         <s>NewState</s><!-- title - NewState -->
                         <i>10</i><!-- x size -->
-                        <i>509</i><!-- y size -->
+                        <i>400</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -2885,7 +2885,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>10</u><!-- x size -->
-                            <u>509</u><!-- y size -->
+                            <u>400</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>0</byte><!-- B -->
@@ -2917,7 +2917,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>10</u><!-- x size -->
-                            <u>509</u><!-- y size -->
+                            <u>400</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
@@ -9427,7 +9427,7 @@
             <unicode></unicode><!-- tooltip text -->
             <unicode></unicode><!-- tooltip id -->
             <i>8</i><!-- 08:00:00:00 --><!-- docking? -->
-            <i>175</i><!-- af:00:00:00 --><!-- docking x? -->
+            <i>206</i><!-- af:00:00:00 --><!-- docking x? -->
             <i>-10</i><!-- f6:ff:ff:ff --><!-- docking y? -->
             <no />
             <i>0</i><!-- default state id -->
@@ -9446,7 +9446,7 @@
               <state>
                 <u>516308000</u><!-- ID (20 3c c6 1e) -->
                 <s>State</s><!-- title - NewState -->
-                <i>1060</i><!-- x size -->
+                <i>1076</i><!-- x size -->
                 <i>120</i><!-- y size -->
                 <unicode></unicode><!-- state text -->
                 <unicode></unicode><!-- tooltip -->
@@ -9495,7 +9495,7 @@
                     <u>516307424</u><!-- ID (e0 39 c6 1e) -->
                     <u>0</u><!-- x offset -->
                     <u>0</u><!-- y offset -->
-                    <u>1060</u><!-- x size -->
+                    <u>1076</u><!-- x size -->
                     <u>120</u><!-- y size -->
                     <!-- color -->
                     <color>
@@ -10295,7 +10295,7 @@
             <unicode></unicode><!-- tooltip text -->
             <unicode></unicode><!-- tooltip id -->
             <i>8</i><!-- 08:00:00:00 --><!-- docking? -->
-            <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
+            <i>23</i><!-- 00:00:00:00 --><!-- docking x? -->
             <i>-130</i><!-- 7e:ff:ff:ff --><!-- docking y? -->
             <no />
             <i>504689824</i><!-- default state id -->
