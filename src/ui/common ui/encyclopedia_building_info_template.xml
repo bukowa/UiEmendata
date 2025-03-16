@@ -1863,7 +1863,7 @@
                 <s>h_line</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>-9</i><!-- x offset -->
-                <i>4</i><!-- y offset -->
+                <i>33</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <no /><!-- uientry flag 2 -->
                 <byte>0</byte><!-- uientry flag 3 -->
@@ -2003,7 +2003,7 @@
                 <s>txt_details</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>106</i><!-- x offset -->
-                <i>1</i><!-- y offset -->
+                <i>30</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <no /><!-- uientry flag 2 -->
                 <byte>0</byte><!-- uientry flag 3 -->
@@ -2116,7 +2116,7 @@
                 <s>enc_chat_listview</s><!-- title -->
                 <s>Listview</s><!-- title2 -->
                 <i>14</i><!-- x offset -->
-                <i>30</i><!-- y offset -->
+                <i>59</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <no /><!-- uientry flag 2 -->
                 <byte>0</byte><!-- uientry flag 3 -->
