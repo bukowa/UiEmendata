@@ -6293,7 +6293,7 @@
                     <s>vslider</s><!-- title -->
                     <s>VSlider</s><!-- title2 -->
                     <i>424</i><!-- x offset -->
-                    <i>10</i><!-- y offset -->
+                    <i>22</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <no /><!-- uientry flag 2 -->
                     <byte>1</byte><!-- uientry flag 3 -->
@@ -6337,7 +6337,7 @@
                         <u>509454368</u><!-- ID (20 a8 5d 1e) -->
                         <s>NewState</s><!-- title - NewState -->
                         <i>15</i><!-- x size -->
-                        <i>330</i><!-- y size -->
+                        <i>560</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -6386,7 +6386,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>15</u><!-- x size -->
-                            <u>330</u><!-- y size -->
+                            <u>560</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>0</byte><!-- B -->
@@ -6418,7 +6418,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>15</u><!-- x size -->
-                            <u>330</u><!-- y size -->
+                            <u>560</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
