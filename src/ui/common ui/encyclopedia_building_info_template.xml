@@ -3521,7 +3521,7 @@
                 <s>h_line</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>-9</i><!-- x offset -->
-                <i>367</i><!-- y offset -->
+                <i>212</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>1</byte><!-- uientry flag 3 -->
@@ -3661,7 +3661,7 @@
                 <s>txt_requires</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>106</i><!-- x offset -->
-                <i>364</i><!-- y offset -->
+                <i>209</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>0</byte><!-- uientry flag 3 -->
@@ -3774,7 +3774,7 @@
                 <s>list_types</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>171</i><!-- x offset -->
-                <i>377</i><!-- y offset -->
+                <i>222</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>1</byte><!-- uientry flag 3 -->
