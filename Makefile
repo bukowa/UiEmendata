@@ -113,8 +113,9 @@ ifneq ($(FLAG),)
     MOD_PACKAGE := dei_encyclopedia_fix.pack
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
-    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template
-#    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \
+    	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template
+#    	$(BUILD_DIR)/ui/campaign\ ui/clan
+#    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template \
 #    	$(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry \
 #    	$(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects \
 #    	$(BUILD_DIR)/ui/campaign\ ui/layout
@@ -148,6 +149,11 @@ $(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template: \
 
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template: \
 	src/ui/common\ ui/encyclopedia_unit_info_template.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/campaign\ ui/clan: \
+	src/ui/campaign\ ui/clan.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -312,7 +318,9 @@ install-steam: $(MOD_PACKAGE)
 # Install the built .pack file only if different for standalone
 install-alone: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
-	echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'show_frontend_movies false;' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'game_startup_mode campaign_load "Quick Save.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'mod "_helper_encyclopedia_building_info_template.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	$(call install-to-dir,$(INSTALL_ALONE_DIR)/data)
@@ -320,7 +328,9 @@ install-alone: $(MOD_PACKAGE)
 # Install with DEI
 install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "$(MOD_PACKAGE)";' > $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'game_startup_mode campaign_load "Quick Save.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "@@@@deilegionsMARCSUM.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
