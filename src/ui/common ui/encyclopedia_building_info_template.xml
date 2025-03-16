@@ -2954,7 +2954,7 @@
                     <properties count="3">
                       <property>
                         <s>Value</s><!-- key -->
-                        <s>14.0</s><!-- value -->
+                        <s>0</s><!-- value -->
                       </property>
                       <property>
                         <s>minValue</s><!-- key -->
@@ -2962,7 +2962,7 @@
                       </property>
                       <property>
                         <s>maxValue</s><!-- key -->
-                        <s>500.0</s><!-- value -->
+                        <s>420.0</s><!-- value -->
                       </property>
                     </properties>
                     <i>0</i><!-- priority? -->
