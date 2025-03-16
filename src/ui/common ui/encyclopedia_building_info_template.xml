@@ -4502,7 +4502,7 @@
             <i>15</i><!-- y offset -->
             <no /><!-- uientry flag 1 -->
             <yes /><!-- uientry flag 2 -->
-            <byte>1</byte><!-- uientry flag 3 -->
+            <byte>0</byte><!-- uientry flag 3 -->
             <no /><!-- uientry flag 4 -->
             <no /><!-- uientry flag 5 -->
             <no /><!-- uientry flag 6 -->
@@ -5905,7 +5905,7 @@
                 <s>txt_enables</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>0</i><!-- x offset -->
-                <i>0</i><!-- y offset -->
+                <i>110</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>1</byte><!-- uientry flag 3 -->
@@ -6015,7 +6015,7 @@
                     <unicode></unicode><!-- tooltip id -->
                     <i>1</i><!-- 01:00:00:00 --><!-- docking? -->
                     <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                    <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
+                    <i>-3</i><!-- 00:00:00:00 --><!-- docking y? -->
                     <no />
                     <i>568510720</i><!-- default state id -->
                     <images count="1">
@@ -6146,7 +6146,7 @@
                 <s>list_types</s><!-- title -->
                 <s></s><!-- title2 -->
                 <i>0</i><!-- x offset -->
-                <i>30</i><!-- y offset -->
+                <i>138</i><!-- y offset -->
                 <no /><!-- uientry flag 1 -->
                 <yes /><!-- uientry flag 2 -->
                 <byte>1</byte><!-- uientry flag 3 -->
