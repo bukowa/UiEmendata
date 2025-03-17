@@ -108,9 +108,9 @@ ifneq ($(FLAG),)
     IMAGE_TARGETS :=
     CONTRIB_TARGETS :=
   endif
-  # dei_encyclopedia_fix
-  ifeq ($(FLAG),dei_encyclopedia_fix)
-    MOD_PACKAGE := dei_encyclopedia_fix.pack
+  # encyclopedia_building_info_template_fix
+  ifeq ($(FLAG),encyclopedia_building_info_template_fix)
+    MOD_PACKAGE := encyclopedia_building_info_template_fix.pack
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template
 #    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template \
