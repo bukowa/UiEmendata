@@ -126,22 +126,39 @@ ifneq ($(FLAG),)
     MOD_PACKAGE := unit_card_backgrounds_transparent.pack
     UI_TARGETS :=
     LUA_TARGETS :=
-    IMAGE_TARGETS :=
-    IMAGE_TARGETS := \
-		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
-		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
+	IMAGE_TARGETS := \
+		$(BUILD_DIR)/ui/skins/default/ee_button_text_frame.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
-		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
-		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
+		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/default/unit_card_border.png
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
+#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame_selected.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
-		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background_selected.png \
 		$(BUILD_DIR)/ui/skins/3c/unit_card_frame.png \
 		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_3c.png \
-		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background.png \
-		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background_selected.png
+	#	IMAGE_TARGETS := \
+#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_selected.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
+#		$(BUILD_DIR)/ui/skins/default/unit_card_border.png \
+#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background_selected.png \
+#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame.png \
+#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_3c.png \
+#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background.png \
+#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background_selected.png
     CONTRIB_TARGETS :=
   endif
 endif
