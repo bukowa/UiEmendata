@@ -131,34 +131,8 @@ ifneq ($(FLAG),)
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
-		$(BUILD_DIR)/ui/skins/default/unit_card_border.png
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
-#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
-		$(BUILD_DIR)/ui/skins/default/unit_card_frame_selected.png \
-		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
-		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background_selected.png \
-		$(BUILD_DIR)/ui/skins/3c/unit_card_frame.png \
-		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_3c.png \
-	#	IMAGE_TARGETS := \
-#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background_selected.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background_selected.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_red.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_selected.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_frame_white.png \
-#		$(BUILD_DIR)/ui/skins/default/unit_card_border.png \
-#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/3c/ee_unit_card_frame_background_selected.png \
-#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame.png \
-#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_3c.png \
-#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background.png \
-#		$(BUILD_DIR)/ui/skins/3c/unit_card_frame_background_selected.png
+		$(BUILD_DIR)/ui/skins/default/unit_card_border.png \
+		$(BUILD_DIR)/ui/skins/default/button_basic_glow.png
     CONTRIB_TARGETS :=
   endif
 endif
