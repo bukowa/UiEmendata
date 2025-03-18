@@ -2113,7 +2113,7 @@
               </uientry>
               <uientry>
                 <u>509447200</u><!-- ID (20 8c 5d 1e) -->
-                <s>enc_chat_listview</s><!-- title -->
+                <s>enc_chat_listview_details</s><!-- title -->
                 <s>Listview</s><!-- title2 -->
                 <i>14</i><!-- x offset -->
                 <i>59</i><!-- y offset -->
@@ -6187,7 +6187,7 @@
                     <children count="3">
                       <uientry>
                         <u>509447200</u><!-- ID (20 8c 5d 1e) -->
-                        <s>enc_chat_listview</s><!-- title -->
+                        <s>enc_chat_listview_units</s><!-- title -->
                         <s>Listview</s><!-- title2 -->
                         <i>0</i><!-- x offset -->
                         <i>0</i><!-- y offset -->
