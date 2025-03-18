@@ -112,8 +112,8 @@ ifneq ($(FLAG),)
   endif
 
   # encyclopedia_building_info_template_fix
-  ifeq ($(FLAG),encyclopedia_building_info_template_fix)
-    MOD_PACKAGE := encyclopedia_building_info_template_fix.pack
+  ifeq ($(FLAG),uiemendata_enc_building_fix)
+    MOD_PACKAGE := uiemendata_enc_building_fix.pack
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template
     LUA_TARGETS :=
