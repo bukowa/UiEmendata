@@ -6988,7 +6988,7 @@
                               </property>
                               <property>
                                 <s>maxValue</s><!-- key -->
-                                <s>500.0</s><!-- value -->
+                                <s>5000.0</s><!-- value -->
                               </property>
                               <property>
                                 <s>Notify</s><!-- key -->
