@@ -90,6 +90,8 @@ IMAGE_TARGETS :=
 
 CONTRIB_TARGETS :=
 
+SWITCH := 0
+
 ifneq ($(FLAG),)
   ifeq ($(FLAG),unit_category_icon_off)
     MOD_PACKAGE := unit_category_icon_off.pack
@@ -108,19 +110,17 @@ ifneq ($(FLAG),)
     IMAGE_TARGETS :=
     CONTRIB_TARGETS :=
   endif
+
   # encyclopedia_building_info_template_fix
   ifeq ($(FLAG),encyclopedia_building_info_template_fix)
     MOD_PACKAGE := encyclopedia_building_info_template_fix.pack
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template
-#    	$(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template \
-#    	$(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry \
-#    	$(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects \
-#    	$(BUILD_DIR)/ui/campaign\ ui/layout
     LUA_TARGETS :=
     IMAGE_TARGETS :=
     CONTRIB_TARGETS :=
   endif
+
   # unit_card_backgrounds_transparent
   ifeq ($(FLAG),unit_card_backgrounds_transparent)
     MOD_PACKAGE := unit_card_backgrounds_transparent.pack

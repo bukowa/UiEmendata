@@ -20,20 +20,30 @@ def switch_slider(root: etree.Element, switches: set[Switches]) -> etree.Element
     Determines whether the slider should be switched off based on given switches.
     """
 
-    if Switches.OFF_SLIDER_UNITS in switches:
-        print('Switching off slider for units')
-        # find first uientry with tag <s>SLIDER_UNITS_ID</s>
-        for uientry in root.iter('uientry'):
-            if uientry.find('u').text == SLIDER_UNITS_ID:
-                print('found')
-                uientry[24].tag = 'no'
+    def _delete_props():
+        _p = uientry.find('properties')
+        _p.set('count', '0')
+        for _c in _p:
+            _p.remove(_c)
 
-    if Switches.OFF_SLIDER_DETAILS in switches:
-        print('Switching off slider for details')
-        for uientry in root.iter('uientry'):
-            if uientry.find('u').text == SLIDER_DETAILS_ID:
-                print('found')
-                uientry[24].tag = 'no'
+    print('Switching off slider for units')
+    for uientry in root.iter('uientry'):
+        if uientry.find('u').text == SLIDER_UNITS_ID:
+            value = "no" if Switches.OFF_SLIDER_UNITS in switches else "yes"
+            uientry[24].tag = value
+            if value == "no":
+                _delete_props()
+            print(f"Switched off slider for units: {value}")
+
+
+    print('Checking off slider for details')
+    for uientry in root.iter('uientry'):
+        if uientry.find('u').text == SLIDER_DETAILS_ID:
+            value = "no" if Switches.OFF_SLIDER_DETAILS in switches else "yes"
+            uientry[24].tag = value
+            if value == "no":
+                _delete_props()
+            print(f"Switched off slider for details: {value}")
 
     return root
 
