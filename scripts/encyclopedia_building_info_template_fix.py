@@ -33,7 +33,7 @@ def switch_slider(root: etree.Element, switches: set[Switches]) -> etree.Element
             uientry[24].tag = value
             if value == "no":
                 _delete_props()
-            print(f"Switched off slider for units: {value}")
+            print(f"Switched slider for units: {value}")
 
 
     print('Checking off slider for details')
@@ -43,7 +43,7 @@ def switch_slider(root: etree.Element, switches: set[Switches]) -> etree.Element
             uientry[24].tag = value
             if value == "no":
                 _delete_props()
-            print(f"Switched off slider for details: {value}")
+            print(f"Switched slider for details: {value}")
 
     return root
 
