@@ -9983,7 +9983,7 @@
                     <s>Ammunition</s><!-- title -->
                     <s>CallbackRedirector</s><!-- title2 -->
                     <i>0</i><!-- x offset -->
-                    <i>-11</i><!-- y offset -->
+                    <i>2</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <yes /><!-- uientry flag 2 -->
                     <byte>0</byte><!-- uientry flag 3 -->
@@ -10001,7 +10001,7 @@
                     <unicode>Ammunition_Tooltip_20016l</unicode><!-- tooltip id -->
                     <i>2</i><!-- 02:00:00:00 --><!-- docking? -->
                     <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                    <i>-11</i><!-- f5:ff:ff:ff --><!-- docking y? -->
+                    <i>2</i><!-- f5:ff:ff:ff --><!-- docking y? -->
                     <no />
                     <i>305202624</i><!-- default state id -->
                     <images count="1">
