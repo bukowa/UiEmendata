@@ -65593,7 +65593,7 @@
                         <unicode></unicode><!-- tooltip id -->
                         <i>9</i><!-- 09:00:00:00 --><!-- docking? -->
                         <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                        <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
+                        <i>-380</i><!-- 00:00:00:00 --><!-- docking y? -->
                         <no />
                         <i>377900612</i><!-- default state id -->
                         <images count="0">
