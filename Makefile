@@ -127,7 +127,9 @@ ifneq ($(FLAG),)
     MOD_PACKAGE := unit_card_backgrounds_transparent.pack
     SOURCE_DIR := src/unit_card_backgrounds_transparent
     UI_TARGETS := \
-    	$(BUILD_DIR)/ui/common\ ui/land_unit_card
+    	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
+    	$(BUILD_DIR)/ui/loading_ui/battle \
+    	$(BUILD_DIR)/ui/loading_ui/postbattle
 
     LUA_TARGETS :=
 	IMAGE_TARGETS := \
@@ -229,6 +231,16 @@ $(BUILD_DIR)/ui/common\ ui/land_unit_card: \
 
 $(BUILD_DIR)/ui/common\ ui/3c/land_unit_card: \
 	$(SOURCE_DIR)/ui/common\ ui/3c/land_unit_card.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/loading_ui/battle: \
+	$(SOURCE_DIR)/ui/loading_ui/battle.xml
+	$(create_dir)
+	$(XML2UI_BIN) "$<" "$@"
+
+$(BUILD_DIR)/ui/loading_ui/postbattle: \
+	$(SOURCE_DIR)/ui/loading_ui/postbattle.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
