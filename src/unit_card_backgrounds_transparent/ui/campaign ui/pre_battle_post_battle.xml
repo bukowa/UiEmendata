@@ -52306,7 +52306,7 @@
                   <state>
                     <u>374736436</u><!-- ID (34 06 56 16) -->
                     <s>NewState</s><!-- title - NewState -->
-                    <i>371</i><!-- x size -->
+                    <i>640</i><!-- x size -->
                     <i>24</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
@@ -52355,7 +52355,7 @@
                         <u>374736204</u><!-- ID (4c 05 56 16) -->
                         <u>0</u><!-- x offset -->
                         <u>0</u><!-- y offset -->
-                        <u>371</u><!-- x size -->
+                        <u>640</u><!-- x size -->
                         <u>24</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -57524,7 +57524,7 @@
                     <u>377777764</u><!-- ID (64 6e 84 16) -->
                     <s>dy_army</s><!-- title -->
                     <s></s><!-- title2 -->
-                    <i>-5</i><!-- x offset -->
+                    <i>141</i><!-- x offset -->
                     <i>-22</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <yes /><!-- uientry flag 2 -->
