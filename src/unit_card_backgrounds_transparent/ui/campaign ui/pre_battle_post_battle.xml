@@ -57832,7 +57832,77 @@
                         <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
                         <no />
                         <i>377809548</i><!-- default state id -->
-                        <images count="11">
+                        <images count="21">
+                          <image>
+                            <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                            <s>ui/skins/default/roman_four.png</s><!-- path -->
+                            <i>66</i><!-- x size -->
+                            <i>88</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>233037648</u><!-- ID (50 df e3 0d) -->
+                            <s>ui/skins/default/ee_unit_card_frame_background.png</s><!-- path -->
+                            <i>64</i><!-- x size -->
+                            <i>118</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>233530432</u><!-- ID (40 64 eb 0d) -->
+                            <s>ui/skins/default/question_mark.png</s><!-- path -->
+                            <i>30</i><!-- x size -->
+                            <i>52</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                            <s>ui/skins/default/mask1.png</s><!-- path -->
+                            <i>64</i><!-- x size -->
+                            <i>118</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>356236096</u><!-- ID (40 bb 3b 15) -->
+                            <s>ui/skins/default/button_text_red.png</s><!-- path -->
+                            <i>36</i><!-- x size -->
+                            <i>80</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>345624896</u><!-- ID (40 d1 99 14) -->
+                            <s>ui/skins/default/padlock_red.png</s><!-- path -->
+                            <i>26</i><!-- x size -->
+                            <i>40</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>531342144</u><!-- ID (40 a3 ab 1f) -->
+                            <s>ui/skins/default/button_basic_glow.png</s><!-- path -->
+                            <i>206</i><!-- x size -->
+                            <i>206</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>193761024</u><!-- ID (00 8f 8c 0b) -->
+                            <s>ui/skins/default/ee_unit_card_frame_background_selected.png</s><!-- path -->
+                            <i>128</i><!-- x size -->
+                            <i>128</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                            <s>ui/skins/default/roman_crew.png</s><!-- path -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
+                            <no />
+                          </image>
+                          <image>
+                            <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                            <s>ui/skins/default/mask_crew.png</s><!-- path -->
+                            <i>64</i><!-- x size -->
+                            <i>118</i><!-- y size -->
+                            <no />
+                          </image>
                           <image>
                             <u>377784012</u><!-- ID (cc 86 84 16) -->
                             <s>ui/skins/default/roman_four.png</s><!-- path -->
@@ -57913,12 +57983,12 @@
                         </images>
                         <i>0</i><!-- 00:00:00:00 --><!-- mask image? -->
                         <i>0</i>
-                        <states count="14">
+                        <states count="15">
                           <state>
-                            <u>377806388</u><!-- ID (34 de 84 16) -->
+                            <u>228822128</u><!-- ID (70 8c a3 0d) -->
                             <s>hover</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -57961,13 +58031,13 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="4">
+                            <image_uses count="6">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -57995,11 +58065,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58010,9 +58080,9 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
                                 <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
@@ -58027,11 +58097,11 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58042,9 +58112,9 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
                                 <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
@@ -58059,11 +58129,75 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377794508</u><!-- ID (cc af 84 16) -->
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>531342144</u><!-- ID (40 a3 ab 1f) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58096,7 +58230,7 @@
                             <mouse_states count="1">
                               <mouse_state>
                                 <i>1</i><!-- type -->
-                                <u>377809548</u><!-- ID (8c ea 84 16) -->
+                                <u>230481392</u><!-- ID (f0 dd bc 0d) -->
                                 <i>50</i>
                                 <i>94</i>
                                 <mouse_state_data count="0">
@@ -58105,10 +58239,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377807988</u><!-- ID (74 e4 84 16) -->
+                            <u>233558240</u><!-- ID (e0 d0 eb 0d) -->
                             <s>shattered</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -58151,13 +58285,13 @@
                             <flt>1.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="4">
+                            <image_uses count="6">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58185,43 +58319,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>100</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377793860</u><!-- ID (44 ad 84 16) -->
-                                <u>10</u><!-- x offset -->
-                                <u>34</u><!-- y offset -->
-                                <u>32</u><!-- x size -->
-                                <u>34</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58232,9 +58334,41 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>34</i><!-- dock offset y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <yes /><!-- stretch x? -->
+                                <yes /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
                                 <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
@@ -58249,8 +58383,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -58259,12 +58393,12 @@
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
-                                  <byte>100</byte><!-- A -->
+                                  <byte>255</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -58280,6 +58414,70 @@
                                 <flt>0.0</flt><!-- margin top-bottom? -->
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>128</byte><!-- A -->
+                                </color>
+                                <yes /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <yes /><!-- stretch x? -->
+                                <yes /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>9.0</flt><!-- margin top-bottom? -->
+                                <flt>9.0</flt><!-- margin left-right? -->
+                              </image_use>
                             </image_uses>
                             <i>102</i>
                             <i>65</i>
@@ -58287,10 +58485,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377809548</u><!-- ID (8c ea 84 16) -->
+                            <u>230481392</u><!-- ID (f0 dd bc 0d) -->
                             <s>active</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -58335,11 +58533,11 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <image_uses count="6">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58367,11 +58565,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377803268</u><!-- ID (04 d2 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58382,104 +58580,8 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377804948</u><!-- ID (94 d8 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>-8</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
                                 <i>-8</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
                                 <no /><!-- stretch y? -->
@@ -58495,11 +58597,107 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377794508</u><!-- ID (cc af 84 16) -->
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>531342144</u><!-- ID (40 a3 ab 1f) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58532,7 +58730,7 @@
                             <mouse_states count="1">
                               <mouse_state>
                                 <i>0</i><!-- type -->
-                                <u>377806388</u><!-- ID (34 de 84 16) -->
+                                <u>228822128</u><!-- ID (70 8c a3 0d) -->
                                 <i>50</i>
                                 <i>95</i>
                                 <mouse_state_data count="0">
@@ -58541,10 +58739,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377811740</u><!-- ID (1c f3 84 16) -->
+                            <u>231519520</u><!-- ID (20 b5 cc 0d) -->
                             <s>reddened</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -58589,11 +58787,11 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <image_uses count="5">
                               <image_use>
-                                <u>377790580</u><!-- ID (74 a0 84 16) -->
+                                <u>356236096</u><!-- ID (40 bb 3b 15) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58621,11 +58819,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377803268</u><!-- ID (04 d2 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58636,75 +58834,11 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377804948</u><!-- ID (94 d8 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
                                 <i>-8</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
                                 <flt>0.0</flt><!-- rotation pivot x? -->
                                 <flt>0.0</flt><!-- rotation pivot y? -->
@@ -58717,11 +58851,11 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58732,11 +58866,75 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
                                 <flt>0.0</flt><!-- rotation pivot x? -->
                                 <flt>0.0</flt><!-- rotation pivot y? -->
@@ -58755,10 +58953,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377813540</u><!-- ID (24 fa 84 16) -->
-                            <s>wavering</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <u>227860384</u><!-- ID (a0 df 94 0d) -->
+                            <s>inactive</s><!-- title - NewState -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -58776,12 +58974,12 @@
                             <i>7</i><!-- font leading? -->
                             <i>0</i><!-- font tracking? -->
                             <color>
-                              <byte>215</byte><!-- B -->
-                              <byte>248</byte><!-- G -->
-                              <byte>255</byte><!-- R -->
+                              <byte>0</byte><!-- B -->
+                              <byte>0</byte><!-- G -->
+                              <byte>0</byte><!-- R -->
                               <byte>255</byte><!-- A -->
                             </color>
-                            <s>ingame_tooltip</s><!-- font category / twui -->
+                            <s>ingame_text_small</s><!-- font category / twui -->
                             <i>0</i><!-- left ? -->
                             <i>0</i><!-- right ? -->
                             <i>0</i><!-- top ? -->
@@ -58791,23 +58989,23 @@
                             <no />
                             <no />
                             <no />
-                            <s>glow_pulse_t0</s><!-- shader name -->
+                            <s>normal_t0</s><!-- shader name -->
                             <flt>1.0</flt><!-- shader vars -->
-                            <flt>2.0</flt><!-- shader vars -->
                             <flt>1.0</flt><!-- shader vars -->
+                            <flt>0.0</flt><!-- shader vars -->
                             <flt>0.0</flt><!-- shader vars -->
                             <s>normal_t0</s><!-- text shader name -->
                             <flt>1.0</flt><!-- text shader vars -->
-                            <flt>1.5</flt><!-- text shader vars -->
-                            <flt>1.0</flt><!-- text shader vars -->
+                            <flt>0.5</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <flt>0.0</flt><!-- text shader vars -->
+                            <image_uses count="6">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58835,43 +59033,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>230</byte><!-- B -->
-                                  <byte>230</byte><!-- G -->
-                                  <byte>230</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -58882,9 +59048,9 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
                                 <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
@@ -58898,72 +59064,114 @@
                                 <flt>0.0</flt><!-- margin top-bottom? -->
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
-                            </image_uses>
-                            <i>0</i>
-                            <i>0</i>
-                            <mouse_states count="0">
-                            </mouse_states>
-                          </state>
-                          <state>
-                            <u>377814980</u><!-- ID (c4 ff 84 16) -->
-                            <s>routing</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
-                            <unicode></unicode><!-- state text -->
-                            <unicode></unicode><!-- tooltip -->
-                            <i>2</i><!-- text xsize? -->
-                            <i>0</i><!-- text ysize? -->
-                            <i>0</i><!-- text xalign? -->
-                            <i>1</i><!-- text yalign? -->
-                            <yes /><!-- text behavior? -->
-                            <unicode></unicode><!-- text label? -->
-                            <no /><!-- state stuff 3? -->
-                            <no /><!-- state stuff 4? -->
-                            <unicode></unicode><!-- localization id -->
-                            <unicode></unicode><!-- tooltip id -->
-                            <s>la_gioconda</s><!-- font -->
-                            <i>12</i><!-- font size? line height? -->
-                            <i>7</i><!-- font leading? -->
-                            <i>0</i><!-- font tracking? -->
-                            <color>
-                              <byte>215</byte><!-- B -->
-                              <byte>248</byte><!-- G -->
-                              <byte>255</byte><!-- R -->
-                              <byte>255</byte><!-- A -->
-                            </color>
-                            <s>ingame_tooltip</s><!-- font category / twui -->
-                            <i>0</i><!-- left ? -->
-                            <i>0</i><!-- right ? -->
-                            <i>0</i><!-- top ? -->
-                            <i>0</i><!-- bottom ? -->
-                            <i>0</i>
-                            <yes />
-                            <no />
-                            <no />
-                            <no />
-                            <s>glow_pulse_t0</s><!-- shader name -->
-                            <flt>1.0</flt><!-- shader vars -->
-                            <flt>1.5</flt><!-- shader vars -->
-                            <flt>1.0</flt><!-- shader vars -->
-                            <flt>0.0</flt><!-- shader vars -->
-                            <s>normal_t0</s><!-- text shader name -->
-                            <flt>1.0</flt><!-- text shader vars -->
-                            <flt>1.5</flt><!-- text shader vars -->
-                            <flt>1.0</flt><!-- text shader vars -->
-                            <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="4">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
                                   <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>128</byte><!-- A -->
                                 </color>
                                 <yes /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
@@ -58984,113 +59192,17 @@
                                 <flt>9.0</flt><!-- margin top-bottom? -->
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
-                              <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>230</byte><!-- B -->
-                                  <byte>230</byte><!-- G -->
-                                  <byte>230</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
-                                <u>0</u><!-- y offset -->
-                                <u>64</u><!-- x size -->
-                                <u>152</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>0</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377793860</u><!-- ID (44 ad 84 16) -->
-                                <u>10</u><!-- x offset -->
-                                <u>32</u><!-- y offset -->
-                                <u>32</u><!-- x size -->
-                                <u>34</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
-                                <i>32</i><!-- dock offset y? -->
-                                <no /><!-- stretch x? -->
-                                <no /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
                             </image_uses>
-                            <i>0</i>
-                            <i>0</i>
+                            <i>102</i>
+                            <i>65</i>
                             <mouse_states count="0">
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377816508</u><!-- ID (bc 05 85 16) -->
+                            <u>345548192</u><!-- ID (a0 a5 98 14) -->
                             <s>taking_damage</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -59133,13 +59245,13 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <image_uses count="5">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>52</u><!-- x size -->
-                                <u>99</u><!-- y size -->
+                                <u>63</u><!-- x size -->
+                                <u>151</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59167,8 +59279,72 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59182,7 +59358,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59199,8 +59375,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59214,7 +59390,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59237,10 +59413,438 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377817964</u><!-- ID (6c 0b 85 16) -->
-                            <s>inactive</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <u>223640720</u><!-- ID (90 7c 54 0d) -->
+                            <s>routing</s><!-- title - NewState -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
+                            <unicode></unicode><!-- state text -->
+                            <unicode></unicode><!-- tooltip -->
+                            <i>2</i><!-- text xsize? -->
+                            <i>0</i><!-- text ysize? -->
+                            <i>0</i><!-- text xalign? -->
+                            <i>1</i><!-- text yalign? -->
+                            <yes /><!-- text behavior? -->
+                            <unicode></unicode><!-- text label? -->
+                            <no /><!-- state stuff 3? -->
+                            <no /><!-- state stuff 4? -->
+                            <unicode></unicode><!-- localization id -->
+                            <unicode></unicode><!-- tooltip id -->
+                            <s>la_gioconda</s><!-- font -->
+                            <i>12</i><!-- font size? line height? -->
+                            <i>7</i><!-- font leading? -->
+                            <i>0</i><!-- font tracking? -->
+                            <color>
+                              <byte>215</byte><!-- B -->
+                              <byte>248</byte><!-- G -->
+                              <byte>255</byte><!-- R -->
+                              <byte>255</byte><!-- A -->
+                            </color>
+                            <s>ingame_tooltip</s><!-- font category / twui -->
+                            <i>0</i><!-- left ? -->
+                            <i>0</i><!-- right ? -->
+                            <i>0</i><!-- top ? -->
+                            <i>0</i><!-- bottom ? -->
+                            <i>0</i>
+                            <yes />
+                            <no />
+                            <no />
+                            <no />
+                            <s>glow_pulse_t0</s><!-- shader name -->
+                            <flt>1.0</flt><!-- shader vars -->
+                            <flt>1.5</flt><!-- shader vars -->
+                            <flt>1.0</flt><!-- shader vars -->
+                            <flt>0.0</flt><!-- shader vars -->
+                            <s>normal_t0</s><!-- text shader name -->
+                            <flt>1.0</flt><!-- text shader vars -->
+                            <flt>1.5</flt><!-- text shader vars -->
+                            <flt>1.0</flt><!-- text shader vars -->
+                            <flt>0.0</flt><!-- text shader vars -->
+                            <image_uses count="5">
+                              <image_use>
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <yes /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <yes /><!-- stretch x? -->
+                                <yes /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>9.0</flt><!-- margin top-bottom? -->
+                                <flt>9.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                            </image_uses>
+                            <i>0</i>
+                            <i>0</i>
+                            <mouse_states count="0">
+                            </mouse_states>
+                          </state>
+                          <state>
+                            <u>223079216</u><!-- ID (30 eb 4b 0d) -->
+                            <s>wavering</s><!-- title - NewState -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
+                            <unicode></unicode><!-- state text -->
+                            <unicode></unicode><!-- tooltip -->
+                            <i>2</i><!-- text xsize? -->
+                            <i>0</i><!-- text ysize? -->
+                            <i>0</i><!-- text xalign? -->
+                            <i>1</i><!-- text yalign? -->
+                            <yes /><!-- text behavior? -->
+                            <unicode></unicode><!-- text label? -->
+                            <no /><!-- state stuff 3? -->
+                            <no /><!-- state stuff 4? -->
+                            <unicode></unicode><!-- localization id -->
+                            <unicode></unicode><!-- tooltip id -->
+                            <s>la_gioconda</s><!-- font -->
+                            <i>12</i><!-- font size? line height? -->
+                            <i>7</i><!-- font leading? -->
+                            <i>0</i><!-- font tracking? -->
+                            <color>
+                              <byte>215</byte><!-- B -->
+                              <byte>248</byte><!-- G -->
+                              <byte>255</byte><!-- R -->
+                              <byte>255</byte><!-- A -->
+                            </color>
+                            <s>ingame_tooltip</s><!-- font category / twui -->
+                            <i>0</i><!-- left ? -->
+                            <i>0</i><!-- right ? -->
+                            <i>0</i><!-- top ? -->
+                            <i>0</i><!-- bottom ? -->
+                            <i>0</i>
+                            <yes />
+                            <no />
+                            <no />
+                            <no />
+                            <s>glow_pulse_t0</s><!-- shader name -->
+                            <flt>1.0</flt><!-- shader vars -->
+                            <flt>2.0</flt><!-- shader vars -->
+                            <flt>1.0</flt><!-- shader vars -->
+                            <flt>0.0</flt><!-- shader vars -->
+                            <s>normal_t0</s><!-- text shader name -->
+                            <flt>1.0</flt><!-- text shader vars -->
+                            <flt>1.5</flt><!-- text shader vars -->
+                            <flt>1.0</flt><!-- text shader vars -->
+                            <flt>0.0</flt><!-- text shader vars -->
+                            <image_uses count="5">
+                              <image_use>
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <yes /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <yes /><!-- stretch x? -->
+                                <yes /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>9.0</flt><!-- margin top-bottom? -->
+                                <flt>9.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                            </image_uses>
+                            <i>0</i>
+                            <i>0</i>
+                            <mouse_states count="0">
+                            </mouse_states>
+                          </state>
+                          <state>
+                            <u>110380704</u><!-- ID (a0 46 94 06) -->
+                            <s>selected_hover</s><!-- title - NewState -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -59270,26 +59874,26 @@
                             <i>0</i><!-- bottom ? -->
                             <i>0</i>
                             <yes />
-                            <yes />
                             <no />
                             <no />
-                            <s>normal_t0</s><!-- shader name -->
-                            <flt>1.0</flt><!-- shader vars -->
-                            <flt>1.0</flt><!-- shader vars -->
+                            <no />
+                            <s>brighten_t0</s><!-- shader name -->
+                            <flt>0.3</flt><!-- shader vars -->
+                            <flt>0.0</flt><!-- shader vars -->
                             <flt>0.0</flt><!-- shader vars -->
                             <flt>0.0</flt><!-- shader vars -->
                             <s>normal_t0</s><!-- text shader name -->
-                            <flt>1.0</flt><!-- text shader vars -->
-                            <flt>0.5</flt><!-- text shader vars -->
+                            <flt>0.2</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="6">
+                            <flt>0.0</flt><!-- text shader vars -->
+                            <image_uses count="5">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>193761024</u><!-- ID (00 8f 8c 0b) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59317,11 +59921,11 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377803268</u><!-- ID (04 d2 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59332,75 +59936,11 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377804948</u><!-- ID (94 d8 84 16) -->
-                                <u>4294967294</u><!-- x offset -->
-                                <u>3</u><!-- y offset -->
-                                <u>37</u><!-- x size -->
-                                <u>85</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>-10</i><!-- dock offset x? -->
-                                <i>3</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
-                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                <flt>0.0</flt><!-- rotation pivot x? -->
-                                <flt>0.0</flt><!-- rotation pivot y? -->
-                                <s></s><!-- shader name -->
-                                <flt>0.0</flt><!-- rotation axis x? -->
-                                <flt>0.0</flt><!-- rotation axis y? -->
-                                <flt>0.0</flt><!-- rotation axis z? -->
-                                <i>0</i><!-- always zero -->
-                                <flt>0.0</flt><!-- margin top-bottom? -->
-                                <flt>0.0</flt><!-- margin left-right? -->
-                              </image_use>
-                              <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
-                                <!-- color -->
-                                <color>
-                                  <byte>255</byte><!-- B -->
-                                  <byte>255</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <no /><!-- tiled? -->
-                                <no /><!-- flipped x? -->
-                                <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
                                 <i>-8</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
                                 <flt>0.0</flt><!-- rotation pivot x? -->
                                 <flt>0.0</flt><!-- rotation pivot y? -->
@@ -59413,11 +59953,11 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>0</u><!-- x offset -->
-                                <u>4294967288</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>122</u><!-- y size -->
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59428,11 +59968,11 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
-                                <i>0</i><!-- dock offset x? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
                                 <i>-8</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
                                 <flt>0.0</flt><!-- rotation pivot x? -->
                                 <flt>0.0</flt><!-- rotation pivot y? -->
@@ -59445,26 +59985,26 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
-                                  <byte>128</byte><!-- A -->
+                                  <byte>255</byte><!-- A -->
                                 </color>
-                                <yes /><!-- tiled? -->
+                                <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
-                                <yes /><!-- stretch x? -->
-                                <yes /><!-- stretch y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
                                 <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
                                 <flt>0.0</flt><!-- rotation pivot x? -->
                                 <flt>0.0</flt><!-- rotation pivot y? -->
@@ -59473,20 +60013,60 @@
                                 <flt>0.0</flt><!-- rotation axis y? -->
                                 <flt>0.0</flt><!-- rotation axis z? -->
                                 <i>0</i><!-- always zero -->
-                                <flt>9.0</flt><!-- margin top-bottom? -->
-                                <flt>9.0</flt><!-- margin left-right? -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>5</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                             </image_uses>
-                            <i>102</i>
-                            <i>65</i>
-                            <mouse_states count="0">
+                            <i>349</i>
+                            <i>255</i>
+                            <mouse_states count="1">
+                              <mouse_state>
+                                <i>1</i><!-- type -->
+                                <u>338518592</u><!-- ID (40 62 2d 14) -->
+                                <i>50</i>
+                                <i>94</i>
+                                <mouse_state_data count="0">
+                                </mouse_state_data>
+                              </mouse_state>
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377820020</u><!-- ID (74 13 85 16) -->
+                            <u>232884560</u><!-- ID (50 89 e1 0d) -->
                             <s>wavering_selected</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -59529,13 +60109,13 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <image_uses count="5">
                               <image_use>
-                                <u>377800420</u><!-- ID (e4 c6 84 16) -->
+                                <u>193761024</u><!-- ID (00 8f 8c 0b) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59563,8 +60143,72 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59578,7 +60222,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59595,8 +60239,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59610,7 +60254,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59633,10 +60277,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377821516</u><!-- ID (4c 19 85 16) -->
+                            <u>338518592</u><!-- ID (40 62 2d 14) -->
                             <s>selected</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -59669,7 +60313,7 @@
                             <no />
                             <no />
                             <no />
-                            <s>brighten_t0</s><!-- shader name -->
+                            <s>normal_t0</s><!-- shader name -->
                             <flt>0.0</flt><!-- shader vars -->
                             <flt>0.0</flt><!-- shader vars -->
                             <flt>0.0</flt><!-- shader vars -->
@@ -59679,13 +60323,13 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <image_uses count="5">
                               <image_use>
-                                <u>377800420</u><!-- ID (e4 c6 84 16) -->
+                                <u>193761024</u><!-- ID (00 8f 8c 0b) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59713,8 +60357,72 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59728,7 +60436,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59745,8 +60453,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59760,7 +60468,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -59777,16 +60485,24 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                             </image_uses>
-                            <i>123</i>
-                            <i>272</i>
-                            <mouse_states count="0">
+                            <i>300</i>
+                            <i>99</i>
+                            <mouse_states count="1">
+                              <mouse_state>
+                                <i>0</i><!-- type -->
+                                <u>110380704</u><!-- ID (a0 46 94 06) -->
+                                <i>50</i>
+                                <i>94</i>
+                                <mouse_state_data count="0">
+                                </mouse_state_data>
+                              </mouse_state>
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377822796</u><!-- ID (4c 1e 85 16) -->
+                            <u>226798880</u><!-- ID (20 ad 84 0d) -->
                             <s>locked</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -59831,11 +60547,11 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <image_uses count="3">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -59863,8 +60579,8 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -59895,8 +60611,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377793236</u><!-- ID (d4 aa 84 16) -->
-                                <u>14</u><!-- x offset -->
+                                <u>345624896</u><!-- ID (40 d1 99 14) -->
+                                <u>19</u><!-- x offset -->
                                 <u>40</u><!-- y offset -->
                                 <u>26</u><!-- x size -->
                                 <u>40</u><!-- y size -->
@@ -59933,10 +60649,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377824180</u><!-- ID (b4 23 85 16) -->
+                            <u>226883760</u><!-- ID (b0 f8 85 0d) -->
                             <s>unknown</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>4</i><!-- text xsize? -->
@@ -59981,11 +60697,11 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <image_uses count="2">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -60013,9 +60729,9 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377788564</u><!-- ID (94 98 84 16) -->
-                                <u>14</u><!-- x offset -->
-                                <u>23</u><!-- y offset -->
+                                <u>233530432</u><!-- ID (40 64 eb 0d) -->
+                                <u>20</u><!-- x offset -->
+                                <u>49</u><!-- y offset -->
                                 <u>24</u><!-- x size -->
                                 <u>54</u><!-- y size -->
                                 <!-- color -->
@@ -60051,10 +60767,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377825308</u><!-- ID (1c 28 85 16) -->
+                            <u>832963072</u><!-- ID (00 02 a6 31) -->
                             <s>queued</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -60097,13 +60813,13 @@
                             <flt>0.5</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <image_uses count="6">
                               <image_use>
-                                <u>377785844</u><!-- ID (f4 8d 84 16) -->
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -60131,22 +60847,86 @@
                                 <flt>9.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
-                                  <byte>192</byte><!-- B -->
-                                  <byte>192</byte><!-- G -->
-                                  <byte>192</byte><!-- R -->
-                                  <byte>100</byte><!-- A -->
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -60163,8 +60943,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -60173,12 +60953,12 @@
                                   <byte>255</byte><!-- B -->
                                   <byte>255</byte><!-- G -->
                                   <byte>255</byte><!-- R -->
-                                  <byte>100</byte><!-- A -->
+                                  <byte>255</byte><!-- A -->
                                 </color>
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -60194,6 +60974,38 @@
                                 <flt>0.0</flt><!-- margin top-bottom? -->
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
+                              <image_use>
+                                <u>233037648</u><!-- ID (50 df e3 0d) -->
+                                <u>0</u><!-- x offset -->
+                                <u>0</u><!-- y offset -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>128</byte><!-- A -->
+                                </color>
+                                <yes /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>0</i><!-- dock position (0-9)? -->
+                                <i>0</i><!-- dock offset x? -->
+                                <i>0</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>9.0</flt><!-- margin top-bottom? -->
+                                <flt>9.0</flt><!-- margin left-right? -->
+                              </image_use>
                             </image_uses>
                             <i>102</i>
                             <i>65</i>
@@ -60201,10 +61013,10 @@
                             </mouse_states>
                           </state>
                           <state>
-                            <u>377826716</u><!-- ID (9c 2d 85 16) -->
+                            <u>232885600</u><!-- ID (60 8d e1 0d) -->
                             <s>taking_damage_selected</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>100</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>152</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
@@ -60247,13 +61059,13 @@
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
                             <flt>0.0</flt><!-- text shader vars -->
-                            <image_uses count="3">
+                            <image_uses count="5">
                               <image_use>
-                                <u>377800420</u><!-- ID (e4 c6 84 16) -->
+                                <u>193761024</u><!-- ID (00 8f 8c 0b) -->
                                 <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
-                                <u>53</u><!-- x size -->
-                                <u>100</u><!-- y size -->
+                                <u>64</u><!-- x size -->
+                                <u>152</u><!-- y size -->
                                 <!-- color -->
                                 <color>
                                   <byte>255</byte><!-- B -->
@@ -60281,8 +61093,72 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377784012</u><!-- ID (cc 86 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>196584592</u><!-- ID (90 a4 b7 0b) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>80051376</u><!-- ID (b0 7c c5 04) -->
+                                <u>4294967295</u><!-- x offset -->
+                                <u>15</u><!-- y offset -->
+                                <u>44</u><!-- x size -->
+                                <u>106</u><!-- y size -->
+                                <!-- color -->
+                                <color>
+                                  <byte>255</byte><!-- B -->
+                                  <byte>255</byte><!-- G -->
+                                  <byte>255</byte><!-- R -->
+                                  <byte>255</byte><!-- A -->
+                                </color>
+                                <no /><!-- tiled? -->
+                                <no /><!-- flipped x? -->
+                                <no /><!-- flipped y? -->
+                                <i>4</i><!-- dock position (0-9)? -->
+                                <i>-1</i><!-- dock offset x? -->
+                                <i>-8</i><!-- dock offset y? -->
+                                <no /><!-- stretch x? -->
+                                <no /><!-- stretch y? -->
+                                <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                                <flt>0.0</flt><!-- rotation pivot x? -->
+                                <flt>0.0</flt><!-- rotation pivot y? -->
+                                <s></s><!-- shader name -->
+                                <flt>0.0</flt><!-- rotation axis x? -->
+                                <flt>0.0</flt><!-- rotation axis y? -->
+                                <flt>0.0</flt><!-- rotation axis z? -->
+                                <i>0</i><!-- always zero -->
+                                <flt>0.0</flt><!-- margin top-bottom? -->
+                                <flt>0.0</flt><!-- margin left-right? -->
+                              </image_use>
+                              <image_use>
+                                <u>232826144</u><!-- ID (20 a5 e0 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -60296,7 +61172,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -60313,8 +61189,8 @@
                                 <flt>0.0</flt><!-- margin left-right? -->
                               </image_use>
                               <image_use>
-                                <u>377789188</u><!-- ID (04 9b 84 16) -->
-                                <u>4294967290</u><!-- x offset -->
+                                <u>234058016</u><!-- ID (20 71 f3 0d) -->
+                                <u>0</u><!-- x offset -->
                                 <u>0</u><!-- y offset -->
                                 <u>64</u><!-- x size -->
                                 <u>152</u><!-- y size -->
@@ -60328,7 +61204,7 @@
                                 <no /><!-- tiled? -->
                                 <no /><!-- flipped x? -->
                                 <no /><!-- flipped y? -->
-                                <i>2</i><!-- dock position (0-9)? -->
+                                <i>5</i><!-- dock position (0-9)? -->
                                 <i>0</i><!-- dock offset x? -->
                                 <i>0</i><!-- dock offset y? -->
                                 <no /><!-- stretch x? -->
@@ -60382,145 +61258,145 @@
                         </funcs>
                         <children count="6">
                           <uientry>
-                            <u>377828516</u><!-- ID (a4 34 85 16) -->
-                            <s>border</s><!-- title -->
-                            <s></s><!-- title2 -->
-                            <i>0</i><!-- x offset -->
-                            <i>0</i><!-- y offset -->
-                            <no /><!-- uientry flag 1 -->
-                            <yes /><!-- uientry flag 2 -->
-                            <byte>1</byte><!-- uientry flag 3 -->
-                            <no /><!-- uientry flag 4 -->
-                            <no /><!-- uientry flag 5 -->
-                            <no /><!-- uientry flag 6 -->
-                            <no /><!-- uientry flag 7 -->
-                            <yes /><!-- uientry flag 8 -->
-                            <no /><!-- uientry flag 9 -->
-                            <no /><!-- uientry flag 10 -->
-                            <no /><!-- uientry flag 11 -->
-                            <no /><!-- uientry flag 12 -->
-                            <yes />
-                            <unicode></unicode><!-- tooltip text -->
-                            <unicode></unicode><!-- tooltip id -->
-                            <i>0</i><!-- 00:00:00:00 --><!-- docking? -->
-                            <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                            <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
-                            <no />
-                            <i>0</i><!-- default state id -->
-                            <images count="1">
-                              <image>
-                                <u>377829484</u><!-- ID (6c 38 85 16) -->
-                                <s>ui/skins/default/ee_button_text_frame.png</s><!-- path -->
-                                <i>36</i><!-- x size -->
-                                <i>80</i><!-- y size -->
-                                <no />
-                              </image>
-                            </images>
-                            <i>0</i><!-- 00:00:00:00 --><!-- mask image? -->
-                            <i>0</i>
-                            <states count="1">
-                              <state>
-                                <u>377832188</u><!-- ID (fc 42 85 16) -->
-                                <s>NewState</s><!-- title - NewState -->
-                                <i>53</i><!-- x size -->
-                                <i>100</i><!-- y size -->
-                                <unicode></unicode><!-- state text -->
-                                <unicode></unicode><!-- tooltip -->
-                                <i>2</i><!-- text xsize? -->
-                                <i>0</i><!-- text ysize? -->
-                                <i>0</i><!-- text xalign? -->
-                                <i>1</i><!-- text yalign? -->
-                                <yes /><!-- text behavior? -->
-                                <unicode></unicode><!-- text label? -->
-                                <no /><!-- state stuff 3? -->
-                                <no /><!-- state stuff 4? -->
-                                <unicode></unicode><!-- localization id -->
-                                <unicode></unicode><!-- tooltip id -->
-                                <s>la_gioconda</s><!-- font -->
-                                <i>12</i><!-- font size? line height? -->
-                                <i>7</i><!-- font leading? -->
-                                <i>0</i><!-- font tracking? -->
-                                <color>
-                                  <byte>215</byte><!-- B -->
-                                  <byte>248</byte><!-- G -->
-                                  <byte>255</byte><!-- R -->
-                                  <byte>255</byte><!-- A -->
-                                </color>
-                                <s>ingame_tooltip</s><!-- font category / twui -->
-                                <i>0</i><!-- left ? -->
-                                <i>0</i><!-- right ? -->
-                                <i>0</i><!-- top ? -->
-                                <i>0</i><!-- bottom ? -->
-                                <i>0</i>
-                                <no />
-                                <no />
-                                <no />
-                                <no />
-                                <s>normal_t0</s><!-- shader name -->
-                                <flt>0.0</flt><!-- shader vars -->
-                                <flt>0.0</flt><!-- shader vars -->
-                                <flt>0.0</flt><!-- shader vars -->
-                                <flt>0.0</flt><!-- shader vars -->
-                                <s>normal_t0</s><!-- text shader name -->
-                                <flt>-0.1</flt><!-- text shader vars -->
-                                <flt>0.0</flt><!-- text shader vars -->
-                                <flt>0.0</flt><!-- text shader vars -->
-                                <flt>0.0</flt><!-- text shader vars -->
-                                <image_uses count="1">
-                                  <image_use>
-                                    <u>377829484</u><!-- ID (6c 38 85 16) -->
-                                    <u>0</u><!-- x offset -->
-                                    <u>0</u><!-- y offset -->
-                                    <u>53</u><!-- x size -->
-                                    <u>100</u><!-- y size -->
-                                    <!-- color -->
-                                    <color>
-                                      <byte>255</byte><!-- B -->
-                                      <byte>255</byte><!-- G -->
-                                      <byte>255</byte><!-- R -->
-                                      <byte>255</byte><!-- A -->
-                                    </color>
-                                    <yes /><!-- tiled? -->
-                                    <no /><!-- flipped x? -->
-                                    <no /><!-- flipped y? -->
-                                    <i>0</i><!-- dock position (0-9)? -->
-                                    <i>0</i><!-- dock offset x? -->
-                                    <i>0</i><!-- dock offset y? -->
-                                    <yes /><!-- stretch x? -->
-                                    <yes /><!-- stretch y? -->
-                                    <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
-                                    <flt>0.0</flt><!-- rotation pivot x? -->
-                                    <flt>0.0</flt><!-- rotation pivot y? -->
-                                    <s></s><!-- shader name -->
-                                    <flt>0.0</flt><!-- rotation axis x? -->
-                                    <flt>0.0</flt><!-- rotation axis y? -->
-                                    <flt>0.0</flt><!-- rotation axis z? -->
-                                    <i>0</i><!-- always zero -->
-                                    <flt>10.0</flt><!-- margin top-bottom? -->
-                                    <flt>10.0</flt><!-- margin left-right? -->
-                                  </image_use>
-                                </image_uses>
-                                <i>0</i>
-                                <i>0</i>
-                                <mouse_states count="0">
-                                </mouse_states>
-                              </state>
-                            </states>
-                            <properties count="0">
-                            </properties>
-                            <i>10</i><!-- priority? -->
-                            <funcs count="0">
-                            </funcs>
-                            <children count="0">
-                            </children>
-                            <additional_data type="none"/>
-                            <s></s><!-- end of uientry 1? -->
-                            <s></s><!-- end of uientry 2? -->
-                            <no /><!-- has some extra data (section skipped) -->
-                            <no /><!-- has model (controls presence of model below) -->
-                            <no /><!-- end of uientry flag 5B? -->
-                            <no /><!-- end of uientry flag 6B? -->
-                          </uientry>
+            <u>232033072</u><!-- ID (30 8b d4 0d) -->
+            <s>border</s><!-- title -->
+            <s></s><!-- title2 -->
+            <i>0</i><!-- x offset -->
+            <i>0</i><!-- y offset -->
+            <no /><!-- uientry flag 1 -->
+            <yes /><!-- uientry flag 2 -->
+            <byte>1</byte><!-- uientry flag 3 -->
+            <no /><!-- uientry flag 4 -->
+            <no /><!-- uientry flag 5 -->
+            <no /><!-- uientry flag 6 -->
+            <no /><!-- uientry flag 7 -->
+            <yes /><!-- uientry flag 8 -->
+            <no /><!-- uientry flag 9 -->
+            <no /><!-- uientry flag 10 -->
+            <no /><!-- uientry flag 11 -->
+            <no /><!-- uientry flag 12 -->
+            <yes />
+            <unicode></unicode><!-- tooltip text -->
+            <unicode></unicode><!-- tooltip id -->
+            <i>0</i><!-- 00:00:00:00 --><!-- docking? -->
+            <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
+            <i>0</i><!-- 00:00:00:00 --><!-- docking y? -->
+            <no />
+            <i>0</i><!-- default state id -->
+            <images count="1">
+              <image>
+                <u>398748288</u><!-- ID (80 6a c4 17) -->
+                <s>ui/skins/default/ee_button_text_frame.png</s><!-- path -->
+                <i>36</i><!-- x size -->
+                <i>80</i><!-- y size -->
+                <no />
+              </image>
+            </images>
+            <i>0</i><!-- 00:00:00:00 --><!-- mask image? -->
+            <i>0</i>
+            <states count="1">
+              <state>
+                <u>229021936</u><!-- ID (f0 98 a6 0d) -->
+                <s>NewState</s><!-- title - NewState -->
+                <i>64</i><!-- x size -->
+                <i>152</i><!-- y size -->
+                <unicode></unicode><!-- state text -->
+                <unicode></unicode><!-- tooltip -->
+                <i>2</i><!-- text xsize? -->
+                <i>0</i><!-- text ysize? -->
+                <i>0</i><!-- text xalign? -->
+                <i>1</i><!-- text yalign? -->
+                <yes /><!-- text behavior? -->
+                <unicode></unicode><!-- text label? -->
+                <no /><!-- state stuff 3? -->
+                <no /><!-- state stuff 4? -->
+                <unicode></unicode><!-- localization id -->
+                <unicode></unicode><!-- tooltip id -->
+                <s>la_gioconda</s><!-- font -->
+                <i>12</i><!-- font size? line height? -->
+                <i>7</i><!-- font leading? -->
+                <i>0</i><!-- font tracking? -->
+                <color>
+                  <byte>215</byte><!-- B -->
+                  <byte>248</byte><!-- G -->
+                  <byte>255</byte><!-- R -->
+                  <byte>255</byte><!-- A -->
+                </color>
+                <s>ingame_tooltip</s><!-- font category / twui -->
+                <i>0</i><!-- left ? -->
+                <i>0</i><!-- right ? -->
+                <i>0</i><!-- top ? -->
+                <i>0</i><!-- bottom ? -->
+                <i>0</i>
+                <no />
+                <no />
+                <no />
+                <no />
+                <s>normal_t0</s><!-- shader name -->
+                <flt>0.0</flt><!-- shader vars -->
+                <flt>0.0</flt><!-- shader vars -->
+                <flt>0.0</flt><!-- shader vars -->
+                <flt>0.0</flt><!-- shader vars -->
+                <s>normal_t0</s><!-- text shader name -->
+                <flt>-0.1</flt><!-- text shader vars -->
+                <flt>0.0</flt><!-- text shader vars -->
+                <flt>0.0</flt><!-- text shader vars -->
+                <flt>0.0</flt><!-- text shader vars -->
+                <image_uses count="1">
+                  <image_use>
+                    <u>398748288</u><!-- ID (80 6a c4 17) -->
+                    <u>0</u><!-- x offset -->
+                    <u>0</u><!-- y offset -->
+                    <u>64</u><!-- x size -->
+                    <u>152</u><!-- y size -->
+                    <!-- color -->
+                    <color>
+                      <byte>255</byte><!-- B -->
+                      <byte>255</byte><!-- G -->
+                      <byte>255</byte><!-- R -->
+                      <byte>255</byte><!-- A -->
+                    </color>
+                    <no /><!-- tiled? -->
+                    <no /><!-- flipped x? -->
+                    <no /><!-- flipped y? -->
+                    <i>0</i><!-- dock position (0-9)? -->
+                    <i>0</i><!-- dock offset x? -->
+                    <i>0</i><!-- dock offset y? -->
+                    <yes /><!-- stretch x? -->
+                    <yes /><!-- stretch y? -->
+                    <flt>0.0</flt><!-- 0.0 degrees --><!-- rotation angle -->
+                    <flt>0.0</flt><!-- rotation pivot x? -->
+                    <flt>0.0</flt><!-- rotation pivot y? -->
+                    <s></s><!-- shader name -->
+                    <flt>0.0</flt><!-- rotation axis x? -->
+                    <flt>0.0</flt><!-- rotation axis y? -->
+                    <flt>0.0</flt><!-- rotation axis z? -->
+                    <i>0</i><!-- always zero -->
+                    <flt>10.0</flt><!-- margin top-bottom? -->
+                    <flt>10.0</flt><!-- margin left-right? -->
+                  </image_use>
+                </image_uses>
+                <i>0</i>
+                <i>0</i>
+                <mouse_states count="0">
+                </mouse_states>
+              </state>
+            </states>
+            <properties count="0">
+            </properties>
+            <i>10</i><!-- priority? -->
+            <funcs count="0">
+            </funcs>
+            <children count="0">
+            </children>
+            <additional_data type="none"/>
+            <s></s><!-- end of uientry 1? -->
+            <s></s><!-- end of uientry 2? -->
+            <no /><!-- has some extra data (section skipped) -->
+            <no /><!-- has model (controls presence of model below) -->
+            <no /><!-- end of uientry flag 5B? -->
+            <no /><!-- end of uientry flag 6B? -->
+          </uientry>
                           <uientry>
                             <u>377833036</u><!-- ID (4c 46 85 16) -->
                             <s>experience</s><!-- title -->
@@ -64728,8 +65604,8 @@
                           <state>
                             <u>377900612</u><!-- ID (44 4e 86 16) -->
                             <s>NewState</s><!-- title - NewState -->
-                            <i>53</i><!-- x size -->
-                            <i>96</i><!-- y size -->
+                            <i>64</i><!-- x size -->
+                            <i>146</i><!-- y size -->
                             <unicode></unicode><!-- state text -->
                             <unicode></unicode><!-- tooltip -->
                             <i>2</i><!-- text xsize? -->
