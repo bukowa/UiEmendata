@@ -28,6 +28,7 @@ MOD_PACKAGE ?= uiemendata.pack
 
 # Directories for dependencies and build files
 BUILD_DIR         := ./build
+SOURCE_DIR        := src
 DEPS_DIR		  := ./.deps
 RPFM_SCHEMA_DIR   := $(DEPS_DIR)/rpfm_schema
 RPFM_CLI_DIR      := $(DEPS_DIR)/rpfm_cli
@@ -124,7 +125,10 @@ ifneq ($(FLAG),)
   # unit_card_backgrounds_transparent
   ifeq ($(FLAG),unit_card_backgrounds_transparent)
     MOD_PACKAGE := unit_card_backgrounds_transparent.pack
-    UI_TARGETS :=
+    SOURCE_DIR := src/unit_card_backgrounds_transparent
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/common\ ui/land_unit_card
+
     LUA_TARGETS :=
 	IMAGE_TARGETS := \
 		$(BUILD_DIR)/ui/skins/default/ee_button_text_frame.png \
@@ -132,7 +136,10 @@ ifneq ($(FLAG),)
 		$(BUILD_DIR)/ui/skins/default/unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/default/ee_unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/default/unit_card_border.png \
-		$(BUILD_DIR)/ui/skins/default/button_basic_glow.png
+		$(BUILD_DIR)/ui/skins/default/button_basic_glow.png \
+		$(BUILD_DIR)/ui/skins/3c_DeI/unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/3c_DeI/ee_unit_card_frame_background.png \
+		$(BUILD_DIR)/ui/skins/3c_DeI/unit_card_frame.png
     CONTRIB_TARGETS :=
   endif
 endif
@@ -149,76 +156,84 @@ define create_dir
 	@mkdir -p $(dir $@)
 endef
 
-$(BUILD_DIR)/ui/skins/default/%.png: src/ui/skins/default/%.png
+#$(BUILD_DIR)/%.png: $(SOURCE_DIR)/%.png
+#	$(create_dir)
+#	cp "$<" "$@"
+
+$(BUILD_DIR)/ui/skins/default/%.png: $(SOURCE_DIR)/ui/skins/default/%.png
 	$(create_dir)
 	cp "$<" "$@"
 
-$(BUILD_DIR)/ui/skins/3c/%.png: src/ui/skins/3c/%.png
+$(BUILD_DIR)/ui/skins/3c/%.png: $(SOURCE_DIR)/ui/skins/3c/%.png
+	$(create_dir)
+	cp "$<" "$@"
+
+$(BUILD_DIR)/ui/skins/3c_DeI/%.png: $(SOURCE_DIR)/ui/skins/3c_DeI/%.png
 	$(create_dir)
 	cp "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template: \
-	src/ui/common\ ui/encyclopedia_building_info_template.xml
+	$(SOURCE_DIR)/ui/common\ ui/encyclopedia_building_info_template.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template: \
-	src/ui/common\ ui/3c/encyclopedia_building_info_template.xml
+	$(SOURCE_DIR)/ui/common\ ui/3c/encyclopedia_building_info_template.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template: \
-	src/ui/common\ ui/encyclopedia_unit_info_template.xml
+	$(SOURCE_DIR)/ui/common\ ui/encyclopedia_unit_info_template.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/clan: \
-	src/ui/campaign\ ui/clan.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/clan.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/building_info_generic_entry: \
-	src/ui/campaign\ ui/building_info_generic_entry.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/building_info_generic_entry.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/building_info_recruitment_effects: \
-	src/ui/campaign\ ui/building_info_recruitment_effects.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/building_info_recruitment_effects.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign: \
-	src/ui/frontend\ ui/sp_grand_campaign.xml
+	$(SOURCE_DIR)/ui/frontend\ ui/sp_grand_campaign.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle: \
-	src/ui/campaign\ ui/pre_battle_post_battle.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/pre_battle_post_battle.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/layout: \
-	src/ui/campaign\ ui/layout.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/layout.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/units_panel: \
-	src/ui/campaign\ ui/units_panel.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/units_panel.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/land_unit_card: \
-	src/ui/common\ ui/land_unit_card.xml
+	$(SOURCE_DIR)/ui/common\ ui/land_unit_card.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/common\ ui/3c/land_unit_card: \
-	src/ui/common\ ui/3c/land_unit_card.xml
+	$(SOURCE_DIR)/ui/common\ ui/3c/land_unit_card.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
 $(BUILD_DIR)/ui/campaign\ ui/events: \
-	src/ui/campaign\ ui/events.xml
+	$(SOURCE_DIR)/ui/campaign\ ui/events.xml
 	$(create_dir)
 	$(XML2UI_BIN) "$<" "$@"
 
@@ -351,8 +366,8 @@ install-dei: $(MOD_PACKAGE)
 	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'mod "@@@@deilegionsMARCSUM.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@#echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@#echo 'mod "@@@@deilegionsMARCSUM.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part1.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "_divide_et_impera_release_12_Part2.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@#echo 'mod "Campaign_Performance_Patch.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
