@@ -129,7 +129,8 @@ ifneq ($(FLAG),)
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
     	$(BUILD_DIR)/ui/loading_ui/battle \
-    	$(BUILD_DIR)/ui/loading_ui/postbattle
+    	$(BUILD_DIR)/ui/loading_ui/postbattle \
+    	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
 
     LUA_TARGETS :=
 	IMAGE_TARGETS := \
