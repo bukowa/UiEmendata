@@ -52502,7 +52502,7 @@
                     <s>unit_card_marker</s><!-- title -->
                     <s></s><!-- title2 -->
                     <i>-5</i><!-- x offset -->
-                    <i>3</i><!-- y offset -->
+                    <i>-4</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <yes /><!-- uientry flag 2 -->
                     <byte>1</byte><!-- uientry flag 3 -->
@@ -52539,7 +52539,7 @@
                         <u>374741236</u><!-- ID (f4 18 56 16) -->
                         <s>NewState</s><!-- title - NewState -->
                         <i>646</i><!-- x size -->
-                        <i>300</i><!-- y size -->
+                        <i>307</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -52588,7 +52588,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>646</u><!-- x size -->
-                            <u>300</u><!-- y size -->
+                            <u>307</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
@@ -57525,7 +57525,7 @@
                     <s>dy_army</s><!-- title -->
                     <s></s><!-- title2 -->
                     <i>141</i><!-- x offset -->
-                    <i>-22</i><!-- y offset -->
+                    <i>-30</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <yes /><!-- uientry flag 2 -->
                     <byte>0</byte><!-- uientry flag 3 -->
@@ -57626,7 +57626,7 @@
                     <s>units_window</s><!-- title -->
                     <s>PreBattleUnitsWindow</s><!-- title2 -->
                     <i>-5</i><!-- x offset -->
-                    <i>3</i><!-- y offset -->
+                    <i>-4</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <no /><!-- uientry flag 2 -->
                     <byte>0</byte><!-- uientry flag 3 -->
