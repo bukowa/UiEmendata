@@ -1436,7 +1436,7 @@
                           <image>
                             <u>382727488</u><!-- ID (40 f5 cf 16) -->
                             <s>ui/skins/default/ee_loadingbar_fill_gold.png</s><!-- path -->
-                            <i>718</i><!-- x size -->
+                            <i>762</i><!-- x size -->
                             <i>20</i><!-- y size -->
                             <no />
                           </image>
@@ -1777,7 +1777,7 @@
                   <state>
                     <u>350743936</u><!-- ID (80 ed e7 14) -->
                     <s>default</s><!-- title - NewState -->
-                    <i>341</i><!-- x size -->
+                    <i>675</i><!-- x size -->
                     <i>901</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
@@ -1826,7 +1826,7 @@
                         <u>350000928</u><!-- ID (20 97 dc 14) -->
                         <u>0</u><!-- x offset -->
                         <u>0</u><!-- y offset -->
-                        <u>341</u><!-- x size -->
+                        <u>675</u><!-- x size -->
                         <u>901</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -1858,7 +1858,7 @@
                         <u>371352640</u><!-- ID (40 64 22 16) -->
                         <u>6</u><!-- x offset -->
                         <u>27</u><!-- y offset -->
-                        <u>330</u><!-- x size -->
+                        <u>762</u><!-- x size -->
                         <u>24</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -1895,7 +1895,7 @@
                   <state>
                     <u>526025856</u><!-- ID (80 84 5a 1f) -->
                     <s>unknown</s><!-- title - NewState -->
-                    <i>341</i><!-- x size -->
+                    <i>675</i><!-- x size -->
                     <i>901</i><!-- y size -->
                     <unicode></unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
@@ -1944,7 +1944,7 @@
                         <u>350000928</u><!-- ID (20 97 dc 14) -->
                         <u>0</u><!-- x offset -->
                         <u>0</u><!-- y offset -->
-                        <u>341</u><!-- x size -->
+                        <u>675</u><!-- x size -->
                         <u>901</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -1976,7 +1976,7 @@
                         <u>371352640</u><!-- ID (40 64 22 16) -->
                         <u>6</u><!-- x offset -->
                         <u>27</u><!-- y offset -->
-                        <u>330</u><!-- x size -->
+                        <u>762</u><!-- x size -->
                         <u>24</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -4338,7 +4338,7 @@
                     <s>reinforcement_parent</s><!-- title -->
                     <s></s><!-- title2 -->
                     <i>10</i><!-- x offset -->
-                    <i>655</i><!-- y offset -->
+                    <i>675</i><!-- y offset -->
                     <no /><!-- uientry flag 1 -->
                     <no /><!-- uientry flag 2 -->
                     <byte>0</byte><!-- uientry flag 3 -->
