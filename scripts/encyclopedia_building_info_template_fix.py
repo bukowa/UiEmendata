@@ -75,7 +75,7 @@ def replace_self_closing_tags(xml_string):
 
 
 if __name__ == '__main__':
-    _encyclopedia_file_path = 'src/ui/common ui/encyclopedia_building_info_template.xml'
+    _encyclopedia_file_path = 'src/uiemendata_enc_building_fix/ui/common ui/encyclopedia_building_info_template.xml'
 
     # Load XML
     with open(_encyclopedia_file_path, 'r') as file:
