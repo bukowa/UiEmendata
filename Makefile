@@ -123,9 +123,9 @@ ifneq ($(FLAG),)
   endif
 
   # unit_card_backgrounds_transparent
-  ifeq ($(FLAG),unit_card_backgrounds_transparent)
-    MOD_PACKAGE := unit_card_backgrounds_transparent.pack
-    SOURCE_DIR := src/unit_card_backgrounds_transparent
+  ifeq ($(FLAG),dei_bukowa_unitcards)
+    MOD_PACKAGE := dei_bukowa_unitcards.pack
+    SOURCE_DIR := src/dei_bukowa_unitcards
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
     	$(BUILD_DIR)/ui/loading_ui/battle \
