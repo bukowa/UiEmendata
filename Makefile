@@ -96,6 +96,7 @@ SWITCH := 0
 ifneq ($(FLAG),)
   ifeq ($(FLAG),unit_category_icon_off)
     MOD_PACKAGE := unit_category_icon_off.pack
+    SOURCE_DIR := src/unit_category_icon_off
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/common\ ui/land_unit_card \
     	$(BUILD_DIR)/ui/common\ ui/3c/land_unit_card
@@ -106,6 +107,7 @@ ifneq ($(FLAG),)
   # menu_sp_grand_campaign_fix
   ifeq ($(FLAG),menu_sp_grand_campaign_fix)
     MOD_PACKAGE := menu_sp_grand_campaign_fix.pack
+    SOURCE_DIR := src/menu_sp_grand_campaign_fix
     UI_TARGETS := $(BUILD_DIR)/ui/frontend\ ui/sp_grand_campaign
     LUA_TARGETS :=
     IMAGE_TARGETS :=
