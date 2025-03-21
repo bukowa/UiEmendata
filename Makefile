@@ -143,8 +143,20 @@ ifneq ($(FLAG),)
 		$(BUILD_DIR)/ui/skins/3c_DeI/unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/3c_DeI/ee_unit_card_frame_background.png \
 		$(BUILD_DIR)/ui/skins/3c_DeI/unit_card_frame.png
+#		$(BUILD_DIR)/ui/skins/default/stat_bar_blue.png \
     CONTRIB_TARGETS :=
   endif
+
+    # unit_card_backgrounds_transparent
+  ifeq ($(FLAG),dei_pre_battle_post_battle_20)
+    MOD_PACKAGE := dei_pre_battle_post_battle_20.pack
+    SOURCE_DIR := src/dei_pre_battle_post_battle_20
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
+    LUA_TARGETS :=
+	IMAGE_TARGETS :=
+  endif
+
 endif
 
 # Rule for creating the mod package with rpfm_cli
@@ -377,6 +389,7 @@ install-alone: $(MOD_PACKAGE)
 install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'game_startup_mode campaign_load "dei_battle_20.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@#echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
