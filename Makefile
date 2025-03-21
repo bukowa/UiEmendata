@@ -85,6 +85,7 @@ UI_TARGETS ?=
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_building_info_template \
 #	$(BUILD_DIR)/ui/common\ ui/encyclopedia_unit_info_template \
 
+
 LUA_TARGETS :=
 
 IMAGE_TARGETS :=
@@ -175,6 +176,17 @@ ifneq ($(FLAG),)
     	$(BUILD_DIR)/ui/campaign\ ui/units_panel
     LUA_TARGETS :=
 	IMAGE_TARGETS :=
+  endif
+
+  ifeq ($(FLAG),dei_loading_battle_postbattle_40)
+    MOD_PACKAGE := dei_loading_battle_postbattle_40.pack
+    SOURCE_DIR := src/dei_loading_battle_postbattle_40
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/loading_ui/battle \
+    	$(BUILD_DIR)/ui/loading_ui/postbattle
+    LUA_TARGETS :=
+	IMAGE_TARGETS :=
+    CONTRIB_TARGETS :=
   endif
 
 endif
@@ -399,7 +411,7 @@ install-steam: $(MOD_PACKAGE)
 install-alone: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'show_frontend_movies false;' > $(INSTALL_USER_SCRIPT)/user.script.txt
-	echo 'game_startup_mode campaign_load "Quick Save.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	#echo 'game_startup_mode campaign_load "Quick Save.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'mod "_helper_encyclopedia_building_info_template.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
@@ -409,7 +421,7 @@ install-alone: $(MOD_PACKAGE)
 install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'game_startup_mode campaign_load "dei_battle_40.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@#echo 'game_startup_mode campaign_load "dei_battle_40.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@#echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
