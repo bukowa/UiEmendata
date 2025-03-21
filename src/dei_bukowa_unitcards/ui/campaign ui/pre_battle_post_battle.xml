@@ -52539,7 +52539,7 @@
                         <u>374741236</u><!-- ID (f4 18 56 16) -->
                         <s>NewState</s><!-- title - NewState -->
                         <i>640</i><!-- x size -->
-                        <i>607</i><!-- y size -->
+                        <i>609</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -52588,7 +52588,7 @@
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
                             <u>640</u><!-- x size -->
-                            <u>606</u><!-- y size -->
+                            <u>609</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
