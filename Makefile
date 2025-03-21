@@ -165,6 +165,15 @@ ifneq ($(FLAG),)
 	IMAGE_TARGETS :=
   endif
 
+  ifeq ($(FLAG),dei_units_panel_40)
+    MOD_PACKAGE := dei_units_panel_40.pack
+    SOURCE_DIR := src/dei_units_panel_40
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/campaign\ ui/units_panel
+    LUA_TARGETS :=
+	IMAGE_TARGETS :=
+  endif
+
 endif
 
 # Rule for creating the mod package with rpfm_cli
@@ -397,7 +406,7 @@ install-alone: $(MOD_PACKAGE)
 install-dei: $(MOD_PACKAGE)
 	rm $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'show_frontend_movies false;' >> $(INSTALL_USER_SCRIPT)/user.script.txt
-	@echo 'game_startup_mode campaign_load "dei_battle_20.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
+	@echo 'game_startup_mode campaign_load "dei_battle_40.save";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "$(MOD_PACKAGE)";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@echo 'mod "consulscriptum.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
 	@#echo 'mod "models_extravaganza_v1_part1_0.pack";' >> $(INSTALL_USER_SCRIPT)/user.script.txt
