@@ -147,10 +147,18 @@ ifneq ($(FLAG),)
     CONTRIB_TARGETS :=
   endif
 
-    # unit_card_backgrounds_transparent
   ifeq ($(FLAG),dei_pre_battle_post_battle_20)
     MOD_PACKAGE := dei_pre_battle_post_battle_20.pack
     SOURCE_DIR := src/dei_pre_battle_post_battle_20
+    UI_TARGETS := \
+    	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
+    LUA_TARGETS :=
+	IMAGE_TARGETS :=
+  endif
+
+  ifeq ($(FLAG),dei_pre_battle_post_battle_40)
+    MOD_PACKAGE := dei_pre_battle_post_battle_40.pack
+    SOURCE_DIR := src/dei_pre_battle_post_battle_40
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/campaign\ ui/pre_battle_post_battle
     LUA_TARGETS :=
