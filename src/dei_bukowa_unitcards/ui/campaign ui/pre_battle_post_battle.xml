@@ -49576,7 +49576,7 @@
                 <u>374692228</u><!-- ID (84 59 55 16) -->
                 <s>NewState</s><!-- title - NewState -->
                 <i>668</i><!-- x size -->
-                <i>510</i><!-- y size -->
+                <i>810</i><!-- y size -->
                 <unicode></unicode><!-- state text -->
                 <unicode></unicode><!-- tooltip -->
                 <i>4</i><!-- text xsize? -->
@@ -49625,7 +49625,7 @@
                     <u>0</u><!-- x offset -->
                     <u>0</u><!-- y offset -->
                     <u>668</u><!-- x size -->
-                    <u>510</u><!-- y size -->
+                    <u>810</u><!-- y size -->
                     <!-- color -->
                     <color>
                       <byte>255</byte><!-- B -->
@@ -52538,8 +52538,8 @@
                       <state>
                         <u>374741236</u><!-- ID (f4 18 56 16) -->
                         <s>NewState</s><!-- title - NewState -->
-                        <i>646</i><!-- x size -->
-                        <i>307</i><!-- y size -->
+                        <i>640</i><!-- x size -->
+                        <i>607</i><!-- y size -->
                         <unicode></unicode><!-- state text -->
                         <unicode></unicode><!-- tooltip -->
                         <i>2</i><!-- text xsize? -->
@@ -52587,8 +52587,8 @@
                             <u>374740084</u><!-- ID (74 14 56 16) -->
                             <u>0</u><!-- x offset -->
                             <u>0</u><!-- y offset -->
-                            <u>646</u><!-- x size -->
-                            <u>307</u><!-- y size -->
+                            <u>640</u><!-- x size -->
+                            <u>606</u><!-- y size -->
                             <!-- color -->
                             <color>
                               <byte>255</byte><!-- B -->
@@ -62784,7 +62784,7 @@
                             <unicode></unicode><!-- tooltip id -->
                             <i>8</i><!-- 08:00:00:00 --><!-- docking? -->
                             <i>0</i><!-- 00:00:00:00 --><!-- docking x? -->
-                            <i>0</i><!-- fa:ff:ff:ff --><!-- docking y? -->
+                            <i>-6</i><!-- fa:ff:ff:ff --><!-- docking y? -->
                             <no />
                             <i>377856828</i><!-- default state id -->
                             <images count="1">
