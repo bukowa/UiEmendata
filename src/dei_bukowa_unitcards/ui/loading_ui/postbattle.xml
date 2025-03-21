@@ -704,7 +704,7 @@
                   <state>
                     <u>561513024</u><!-- ID (40 02 78 21) -->
                     <s>Player</s><!-- title - NewState -->
-                    <i>601</i><!-- x size -->
+                    <i>675</i><!-- x size -->
                     <i>792</i><!-- y size -->
                     <unicode>Rome</unicode><!-- state text -->
                     <unicode></unicode><!-- tooltip -->
@@ -753,7 +753,7 @@
                         <u>561512640</u><!-- ID (c0 00 78 21) -->
                         <u>0</u><!-- x offset -->
                         <u>0</u><!-- y offset -->
-                        <u>601</u><!-- x size -->
+                        <u>675</u><!-- x size -->
                         <u>792</u><!-- y size -->
                         <!-- color -->
                         <color>
@@ -785,7 +785,7 @@
                         <u>561512832</u><!-- ID (80 01 78 21) -->
                         <u>6</u><!-- x offset -->
                         <u>10</u><!-- y offset -->
-                        <u>590</u><!-- x size -->
+                        <u>762</u><!-- x size -->
                         <u>24</u><!-- y size -->
                         <!-- color -->
                         <color>
