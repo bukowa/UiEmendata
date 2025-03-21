@@ -178,9 +178,9 @@ ifneq ($(FLAG),)
 	IMAGE_TARGETS :=
   endif
 
-  ifeq ($(FLAG),dei_loading_battle_postbattle_40)
-    MOD_PACKAGE := dei_loading_battle_postbattle_40.pack
-    SOURCE_DIR := src/dei_loading_battle_postbattle_40
+  ifeq ($(FLAG),uiemendata_loading_battle_postbattle)
+    MOD_PACKAGE := uiemendata_loading_battle_postbattle.pack
+    SOURCE_DIR := src/uiemendata_loading_battle_postbattle
     UI_TARGETS := \
     	$(BUILD_DIR)/ui/loading_ui/battle \
     	$(BUILD_DIR)/ui/loading_ui/postbattle
